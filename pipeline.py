@@ -629,8 +629,10 @@ def _make_card(event):
     dots = '●' * dot_count + '○' * (5 - dot_count)
     slug = _event_slug(event)
     event_url = f'{SITE_URL}/#{slug}'
-    cal_html = _make_cal_links(event, event_url)
     featured = ' featured' if etype == 'festival' else ''
+    # Headline festival card already has the full subscribe/download buttons in
+    # the header, so skip the redundant per-event Google/Apple links there.
+    cal_html = '' if etype == 'festival' else _make_cal_links(event, event_url)
     master = _str(event.get('facilitator'))
     cat_filter = category
     _cal = _event_cal_data(event, event_url)
