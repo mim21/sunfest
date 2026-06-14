@@ -555,9 +555,10 @@ def _make_full_cal(events):
         gcal_feed.replace('https://', 'webcal://'), safe=''
     )
 
-    apple_sub  = f'<a class="cal-link full-cal-apple" href="{h(webcal_url)}">📅 Apple — подписаться</a>'
-    google_sub = f'<a class="cal-link full-cal-gcal" href="{h(gcal_url)}" target="_blank" rel="noopener noreferrer">📅 Google — подписаться</a>'
-    return apple_sub + google_sub, ics_content
+    apple_sub  = f'<a class="cal-link full-cal-apple" href="{h(webcal_url)}">📅 Apple</a>'
+    google_sub = f'<a class="cal-link full-cal-gcal" href="{h(gcal_url)}" target="_blank" rel="noopener noreferrer">📅 Google</a>'
+    label      = '<span class="sub-all-label">Подписаться на все события:</span>'
+    return label + apple_sub + google_sub, ics_content
 
 
 def _write_event_cals(events):
@@ -913,7 +914,8 @@ def step_html():
     .cal-link.full-cal-apple:hover {{ background: #1b4332; }}
     .cal-link.full-cal-gcal {{ background: #f59e0b; color: white; padding: 8px 20px; border-radius: 8px; font-size: 0.85rem; font-weight: 600; text-decoration: none; }}
     .cal-link.full-cal-gcal:hover {{ background: #d97706; }}
-    .header-actions {{ margin-top: 14px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }}
+    .header-actions {{ margin-top: 14px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; align-items: center; }}
+    .sub-all-label {{ font-size: 0.9rem; color: #92633a; font-weight: 600; }}
     .filters {{ margin-top: 16px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; align-items: center; }}
     .filters label {{ font-size: 0.85rem; color: #92633a; font-weight: 600; }}
     .filters select {{ font-size: 0.85rem; padding: 6px 10px; border-radius: 8px; border: 1px solid #f0c98a; background: #fff; color: #1a202c; max-width: 280px; margin-left: 4px; }}
