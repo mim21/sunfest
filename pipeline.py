@@ -702,7 +702,15 @@ def _make_card(event):
     price_note    = h(_str(event.get('price_note')))
     price_details = _list(event.get('price_details'))
 
-    desc = h(_str(event.get('description')))
+    # Split "Ведущий: X. <summary>" so the name can be a clickable filter link
+    # and the card shows only the summary (the ICS keeps the full description).
+    master_name = _str(event.get('facilitator'))
+    _raw_desc = _str(event.get('description'))
+    _pfx = f'Ведущий: {master_name}.'
+    desc = h(_raw_desc[len(_pfx):].strip() if (master_name and _raw_desc.startswith(_pfx)) else _raw_desc)
+    master_html = (f'<div class="card-master">Ведущий: <a class="master-mark" href="#" '
+                   f'data-masterf="{h(master_name)}" title="Фильтровать: {h(master_name)}">{h(master_name)}</a></div>'
+                   if master_name else '')
     safe_link = h(_safe_url(event.get('registration_link') or ''))
     link_label = 'О фестивале →' if etype == 'festival' else 'Подробнее →'
     link_html = f'<a class="reg-link" href="{safe_link}" target="_blank" rel="noopener noreferrer">{link_label}</a>' if safe_link else ''
@@ -751,6 +759,7 @@ def _make_card(event):
     {"<div class='card-time'>🕐 " + time_str + '</div>' if time_str else ''}
     {"<div class='card-location'>📍 " + location + '</div>' if location else ''}
     {"<div class='card-price'>💰 " + ''.join(_render_price_tier(t) for t in price_details) + '</div>' if price_details else ("<div class='card-price'>💰 " + price + ("  <span class='price-note'>(" + price_note + ')</span>' if price_note else '') + '</div>' if price else '')}
+    {master_html}
     {"<div class='card-desc'>" + desc + '</div>' if desc else ''}
     <div class="card-footer">{link_html}{contact_html}</div>
     {'<div class="cal-links">' + cal_html + '</div>' if cal_html else ''}
@@ -800,6 +809,7 @@ def step_html():
         f'<label>Ведущий: <select id="f-master"><option value="">Все</option>{master_opts}</select></label>'
         f'<label>Категория: <select id="f-cat"><option value="">Все</option>{cat_opts}</select></label>'
         f'<label>Формат: <select id="f-type"><option value="">Все</option>{type_opts}</select></label>'
+        '<button type="button" id="f-reset">Сбросить</button>'
         '<span id="f-count"></span>'
         '<span id="vis-sub">Подписаться на видимые: '
         '<a id="sub-va" class="cal-link apple" href="#">📅 Apple</a>'
@@ -847,6 +857,12 @@ def step_html():
         "a.addEventListener('click',function(e){e.preventDefault();"
         "fm.value='';ft.value='';refresh();fc.value=a.getAttribute('data-catf');onChange();"
         "window.scrollTo({top:0,behavior:'smooth'});});});"
+        "Array.prototype.forEach.call(document.querySelectorAll('.master-mark'),function(a){"
+        "a.addEventListener('click',function(e){e.preventDefault();"
+        "fc.value='';ft.value='';refresh();fm.value=a.getAttribute('data-masterf');onChange();"
+        "window.scrollTo({top:0,behavior:'smooth'});});});"
+        "document.getElementById('f-reset').addEventListener('click',function(){"
+        "fm.value='';fc.value='';ft.value='';onChange();});"
         "refresh();apply();"
         "})();"
     )
@@ -907,6 +923,11 @@ def step_html():
     .price-tier  {{ font-size: 0.8rem; color: #92400e; margin-top: 2px; }}
     .price-tier.expired {{ color: #aaa; }}
     .expired-label {{ font-size: 0.72rem; color: #aaa; font-weight: 400; margin-left: 4px; }}
+    .card-master {{ color: #374151; font-size: 0.85rem; margin-top: 4px; }}
+    .master-mark {{ color: #2d6a4f; font-weight: 600; text-decoration: none; cursor: pointer; }}
+    .master-mark:hover {{ text-decoration: underline; }}
+    #f-reset {{ font-size: 0.8rem; padding: 6px 12px; border-radius: 8px; border: 1px solid #f0c98a; background: #fff7e6; color: #92633a; font-weight: 600; cursor: pointer; }}
+    #f-reset:hover {{ background: #ffe8c2; }}
     .card-desc   {{ color: #374151; font-size: 0.85rem; line-height: 1.5; margin-top: 4px; flex: 1; }}
     .card-footer {{ margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }}
     .reg-link {{ display: inline-block; padding: 6px 14px; background: #f59e0b; color: white; border-radius: 8px; font-size: 0.8rem; font-weight: 600; text-decoration: none; }}
