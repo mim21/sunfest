@@ -557,7 +557,7 @@ def _make_full_cal(events):
 
     apple_sub  = f'<a class="cal-link full-cal-apple" href="{h(webcal_url)}">📅 Apple</a>'
     google_sub = f'<a class="cal-link full-cal-gcal" href="{h(gcal_url)}" target="_blank" rel="noopener noreferrer">📅 Google</a>'
-    label      = '<span class="sub-all-label">Подписаться на все события:</span>'
+    label      = '<span class="sub-all-label">Подписаться на все мероприятия:</span>'
     return label + apple_sub + google_sub, ics_content
 
 
