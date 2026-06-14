@@ -631,8 +631,9 @@ def _make_card(event):
     event_url = f'{SITE_URL}/#{slug}'
     cal_html = _make_cal_links(event, event_url)
     featured = ' featured' if etype == 'festival' else ''
+    master = _str(event.get('facilitator'))
 
-    return f"""<div class="card{featured}" id="{slug}" style="background:{card_bg}">
+    return f"""<div class="card{featured}" id="{slug}" data-master="{h(master)}" data-type="{h(label)}" style="background:{card_bg}">
   {status_html}
   {img_tag}
   <div class="card-body">
@@ -678,6 +679,37 @@ def step_html():
     full_cal_html, ics_content = _make_full_cal(events)
     OUTPUT_CAL.write_text(ics_content, encoding='utf-8')
 
+    # ── Filter controls: by facilitator (Ведущий) and by event type ──
+    facilitators = sorted({_str(e.get('facilitator')) for e in events if _str(e.get('facilitator'))})
+    type_labels  = sorted({TYPE_LABELS.get(_str(e.get('event_type')) or 'other', ('✨', 'Событие'))[1] for e in events})
+    master_opts  = ''.join(f'<option value="{h(m)}">{h(m)}</option>' for m in facilitators)
+    type_opts    = ''.join(f'<option value="{h(t)}">{h(t)}</option>' for t in type_labels)
+    filter_html = (
+        '<div class="filters">'
+        f'<label>Ведущий: <select id="f-master"><option value="">Все</option>{master_opts}</select></label>'
+        f'<label>Тип события: <select id="f-type"><option value="">Все</option>{type_opts}</select></label>'
+        '<span id="f-count"></span>'
+        '</div>'
+    )
+    # Inline filter script — CSP allows it via its sha256 hash (script-src stays strict)
+    filter_js = (
+        "(function(){"
+        "var fm=document.getElementById('f-master'),ft=document.getElementById('f-type'),"
+        "fc=document.getElementById('f-count'),cards=document.querySelectorAll('.grid .card');"
+        "function apply(){var m=fm.value,t=ft.value,n=0;cards.forEach(function(c){"
+        "var okm=!m||c.getAttribute('data-master')===m;"
+        "var okt=!t||c.getAttribute('data-type')===t;"
+        "var ok=okm&&okt;c.style.display=ok?'':'none';if(ok)n++;});"
+        "fc.textContent='Показано: '+n+' из '+cards.length;}"
+        "fm.addEventListener('change',apply);ft.addEventListener('change',apply);apply();"
+        "})();"
+    )
+    js_hash = base64.b64encode(hashlib.sha256(filter_js.encode('utf-8')).digest()).decode('ascii')
+    csp = (
+        "default-src 'self'; script-src 'sha256-" + js_hash + "'; style-src 'unsafe-inline'; "
+        "img-src 'self' data:; connect-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'"
+    )
+
     _ver = _git_short_hash()
     _ver_str = f' · {_ver}' if _ver else ''
 
@@ -685,7 +717,7 @@ def step_html():
 <html lang="ru" dir="ltr">
 <head>
   <meta charset="UTF-8"/>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'"/>
+  <meta http-equiv="Content-Security-Policy" content="{csp}"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>SunFest «Сила Солнца» 2026 — программа</title>
   <style>
@@ -752,6 +784,10 @@ def step_html():
     .cal-link.full-cal-dl {{ background: #6b7280; color: white; padding: 8px 20px; border-radius: 8px; font-size: 0.85rem; font-weight: 600; text-decoration: none; }}
     .cal-link.full-cal-dl:hover {{ background: #4b5563; }}
     .header-actions {{ margin-top: 14px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }}
+    .filters {{ margin-top: 16px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; align-items: center; }}
+    .filters label {{ font-size: 0.85rem; color: #92633a; font-weight: 600; }}
+    .filters select {{ font-size: 0.85rem; padding: 6px 10px; border-radius: 8px; border: 1px solid #f0c98a; background: #fff; color: #1a202c; max-width: 280px; margin-left: 4px; }}
+    #f-count {{ font-size: 0.8rem; color: #b08d63; }}
     footer {{ text-align: center; margin-top: 40px; color: #b08d63; font-size: 0.8rem; }}
     .last-updated {{ font-size: 0.8rem; color: #b08d63; margin-top: 4px; }}
   </style>
@@ -762,11 +798,13 @@ def step_html():
     <p>Фестиваль духовных практик · 18–20 июня 2026 &nbsp;|&nbsp; {len(events)} событий</p>
     <p class="last-updated">Обновлено: {datetime.now().strftime('%d.%m.%Y %H:%M')}</p>
     <div class="header-actions">{full_cal_html}</div>
+    {filter_html}
   </header>
   <div class="grid">
     {cards_html}
   </div>
   <footer>Источник: sunfest.co.il · {datetime.now().strftime('%d.%m.%Y %H:%M')}{_ver_str}</footer>
+  <script>{filter_js}</script>
 </body>
 </html>"""
 
