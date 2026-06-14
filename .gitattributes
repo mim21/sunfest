@@ -1,0 +1,4 @@
+# Calendar feeds are RFC 5545 and MUST keep CRLF line endings.
+# Treat as binary so git never normalizes them to LF (GitHub Pages serves the
+# stored blob verbatim, and Google Calendar rejects LF-only feeds).
+*.ics -text
