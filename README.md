@@ -53,6 +53,7 @@ Array of events. Each event:
 {
   "title": "string",
   "event_type": "festival|workshop|concert|yoga|meditation|dance|ceremony|lecture|other",
+  "category": "master-class group label (rendered as a 🏷 mark linking to master-klassy.html)",
   "status": "scheduled|updated|postponed|canceled|tentative",
   "date_only": "YYYY-MM-DD",
   "end_date_only": "YYYY-MM-DD or null  (multi-day events only)",

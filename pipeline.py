@@ -41,6 +41,8 @@ EVENTS_JSON = Path(os.environ.get('SUNFEST_EVENTS_JSON', Path(__file__).parent /
 OUTPUT_HTML = Path(os.environ.get('SUNFEST_OUTPUT_HTML', Path(__file__).parent / 'index.html'))
 OUTPUT_CAL  = Path(os.environ.get('SUNFEST_OUTPUT_CAL',  Path(__file__).parent / 'calendar.ics'))
 SITE_URL         = 'https://mim21.github.io/sunfest'
+# Festival "all master-classes" page — every card's category mark links here
+MASTER_CLASSES_URL = 'https://sunfest.co.il/master-klassy.html'
 # Set to your Cloudflare Worker URL if you want ICS subscription counting
 CALENDAR_TRACKER = os.environ.get('SUNFEST_CALENDAR_TRACKER', '')
 
@@ -567,6 +569,10 @@ def _make_card(event):
     status_label, card_bg = STATUS_STYLES.get(status, ('', 'white'))
     status_html = f'<div class="status-banner">{status_label}</div>' if status_label else ''
 
+    category = _str(event.get('category'))
+    cat_mark = (f'<a class="cat-mark" href="{h(MASTER_CLASSES_URL)}" target="_blank" rel="noopener noreferrer">🏷 {h(category)}</a>'
+                if category else '')
+
     title    = h(_str(event.get('title')) or 'Событие')
     date_str = h(_format_date(event))
     s, e     = _str(event.get('start_time_only')), _str(event.get('end_time_only'))
@@ -635,6 +641,7 @@ def _make_card(event):
       <span class="confidence" style="color:{conf_color}" title="{dot_count * 20}%">{dots}</span>
     </div>
     <h2 class="card-title">{title}</h2>
+    {cat_mark}
     {"<div class='card-date'>📅 " + date_str + '</div>' if date_str else ''}
     {"<div class='card-time'>🕐 " + time_str + '</div>' if time_str else ''}
     {"<div class='card-location'>📍 " + location + '</div>' if location else ''}
@@ -713,6 +720,8 @@ def step_html():
     .badge {{ font-size: 0.75rem; padding: 3px 10px; border-radius: 999px; background: #fff0db; color: #c2410c; font-weight: 600; }}
     .confidence {{ font-size: 0.7rem; letter-spacing: 1px; }}
     .card-title {{ font-size: 1.1rem; font-weight: 700; color: #1a202c; margin: 4px 0; line-height: 1.3; }}
+    .cat-mark {{ display: inline-block; align-self: flex-start; font-size: 0.72rem; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: #f59e0b; color: #fff; text-decoration: none; }}
+    .cat-mark:hover {{ background: #d97706; }}
     .card-date   {{ color: #2d6a4f; font-size: 0.9rem; font-weight: 600; }}
     .card-time   {{ color: #457b9d; font-size: 0.85rem; }}
     .card-location {{ color: #6b7280; font-size: 0.85rem; }}

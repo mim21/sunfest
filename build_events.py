@@ -77,6 +77,76 @@ PAGE = {
 def event_link(title):
     slug = PAGE.get(title)
     return (BASE + slug) if slug else FALLBACK_LINK
+
+
+# Master-class category (the filter groups on master-klassy.html), by page slug
+CATEGORY = {
+    'alkhimiya-dyhania.html': 'breath',
+    'alhimiya-prikosnoveniya.html': 'body',
+    'ai-i-chelovek-buduschego-kak-iskusstvennyy-intellekt-menyaet-biznes-rabotu-i-nashu-zhizn.html': 'business',
+    'autentichnoe-dvizhenie.html': 'contact',
+    'ayurvedicheskie-sekrety-krasoty.html': 'body',
+    'bezlimitnaya-motivatsiya-ili-kak-dobitsya-uspeha.html': 'business',
+    'bizness-rasstanovki.html': 'psychology',
+    'byt-v-potoke.html': 'creative',
+    'v-ritme-serdtsa-massazh-v-10-ruk.html': 'body',
+    'voploschenie-mechty-seichas.html': 'psychology',
+    'naslajdenie.html': 'psychology',
+    'vstrecha-s-vnutrennim-rebenkom.html': 'psychology',
+    'gde-moi-dengi.html': 'psychology',
+    'dizayn-cheloveka.html': 'creative',
+    'golos.html': 'music',
+    'dao-emotsiy.html': 'psychology',
+    'dobayukivanie.html': 'body',
+    'dihanie-istochnikom.html': 'breath',
+    'raskrytie-zvuchaniya.html': 'music',
+    'zhenskiy-krug-s-neyrograficheskimi-praktikami-perehod.html': 'creative',
+    'zhenskiy-sakralniy-tanec.html': 'body',
+    'zvuchat-vsem-telom.html': 'music',
+    'iskusstvo-byt-zhelannoy-kody-zhenskogo-soblazna.html': 'love',
+    'istselyayuschee-kasanie.html': 'body',
+    'frisson-trio.html': 'music',
+    'krug-znakomstv.html': 'love',
+    'lions-heart-meditation-lvinoe-serdtse.html': 'body',
+    'liniya-vremeni-i-glubokaya-prorabotka-travm-detstva.html': 'psychology',
+    'mentalnoe-zdorove-i-tselostnost.html': 'psychology',
+    'otnosheniya-ot-pervoy-iskry-do-zreloy-lyubvi.html': 'love',
+    'celitel.html': 'body',
+    'protsessualnaya-rabota-kak-uslyshat-i-proyavit-skrytoe-v-sebe.html': 'psychology',
+    'psihosamoticheskaya-reabilitatsionnaya-kineziologiya.html': 'body',
+    'put-s-ottsom.html': 'psychology',
+    'smehoyoga.html': 'breath',
+    'tanets-otnosheniy.html': 'contact',
+    'tayskaya-yoga.html': 'body',
+    'gvozdi.html': 'body',
+    'tibetskie-chashi-zvuk-kotoryy-vedyot.html': 'music',
+    'hatkha-yoga.html': 'body',
+    'tsigun.html': 'body',
+    'yazyk-vselennoy-linii-kotorye-menyayut-realnost.html': 'creative',
+    'muzhchina-novogo-vremeni.html': 'love',
+    'intuitivnyy-kontaktnyy-tanets.html': 'contact',
+}
+CAT_LABEL = {
+    'all':          'Все мастер-классы',
+    'body':         'Телесные практики и энергия',
+    'breath':       'Дыхание и трансформационные практики',
+    'creative':     'Творчество и самовыражение',
+    'music':        'Музыка, звук, голос и саундхиллинг',
+    'business':     'Деньги, реализация и бизнес',
+    'psychology':   'Психология и глубинная трансформация',
+    'love':         'Отношения и близость',
+    'spirituality': 'Духовные и эзотерические практики',
+    'contact':      'Движение, танец, контакт',
+}
+# Events with no dedicated master-class page get a category by hand:
+TITLE_CAT_OVERRIDE = {
+    'Практики управления энергией': 'body',
+}
+
+
+def category_label(title):
+    cat = CATEGORY.get(PAGE.get(title)) or TITLE_CAT_OVERRIDE.get(title, 'all')
+    return CAT_LABEL[cat]
 POSTER     = 'https://sunfest.co.il/images/page-header-bg.jpg'  # festival hero banner (og:image is 404)
 CITY       = None           # location intentionally omitted from cards
 POST_DATE  = '2026-06-09'   # date the schedule was published / last seen
@@ -180,6 +250,7 @@ def make_workshop(day, start, end, master, title):
     return {
         'title': title,
         'event_type': etype,
+        'category': category_label(title),
         'status': 'scheduled',
         'date_only': DAYS[day],
         'end_date_only': None,
@@ -209,6 +280,7 @@ def headline():
     return {
         'title': 'Фестиваль «Сила Солнца» 2026',
         'event_type': 'festival',
+        'category': CAT_LABEL['all'],
         'status': 'scheduled',
         'date_only': '2026-06-18',
         'end_date_only': '2026-06-20',

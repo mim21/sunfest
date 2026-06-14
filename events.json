@@ -2,6 +2,7 @@
   {
     "title": "Фестиваль «Сила Солнца» 2026",
     "event_type": "festival",
+    "category": "Все мастер-классы",
     "status": "scheduled",
     "date_only": "2026-06-18",
     "end_date_only": "2026-06-20",
@@ -48,6 +49,7 @@
   {
     "title": "Круг знакомства",
     "event_type": "workshop",
+    "category": "Отношения и близость",
     "status": "scheduled",
     "date_only": "2026-06-18",
     "end_date_only": null,
@@ -81,6 +83,7 @@
   {
     "title": "Медитация «Львиное сердце»",
     "event_type": "meditation",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-18",
     "end_date_only": null,
@@ -114,6 +117,7 @@
   {
     "title": "Добаюкивание",
     "event_type": "workshop",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-18",
     "end_date_only": null,
@@ -147,6 +151,7 @@
   {
     "title": "Внутренний ребёнок и исцеление детских травм",
     "event_type": "workshop",
+    "category": "Психология и глубинная трансформация",
     "status": "scheduled",
     "date_only": "2026-06-18",
     "end_date_only": null,
@@ -180,6 +185,7 @@
   {
     "title": "Аюрведические секреты красоты: сияние изнутри",
     "event_type": "workshop",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-18",
     "end_date_only": null,
@@ -213,6 +219,7 @@
   {
     "title": "Звучать всем телом",
     "event_type": "workshop",
+    "category": "Музыка, звук, голос и саундхиллинг",
     "status": "scheduled",
     "date_only": "2026-06-18",
     "end_date_only": null,
@@ -246,6 +253,7 @@
   {
     "title": "ГДЕ МОИ ДЕНЬГИ? Ловушка духовности и проработок",
     "event_type": "workshop",
+    "category": "Психология и глубинная трансформация",
     "status": "scheduled",
     "date_only": "2026-06-18",
     "end_date_only": null,
@@ -279,6 +287,7 @@
   {
     "title": "Исцеляющее касание",
     "event_type": "workshop",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-18",
     "end_date_only": null,
@@ -312,6 +321,7 @@
   {
     "title": "Официальное открытие фестиваля. Концерт Frisson Trio",
     "event_type": "concert",
+    "category": "Музыка, звук, голос и саундхиллинг",
     "status": "scheduled",
     "date_only": "2026-06-18",
     "end_date_only": null,
@@ -345,6 +355,7 @@
   {
     "title": "Праздник Летнего Солнцестояния: прыжки через костёр, музыкальный джем",
     "event_type": "ceremony",
+    "category": "Все мастер-классы",
     "status": "scheduled",
     "date_only": "2026-06-18",
     "end_date_only": null,
@@ -378,6 +389,7 @@
   {
     "title": "Хатха-йога",
     "event_type": "yoga",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -411,6 +423,7 @@
   {
     "title": "Дыхание с Источником",
     "event_type": "workshop",
+    "category": "Дыхание и трансформационные практики",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -444,6 +457,7 @@
   {
     "title": "Гвоздестояние. Тело помнит всё!",
     "event_type": "workshop",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -477,6 +491,7 @@
   {
     "title": "Смехо-йога",
     "event_type": "yoga",
+    "category": "Дыхание и трансформационные практики",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -510,6 +525,7 @@
   {
     "title": "Цигун",
     "event_type": "yoga",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -543,6 +559,7 @@
   {
     "title": "Психосоматическая реабилитационная кинезиология",
     "event_type": "workshop",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -576,6 +593,7 @@
   {
     "title": "Безлимитная мотивация, или Как добиться успеха",
     "event_type": "workshop",
+    "category": "Деньги, реализация и бизнес",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -609,6 +627,7 @@
   {
     "title": "Голос души: навигация по Хьюман Дизайну",
     "event_type": "workshop",
+    "category": "Творчество и самовыражение",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -642,6 +661,7 @@
   {
     "title": "Процессуальная работа: услышать и проявить скрытое в себе",
     "event_type": "workshop",
+    "category": "Психология и глубинная трансформация",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -675,6 +695,7 @@
   {
     "title": "«Быть в потоке». Нейрографика",
     "event_type": "workshop",
+    "category": "Творчество и самовыражение",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -708,6 +729,7 @@
   {
     "title": "Ментальное здоровье и целостность",
     "event_type": "workshop",
+    "category": "Психология и глубинная трансформация",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -741,6 +763,7 @@
   {
     "title": "Алхимия прикосновения",
     "event_type": "workshop",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -774,6 +797,7 @@
   {
     "title": "4 вида наслаждения",
     "event_type": "workshop",
+    "category": "Психология и глубинная трансформация",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -807,6 +831,7 @@
   {
     "title": "Аутентичное движение",
     "event_type": "dance",
+    "category": "Движение, танец, контакт",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -840,6 +865,7 @@
   {
     "title": "AI и человек будущего: как ИИ меняет бизнес и жизнь",
     "event_type": "workshop",
+    "category": "Деньги, реализация и бизнес",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -873,6 +899,7 @@
   {
     "title": "Естественное звучание",
     "event_type": "workshop",
+    "category": "Музыка, звук, голос и саундхиллинг",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -906,6 +933,7 @@
   {
     "title": "Женский круг с нейрографическими практиками «ПЕРЕХОД»",
     "event_type": "workshop",
+    "category": "Творчество и самовыражение",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -939,6 +967,7 @@
   {
     "title": "Танец отношений",
     "event_type": "dance",
+    "category": "Движение, танец, контакт",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -972,6 +1001,7 @@
   {
     "title": "Добаюкивание",
     "event_type": "workshop",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -1005,6 +1035,7 @@
   {
     "title": "Пробуждение внутреннего целителя",
     "event_type": "workshop",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -1038,6 +1069,7 @@
   {
     "title": "Массаж в 10 рук с музыкальным сопровождением",
     "event_type": "workshop",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -1071,6 +1103,7 @@
   {
     "title": "Нейрографика. Язык Вселенной: линии, меняющие реальность",
     "event_type": "workshop",
+    "category": "Творчество и самовыражение",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -1104,6 +1137,7 @@
   {
     "title": "Линия времени",
     "event_type": "workshop",
+    "category": "Психология и глубинная трансформация",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -1137,6 +1171,7 @@
   {
     "title": "Искусство быть желанной. Коды женского соблазна (для девушек)",
     "event_type": "workshop",
+    "category": "Отношения и близость",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -1170,6 +1205,7 @@
   {
     "title": "PRO отношения 3.0 (только для мужчин)",
     "event_type": "workshop",
+    "category": "Отношения и близость",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -1203,6 +1239,7 @@
   {
     "title": "Практики управления энергией",
     "event_type": "workshop",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -1236,6 +1273,7 @@
   {
     "title": "Дао эмоций",
     "event_type": "workshop",
+    "category": "Психология и глубинная трансформация",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -1269,6 +1307,7 @@
   {
     "title": "Алхимия дыхания",
     "event_type": "workshop",
+    "category": "Дыхание и трансформационные практики",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -1302,6 +1341,7 @@
   {
     "title": "Экстатик-денс в наушниках (дресс-код белый), джем, посиделки у костра",
     "event_type": "dance",
+    "category": "Все мастер-классы",
     "status": "scheduled",
     "date_only": "2026-06-19",
     "end_date_only": null,
@@ -1335,6 +1375,7 @@
   {
     "title": "Хатха-йога",
     "event_type": "yoga",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-20",
     "end_date_only": null,
@@ -1368,6 +1409,7 @@
   {
     "title": "Дыхание с Источником",
     "event_type": "workshop",
+    "category": "Дыхание и трансформационные практики",
     "status": "scheduled",
     "date_only": "2026-06-20",
     "end_date_only": null,
@@ -1401,6 +1443,7 @@
   {
     "title": "Смехо-йога",
     "event_type": "yoga",
+    "category": "Дыхание и трансформационные практики",
     "status": "scheduled",
     "date_only": "2026-06-20",
     "end_date_only": null,
@@ -1434,6 +1477,7 @@
   {
     "title": "Женский сакральный танец",
     "event_type": "dance",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-20",
     "end_date_only": null,
@@ -1467,6 +1511,7 @@
   {
     "title": "Тайская йога",
     "event_type": "yoga",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-20",
     "end_date_only": null,
@@ -1500,6 +1545,7 @@
   {
     "title": "Гвоздестояние. Тело помнит всё!",
     "event_type": "workshop",
+    "category": "Телесные практики и энергия",
     "status": "scheduled",
     "date_only": "2026-06-20",
     "end_date_only": null,
@@ -1533,6 +1579,7 @@
   {
     "title": "Интуитивный контактный танец",
     "event_type": "dance",
+    "category": "Движение, танец, контакт",
     "status": "scheduled",
     "date_only": "2026-06-20",
     "end_date_only": null,
@@ -1566,6 +1613,7 @@
   {
     "title": "Воплощение мечты — сейчас!",
     "event_type": "workshop",
+    "category": "Психология и глубинная трансформация",
     "status": "scheduled",
     "date_only": "2026-06-20",
     "end_date_only": null,
@@ -1599,6 +1647,7 @@
   {
     "title": "Путь с Отцом",
     "event_type": "workshop",
+    "category": "Психология и глубинная трансформация",
     "status": "scheduled",
     "date_only": "2026-06-20",
     "end_date_only": null,
@@ -1632,6 +1681,7 @@
   {
     "title": "Бизнес-расстановки: деньги, команда и энергия роста",
     "event_type": "workshop",
+    "category": "Психология и глубинная трансформация",
     "status": "scheduled",
     "date_only": "2026-06-20",
     "end_date_only": null,
@@ -1665,6 +1715,7 @@
   {
     "title": "Голос как энергия",
     "event_type": "workshop",
+    "category": "Музыка, звук, голос и саундхиллинг",
     "status": "scheduled",
     "date_only": "2026-06-20",
     "end_date_only": null,
@@ -1698,6 +1749,7 @@
   {
     "title": "Отношения: от первой искры до зрелой любви",
     "event_type": "workshop",
+    "category": "Отношения и близость",
     "status": "scheduled",
     "date_only": "2026-06-20",
     "end_date_only": null,
@@ -1731,6 +1783,7 @@
   {
     "title": "Тибетские чаши. Звук, который ведёт",
     "event_type": "workshop",
+    "category": "Музыка, звук, голос и саундхиллинг",
     "status": "scheduled",
     "date_only": "2026-06-20",
     "end_date_only": null,
@@ -1764,6 +1817,7 @@
   {
     "title": "Закрытие фестиваля. Саундхиллинг, интеграция",
     "event_type": "ceremony",
+    "category": "Все мастер-классы",
     "status": "scheduled",
     "date_only": "2026-06-20",
     "end_date_only": null,
