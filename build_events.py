@@ -103,7 +103,6 @@ CATEGORY = {
     'zhenskiy-krug-s-neyrograficheskimi-praktikami-perehod.html': 'creative',
     'zhenskiy-sakralniy-tanec.html': 'body',
     'zvuchat-vsem-telom.html': 'music',
-    'iskusstvo-byt-zhelannoy-kody-zhenskogo-soblazna.html': 'love',
     'istselyayuschee-kasanie.html': 'body',
     'frisson-trio.html': 'music',
     'krug-znakomstv.html': 'love',
@@ -118,7 +117,6 @@ CATEGORY = {
     'smehoyoga.html': 'breath',
     'tanets-otnosheniy.html': 'contact',
     'tayskaya-yoga.html': 'body',
-    'gvozdi.html': 'body',
     'tibetskie-chashi-zvuk-kotoryy-vedyot.html': 'music',
     'hatkha-yoga.html': 'body',
     'tsigun.html': 'body',
@@ -147,6 +145,55 @@ TITLE_CAT_OVERRIDE = {
 def category_label(title):
     cat = CATEGORY.get(PAGE.get(title)) or TITLE_CAT_OVERRIDE.get(title, 'all')
     return CAT_LABEL[cat]
+
+
+# Event figure (og:image) per master-class page slug — shown as the card image
+IMAGE = {
+    'ai-i-chelovek-buduschego-kak-iskusstvennyy-intellekt-menyaet-biznes-rabotu-i-nashu-zhizn.html': 'https://sunfest.co.il/images/upload-20260209-134632-6989c91889640-og.jpg',
+    'alhimiya-prikosnoveniya.html': 'https://sunfest.co.il/images/upload-20260208-023009-6987d91105753-og.jpg',
+    'alkhimiya-dyhania.html': 'https://sunfest.co.il/images/upload-20260208-021756-6987d63411c49-og.jpg',
+    'autentichnoe-dvizhenie.html': 'https://sunfest.co.il/images/upload-20260203-233152-69826948b767b-og.jpg',
+    'ayurvedicheskie-sekrety-krasoty.html': 'https://sunfest.co.il/images/upload-20260205-152500-69849a2ccd3dd-og.jpg',
+    'bezlimitnaya-motivatsiya-ili-kak-dobitsya-uspeha.html': 'https://sunfest.co.il/images/upload-20260209-142516-6989d22ccb65e-og.jpg',
+    'bizness-rasstanovki.html': 'https://sunfest.co.il/images/upload-20260208-021756-6987d63411c49-og.jpg',
+    'celitel.html': 'https://sunfest.co.il/images/upload-20260208-021756-6987d63411c49-og.jpg',
+    'dao-emotsiy.html': 'https://sunfest.co.il/images/upload-20260208-012915-6987cacb0f466-og.jpg',
+    'dihanie-istochnikom.html': 'https://sunfest.co.il/images/upload-20260208-021623-6987d5d794d0b-og.jpg',
+    'dizayn-cheloveka.html': 'https://sunfest.co.il/images/upload-20260205-152500-69849a2ccd3dd-og.jpg',
+    'dobayukivanie.html': 'https://sunfest.co.il/images/upload-20260208-021623-6987d5d794d0b-og.jpg',
+    'frisson-trio.html': 'https://sunfest.co.il/images/upload-20260531-202908-6a1c9a14663b5.png',
+    'gde-moi-dengi.html': 'https://sunfest.co.il/images/upload-20260208-022756-6987d88cc8979-og.jpg',
+    'golos.html': 'https://sunfest.co.il/images/upload-20260208-013756-6987ccd49a92f-og.jpg',
+    'hatkha-yoga.html': 'https://sunfest.co.il/images/upload-20260208-015916-6987d1d45d4b0-og.jpg',
+    'intuitivnyy-kontaktnyy-tanets.html': 'https://sunfest.co.il/images/upload-20260203-233152-69826948b767b-og.jpg',
+    'istselyayuschee-kasanie.html': 'https://sunfest.co.il/images/upload-20260208-012915-6987cacb0f466-og.jpg',
+    'krug-znakomstv.html': 'https://sunfest.co.il/images/upload-20260605-214237-6a2342cd05036-og.jpg',
+    'liniya-vremeni-i-glubokaya-prorabotka-travm-detstva.html': 'https://sunfest.co.il/images/upload-20260205-153132-69849bb49b03b-og.jpg',
+    'lions-heart-meditation-lvinoe-serdtse.html': 'https://sunfest.co.il/images/upload-20260208-023009-6987d91105753-og.jpg',
+    'mentalnoe-zdorove-i-tselostnost.html': 'https://sunfest.co.il/images/upload-20260208-021623-6987d5d794d0b-og.jpg',
+    'naslajdenie.html': 'https://sunfest.co.il/images/upload-20260208-022756-6987d88cc8979-og.jpg',
+    'otnosheniya-ot-pervoy-iskry-do-zreloy-lyubvi.html': 'https://sunfest.co.il/images/upload-20260208-023009-6987d91105753-og.jpg',
+    'protsessualnaya-rabota-kak-uslyshat-i-proyavit-skrytoe-v-sebe.html': 'https://sunfest.co.il/images/upload-20260208-012915-6987cacb0f466-og.jpg',
+    'psihosamoticheskaya-reabilitatsionnaya-kineziologiya.html': 'https://sunfest.co.il/images/upload-20260531-202744-6a1c99c033e26-og.jpg',
+    'put-s-ottsom.html': 'https://sunfest.co.il/images/upload-20260208-021623-6987d5d794d0b-og.jpg',
+    'raskrytie-zvuchaniya.html': 'https://sunfest.co.il/images/upload-20260205-152932-69849b3c6bb6b-og.jpg',
+    'smehoyoga.html': 'https://sunfest.co.il/images/upload-20260205-151012-698496b45d19e-og.jpg',
+    'tanets-otnosheniy.html': 'https://sunfest.co.il/images/upload-20260208-013756-6987ccd49a92f-og.jpg',
+    'tayskaya-yoga.html': 'https://sunfest.co.il/images/upload-20260605-214144-6a2342985c672-og.jpg',
+    'tibetskie-chashi-zvuk-kotoryy-vedyot.html': 'https://sunfest.co.il/images/upload-20260531-202835-6a1c99f341dbe-og.jpg',
+    'tsigun.html': 'https://sunfest.co.il/images/upload-20260605-214144-6a2342985c672-og.jpg',
+    'v-ritme-serdtsa-massazh-v-10-ruk.html': 'https://sunfest.co.il/images/upload-20260609-225859-6a289ab3a2e8d-og.jpg',
+    'voploschenie-mechty-seichas.html': 'https://sunfest.co.il/images/upload-20260208-022847-6987d8bfa45ba-og.jpg',
+    'vstrecha-s-vnutrennim-rebenkom.html': 'https://sunfest.co.il/images/upload-20260205-153132-69849bb49b03b-og.jpg',
+    'yazyk-vselennoy-linii-kotorye-menyayut-realnost.html': 'https://sunfest.co.il/images/upload-20260208-012645-6987ca35be69b-og.jpg',
+    'zhenskiy-krug-s-neyrograficheskimi-praktikami-perehod.html': 'https://sunfest.co.il/images/upload-20260208-015540-6987d0fc4dc94-og.jpg',
+    'zhenskiy-sakralniy-tanec.html': 'https://sunfest.co.il/images/upload-20260208-015540-6987d0fc4dc94-og.jpg',
+    'zvuchat-vsem-telom.html': 'https://sunfest.co.il/images/upload-20260203-233152-69826948b767b-og.jpg',
+}
+
+
+def event_image(title):
+    return IMAGE.get(PAGE.get(title))
 POSTER     = 'https://sunfest.co.il/images/page-header-bg.jpg'  # festival hero banner (og:image is 404)
 CITY       = None           # location intentionally omitted from cards
 POST_DATE  = '2026-06-09'   # date the schedule was published / last seen
@@ -266,7 +313,7 @@ def make_workshop(day, start, end, master, title):
         'price_details': None,
         'description': desc,
         'registration_link': event_link(title),
-        'image_url': None,
+        'image_url': event_image(title),
         'contact_info': {'phone': [], 'telegram': [], 'instagram': [], 'other': []},
         'source_messages': [{
             'line_reference': None,
