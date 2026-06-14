@@ -545,8 +545,11 @@ def _make_full_cal(events):
     dl_ics     = (tracker + '/calendar.ics?src=dl')     if tracker else 'calendar.ics'
 
     webcal_url = apple_ics.replace('https://', 'webcal://')
+    # Google "add by URL" needs a webcal:// feed as the (fully-encoded) cid; an
+    # https:// cid is misread as a Google calendar ID → "Unable to add calendar".
+    gcal_feed  = (tracker + '/calendar.ics?src=google') if tracker else (SITE_URL + '/calendar.ics')
     gcal_url   = 'https://calendar.google.com/calendar/r?cid=' + quote(
-        (tracker + '/calendar.ics?src=google') if tracker else (SITE_URL + '/calendar.ics')
+        gcal_feed.replace('https://', 'webcal://'), safe=''
     )
 
     apple_sub  = f'<a class="cal-link full-cal-apple" href="{h(webcal_url)}">📅 Apple — подписаться</a>'
