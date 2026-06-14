@@ -1,0 +1,1797 @@
+[
+  {
+    "title": "Фестиваль «Сила Солнца» 2026",
+    "event_type": "festival",
+    "status": "scheduled",
+    "date_only": "2026-06-18",
+    "end_date_only": "2026-06-20",
+    "start_time_only": "12:00",
+    "end_time_only": null,
+    "raw_date_text": "18–20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "от ₪750",
+    "price_unit": "person",
+    "price_note": null,
+    "price_details": [
+      "₪500 — ранняя цена (до 30.04)",
+      "₪700 — до 30.05",
+      "₪750 — до 17.06",
+      "₪800 — с 18.06 (на месте)",
+      "Дети до 12 лет: ₪250–300 · 12–18 лет: ₪300–350"
+    ],
+    "description": "3 дня и 2 ночи на берегу Кинерета: 45+ мастер-классов в 3 потоках — йога, медитация, дыхательные и телесные практики, нейрографика, звукотерапия, концерт Frisson Trio, церемонии у костра и детская программа.",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": "https://sunfest.co.il/images/page-header-bg.jpg",
+    "contact_info": {
+      "phone": [
+        {
+          "number": "055-661-7297",
+          "name": "SunFest"
+        }
+      ],
+      "telegram": [],
+      "instagram": [
+        "sunfest.il"
+      ],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "https://sunfest.co.il/",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.95
+  },
+  {
+    "title": "Круг знакомства",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-18",
+    "end_date_only": null,
+    "start_time_only": "16:30",
+    "end_time_only": "18:00",
+    "raw_date_text": "18 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Эрик Розенталь. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Эрик Розенталь — Круг знакомства",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Медитация «Львиное сердце»",
+    "event_type": "meditation",
+    "status": "scheduled",
+    "date_only": "2026-06-18",
+    "end_date_only": null,
+    "start_time_only": "16:30",
+    "end_time_only": "18:00",
+    "raw_date_text": "18 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Вишвас. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Вишвас — Медитация «Львиное сердце»",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Добаюкивание",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-18",
+    "end_date_only": null,
+    "start_time_only": "16:30",
+    "end_time_only": "18:00",
+    "raw_date_text": "18 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Эзра Щебальский. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Эзра Щебальский — Добаюкивание",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Внутренний ребёнок и исцеление детских травм",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-18",
+    "end_date_only": null,
+    "start_time_only": "19:00",
+    "end_time_only": "20:30",
+    "raw_date_text": "18 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Борис Мельцер. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Борис Мельцер — Внутренний ребёнок и исцеление детских травм",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Аюрведические секреты красоты: сияние изнутри",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-18",
+    "end_date_only": null,
+    "start_time_only": "19:00",
+    "end_time_only": "20:30",
+    "raw_date_text": "18 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Оксана Керен-Злата. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Оксана Керен-Злата — Аюрведические секреты красоты: сияние изнутри",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Звучать всем телом",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-18",
+    "end_date_only": null,
+    "start_time_only": "19:00",
+    "end_time_only": "20:30",
+    "raw_date_text": "18 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Катя Величко. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Катя Величко — Звучать всем телом",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "ГДЕ МОИ ДЕНЬГИ? Ловушка духовности и проработок",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-18",
+    "end_date_only": null,
+    "start_time_only": "19:00",
+    "end_time_only": "20:30",
+    "raw_date_text": "18 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Кирилл Саблин. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Кирилл Саблин — ГДЕ МОИ ДЕНЬГИ? Ловушка духовности и проработок",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Исцеляющее касание",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-18",
+    "end_date_only": null,
+    "start_time_only": "19:00",
+    "end_time_only": "20:30",
+    "raw_date_text": "18 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Константин Грингут. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Константин Грингут — Исцеляющее касание",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Официальное открытие фестиваля. Концерт Frisson Trio",
+    "event_type": "concert",
+    "status": "scheduled",
+    "date_only": "2026-06-18",
+    "end_date_only": null,
+    "start_time_only": "21:00",
+    "end_time_only": "22:30",
+    "raw_date_text": "18 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Frisson Trio. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Frisson Trio — Официальное открытие фестиваля. Концерт Frisson Trio",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Праздник Летнего Солнцестояния: прыжки через костёр, музыкальный джем",
+    "event_type": "ceremony",
+    "status": "scheduled",
+    "date_only": "2026-06-18",
+    "end_date_only": null,
+    "start_time_only": "22:30",
+    "end_time_only": null,
+    "raw_date_text": "18 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Общефестивальное событие в рамках «Силы Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Праздник Летнего Солнцестояния: прыжки через костёр, музыкальный джем",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Хатха-йога",
+    "event_type": "yoga",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "07:00",
+    "end_time_only": "08:30",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Либи Гордон. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Либи Гордон — Хатха-йога",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Дыхание с Источником",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "07:00",
+    "end_time_only": "08:30",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Эзра Щебальский. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Эзра Щебальский — Дыхание с Источником",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Гвоздестояние. Тело помнит всё!",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "07:00",
+    "end_time_only": "08:30",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Александра Тропп. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Александра Тропп — Гвоздестояние. Тело помнит всё!",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Смехо-йога",
+    "event_type": "yoga",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "07:00",
+    "end_time_only": "08:30",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Митя Колтун. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Митя Колтун — Смехо-йога",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Цигун",
+    "event_type": "yoga",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "07:00",
+    "end_time_only": "08:30",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Мария Рабин. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Мария Рабин — Цигун",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Психосоматическая реабилитационная кинезиология",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "09:30",
+    "end_time_only": "11:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Ян Осадчий. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Ян Осадчий — Психосоматическая реабилитационная кинезиология",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Безлимитная мотивация, или Как добиться успеха",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "09:30",
+    "end_time_only": "11:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Семён Графман. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Семён Графман — Безлимитная мотивация, или Как добиться успеха",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Голос души: навигация по Хьюман Дизайну",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "09:30",
+    "end_time_only": "11:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Оксана Керен-Злата. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Оксана Керен-Злата — Голос души: навигация по Хьюман Дизайну",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Процессуальная работа: услышать и проявить скрытое в себе",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "09:30",
+    "end_time_only": "11:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Константин Грингут. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Константин Грингут — Процессуальная работа: услышать и проявить скрытое в себе",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "«Быть в потоке». Нейрографика",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "09:30",
+    "end_time_only": "11:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Жанна Касплер-Алон. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Жанна Касплер-Алон — «Быть в потоке». Нейрографика",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Ментальное здоровье и целостность",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "11:30",
+    "end_time_only": "13:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Эзра Щебальский. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Эзра Щебальский — Ментальное здоровье и целостность",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Алхимия прикосновения",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "11:30",
+    "end_time_only": "13:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Вишвас. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Вишвас — Алхимия прикосновения",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "4 вида наслаждения",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "11:30",
+    "end_time_only": "13:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Кирилл Саблин. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Кирилл Саблин — 4 вида наслаждения",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Аутентичное движение",
+    "event_type": "dance",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "14:30",
+    "end_time_only": "16:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Катя Величко. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Катя Величко — Аутентичное движение",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "AI и человек будущего: как ИИ меняет бизнес и жизнь",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "14:30",
+    "end_time_only": "16:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Алекс Кап. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Алекс Кап — AI и человек будущего: как ИИ меняет бизнес и жизнь",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Естественное звучание",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "14:30",
+    "end_time_only": "16:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Роман Тизенберг. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Роман Тизенберг — Естественное звучание",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Женский круг с нейрографическими практиками «ПЕРЕХОД»",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "14:30",
+    "end_time_only": "16:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Ольга Шнайдер (Симери). В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Ольга Шнайдер (Симери) — Женский круг с нейрографическими практиками «ПЕРЕХОД»",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Танец отношений",
+    "event_type": "dance",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "16:30",
+    "end_time_only": "18:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Александр Коско. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Александр Коско — Танец отношений",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Добаюкивание",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "16:30",
+    "end_time_only": "18:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Эзра Щебальский. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Эзра Щебальский — Добаюкивание",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Пробуждение внутреннего целителя",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "16:30",
+    "end_time_only": "18:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Ольга Альвайс. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Ольга Альвайс — Пробуждение внутреннего целителя",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Массаж в 10 рук с музыкальным сопровождением",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "16:30",
+    "end_time_only": "18:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Даниэль Деглин и Инна Головичер. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Даниэль Деглин и Инна Головичер — Массаж в 10 рук с музыкальным сопровождением",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Нейрографика. Язык Вселенной: линии, меняющие реальность",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "16:30",
+    "end_time_only": "18:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Мири Мельничук. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Мири Мельничук — Нейрографика. Язык Вселенной: линии, меняющие реальность",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Линия времени",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "19:00",
+    "end_time_only": "20:30",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Борис Мельцер. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Борис Мельцер — Линия времени",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Искусство быть желанной. Коды женского соблазна (для девушек)",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "19:00",
+    "end_time_only": "20:30",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Елена Чудная. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Елена Чудная — Искусство быть желанной. Коды женского соблазна (для девушек)",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "PRO отношения 3.0 (только для мужчин)",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "19:00",
+    "end_time_only": "20:30",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Марк Мальцер. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Марк Мальцер — PRO отношения 3.0 (только для мужчин)",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Практики управления энергией",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "19:00",
+    "end_time_only": "20:30",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Михаэль Натанэль. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Михаэль Натанэль — Практики управления энергией",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Дао эмоций",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "19:00",
+    "end_time_only": "20:30",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Константин Грингут. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Константин Грингут — Дао эмоций",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Алхимия дыхания",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "20:45",
+    "end_time_only": "22:00",
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Ольга Альвайс. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Ольга Альвайс — Алхимия дыхания",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Экстатик-денс в наушниках (дресс-код белый), джем, посиделки у костра",
+    "event_type": "dance",
+    "status": "scheduled",
+    "date_only": "2026-06-19",
+    "end_date_only": null,
+    "start_time_only": "22:00",
+    "end_time_only": null,
+    "raw_date_text": "19 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Общефестивальное событие в рамках «Силы Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Экстатик-денс в наушниках (дресс-код белый), джем, посиделки у костра",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Хатха-йога",
+    "event_type": "yoga",
+    "status": "scheduled",
+    "date_only": "2026-06-20",
+    "end_date_only": null,
+    "start_time_only": "07:00",
+    "end_time_only": "08:30",
+    "raw_date_text": "20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Либи Гордон. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Либи Гордон — Хатха-йога",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Дыхание с Источником",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-20",
+    "end_date_only": null,
+    "start_time_only": "07:00",
+    "end_time_only": "08:30",
+    "raw_date_text": "20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Эзра Щебальский. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Эзра Щебальский — Дыхание с Источником",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Смехо-йога",
+    "event_type": "yoga",
+    "status": "scheduled",
+    "date_only": "2026-06-20",
+    "end_date_only": null,
+    "start_time_only": "07:00",
+    "end_time_only": "08:30",
+    "raw_date_text": "20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Митя Колтун. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Митя Колтун — Смехо-йога",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Женский сакральный танец",
+    "event_type": "dance",
+    "status": "scheduled",
+    "date_only": "2026-06-20",
+    "end_date_only": null,
+    "start_time_only": "07:00",
+    "end_time_only": "08:30",
+    "raw_date_text": "20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Симери (Ольга Шнайдер). В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Симери (Ольга Шнайдер) — Женский сакральный танец",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Тайская йога",
+    "event_type": "yoga",
+    "status": "scheduled",
+    "date_only": "2026-06-20",
+    "end_date_only": null,
+    "start_time_only": "07:00",
+    "end_time_only": "08:30",
+    "raw_date_text": "20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Мария Рабин. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Мария Рабин — Тайская йога",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Гвоздестояние. Тело помнит всё!",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-20",
+    "end_date_only": null,
+    "start_time_only": "07:00",
+    "end_time_only": "08:30",
+    "raw_date_text": "20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Александра Тропп. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Александра Тропп — Гвоздестояние. Тело помнит всё!",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Интуитивный контактный танец",
+    "event_type": "dance",
+    "status": "scheduled",
+    "date_only": "2026-06-20",
+    "end_date_only": null,
+    "start_time_only": "09:30",
+    "end_time_only": "11:00",
+    "raw_date_text": "20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Катя Величко. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Катя Величко — Интуитивный контактный танец",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Воплощение мечты — сейчас!",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-20",
+    "end_date_only": null,
+    "start_time_only": "09:30",
+    "end_time_only": "11:00",
+    "raw_date_text": "20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Игорь Юровский. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Игорь Юровский — Воплощение мечты — сейчас!",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Путь с Отцом",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-20",
+    "end_date_only": null,
+    "start_time_only": "09:30",
+    "end_time_only": "11:00",
+    "raw_date_text": "20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Эзра Щебальский. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Эзра Щебальский — Путь с Отцом",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Бизнес-расстановки: деньги, команда и энергия роста",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-20",
+    "end_date_only": null,
+    "start_time_only": "11:15",
+    "end_time_only": "12:45",
+    "raw_date_text": "20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Ольга Альвайс. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Ольга Альвайс — Бизнес-расстановки: деньги, команда и энергия роста",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Голос как энергия",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-20",
+    "end_date_only": null,
+    "start_time_only": "11:15",
+    "end_time_only": "12:45",
+    "raw_date_text": "20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Александр Коско. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Александр Коско — Голос как энергия",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Отношения: от первой искры до зрелой любви",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-20",
+    "end_date_only": null,
+    "start_time_only": "11:15",
+    "end_time_only": "12:45",
+    "raw_date_text": "20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Вишвас. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Вишвас — Отношения: от первой искры до зрелой любви",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Тибетские чаши. Звук, который ведёт",
+    "event_type": "workshop",
+    "status": "scheduled",
+    "date_only": "2026-06-20",
+    "end_date_only": null,
+    "start_time_only": "11:15",
+    "end_time_only": "12:45",
+    "raw_date_text": "20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Ведущий: Александра Тропп. В рамках фестиваля «Сила Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Александра Тропп — Тибетские чаши. Звук, который ведёт",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "title": "Закрытие фестиваля. Саундхиллинг, интеграция",
+    "event_type": "ceremony",
+    "status": "scheduled",
+    "date_only": "2026-06-20",
+    "end_date_only": null,
+    "start_time_only": "13:10",
+    "end_time_only": "14:00",
+    "raw_date_text": "20 июня 2026",
+    "location_name": "Берег озера Кинерет, Израиль",
+    "city": "Кинерет",
+    "price_text": "Входит в билет фестиваля",
+    "price_unit": null,
+    "price_note": null,
+    "price_details": null,
+    "description": "Общефестивальное событие в рамках «Силы Солнца».",
+    "registration_link": "https://sunfest.co.il/payment.html",
+    "image_url": null,
+    "contact_info": {
+      "phone": [],
+      "telegram": [],
+      "instagram": [],
+      "other": []
+    },
+    "source_messages": [
+      {
+        "line_reference": null,
+        "source_excerpt": "Закрытие фестиваля. Саундхиллинг, интеграция",
+        "source_message_timestamp": "2026-06-09"
+      }
+    ],
+    "confidence": 0.9
+  }
+]
