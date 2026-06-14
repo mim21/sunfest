@@ -1,26 +1,35 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//sunfest//pipeline//RU
-X-WR-CALNAME:SunFest — подборка
-X-WR-TIMEZONE:Asia/Jerusalem
-REFRESH-INTERVAL;VALUE=DURATION:PT12H
-X-PUBLISHED-TTL:PT12H
-BEGIN:VEVENT
-UID:ea0b50b569ca4549993d21bd3f278224@sunfest
-DTSTAMP:20260614T115644Z
-DTSTART:20260618T190000
-DTEND:20260618T203000
-SUMMARY:Внутренний ребёнок и исцеление детских травм
-DESCRIPTION:Ведущий: Борис Мельцер. Медитация и осознание детских ролей для контакта с внутренним ребёнком.
-URL:https://mim21.github.io/sunfest/#event-%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B8%D0%B9-%D1%80%D0%B5%D0%B1%D1%91%D0%BD%D0%BE%D0%BA-%D0%B8-%D0%B8%D1%81%D1%86%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D1%85-%D1%82%D1%80%D0%B0%D0%B2%D0%BC-20260618-1900
-END:VEVENT
-BEGIN:VEVENT
-UID:5f4071a733c29c1c83f2172159924a8e@sunfest
-DTSTAMP:20260614T115644Z
-DTSTART:20260619T190000
-DTEND:20260619T203000
-SUMMARY:Линия времени
-DESCRIPTION:Ведущий: Борис Мельцер. Демонстрация транса и регрессии в прошлое для проработки детских травм.
-URL:https://mim21.github.io/sunfest/#event-%D0%9B%D0%B8%D0%BD%D0%B8%D1%8F-%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8-20260619-1900
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:SunFest — подборка
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ea0b50b569ca4549993d21bd3f278224@sunfest
+DTSTAMP:20260614T121555Z
+DTSTART:20260618T190000
+DTEND:20260618T203000
+SUMMARY:Внутренний ребёнок и исцеление детс
+ ких травм
+DESCRIPTION:Ведущий: Борис Мельцер. Медитация 
+ и осознание детских ролей для контакта с
+  внутренним ребёнком.
+URL:https://mim21.github.io/sunfest/#event-%D0%92%D0%BD%D1%83%D1%82%D1%80%D
+ 0%B5%D0%BD%D0%BD%D0%B8%D0%B9-%D1%80%D0%B5%D0%B1%D1%91%D0%BD%D0%BE%D0%BA-%D
+ 0%B8-%D0%B8%D1%81%D1%86%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%B5%D
+ 1%82%D1%81%D0%BA%D0%B8%D1%85-%D1%82%D1%80%D0%B0%D0%B2%D0%BC-20260618-1900
+END:VEVENT
+BEGIN:VEVENT
+UID:5f4071a733c29c1c83f2172159924a8e@sunfest
+DTSTAMP:20260614T121555Z
+DTSTART:20260619T190000
+DTEND:20260619T203000
+SUMMARY:Линия времени
+DESCRIPTION:Ведущий: Борис Мельцер. Демонстрац
+ ия транса и регрессии в прошлое для прор
+ аботки детских травм.
+URL:https://mim21.github.io/sunfest/#event-%D0%9B%D0%B8%D0%BD%D0%B8%D1%8F-%
+ D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8-20260619-1900
+END:VEVENT
+END:VCALENDAR

@@ -1,35 +1,46 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//sunfest//pipeline//RU
-X-WR-CALNAME:SunFest — подборка
-X-WR-TIMEZONE:Asia/Jerusalem
-REFRESH-INTERVAL;VALUE=DURATION:PT12H
-X-PUBLISHED-TTL:PT12H
-BEGIN:VEVENT
-UID:646a1f7f10d9b75f6d858bf2ea97e883@sunfest
-DTSTAMP:20260614T115644Z
-DTSTART:20260619T070000
-DTEND:20260619T083000
-SUMMARY:Дыхание с Источником
-DESCRIPTION:Ведущий: Эзра Щебальский. Дыхательные техники для проработки трёх личных ситуаций за занятие.
-URL:https://mim21.github.io/sunfest/#event-%D0%94%D1%8B%D1%85%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81-%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D0%BC-20260619-0700
-END:VEVENT
-BEGIN:VEVENT
-UID:0d7413890f681cb925c9f98ab0e90c46@sunfest
-DTSTAMP:20260614T115644Z
-DTSTART:20260619T204500
-DTEND:20260619T220000
-SUMMARY:Алхимия дыхания
-DESCRIPTION:Ведущий: Ольга Альвайс. Дыхательные упражнения для проработки травм и восстановления энергии.
-URL:https://mim21.github.io/sunfest/#event-%D0%90%D0%BB%D1%85%D0%B8%D0%BC%D0%B8%D1%8F-%D0%B4%D1%8B%D1%85%D0%B0%D0%BD%D0%B8%D1%8F-20260619-2045
-END:VEVENT
-BEGIN:VEVENT
-UID:922931d6dd48f3a8b44896a839089a31@sunfest
-DTSTAMP:20260614T115644Z
-DTSTART:20260620T070000
-DTEND:20260620T083000
-SUMMARY:Дыхание с Источником
-DESCRIPTION:Ведущий: Эзра Щебальский. Дыхательные техники для проработки трёх личных ситуаций за занятие.
-URL:https://mim21.github.io/sunfest/#event-%D0%94%D1%8B%D1%85%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81-%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D0%BC-20260620-0700
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:SunFest — подборка
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:646a1f7f10d9b75f6d858bf2ea97e883@sunfest
+DTSTAMP:20260614T121555Z
+DTSTART:20260619T070000
+DTEND:20260619T083000
+SUMMARY:Дыхание с Источником
+DESCRIPTION:Ведущий: Эзра Щебальский. Дыхатель
+ ные техники для проработки трёх личных с
+ итуаций за занятие.
+URL:https://mim21.github.io/sunfest/#event-%D0%94%D1%8B%D1%85%D0%B0%D0%BD%D
+ 0%B8%D0%B5-%D1%81-%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D
+ 0%BC-20260619-0700
+END:VEVENT
+BEGIN:VEVENT
+UID:0d7413890f681cb925c9f98ab0e90c46@sunfest
+DTSTAMP:20260614T121555Z
+DTSTART:20260619T204500
+DTEND:20260619T220000
+SUMMARY:Алхимия дыхания
+DESCRIPTION:Ведущий: Ольга Альвайс. Дыхательны
+ е упражнения для проработки травм и восс
+ тановления энергии.
+URL:https://mim21.github.io/sunfest/#event-%D0%90%D0%BB%D1%85%D0%B8%D0%BC%D
+ 0%B8%D1%8F-%D0%B4%D1%8B%D1%85%D0%B0%D0%BD%D0%B8%D1%8F-20260619-2045
+END:VEVENT
+BEGIN:VEVENT
+UID:922931d6dd48f3a8b44896a839089a31@sunfest
+DTSTAMP:20260614T121555Z
+DTSTART:20260620T070000
+DTEND:20260620T083000
+SUMMARY:Дыхание с Источником
+DESCRIPTION:Ведущий: Эзра Щебальский. Дыхатель
+ ные техники для проработки трёх личных с
+ итуаций за занятие.
+URL:https://mim21.github.io/sunfest/#event-%D0%94%D1%8B%D1%85%D0%B0%D0%BD%D
+ 0%B8%D0%B5-%D1%81-%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D
+ 0%BC-20260620-0700
+END:VEVENT
+END:VCALENDAR

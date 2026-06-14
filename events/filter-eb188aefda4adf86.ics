@@ -1,26 +1,36 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//sunfest//pipeline//RU
-X-WR-CALNAME:SunFest — подборка
-X-WR-TIMEZONE:Asia/Jerusalem
-REFRESH-INTERVAL;VALUE=DURATION:PT12H
-X-PUBLISHED-TTL:PT12H
-BEGIN:VEVENT
-UID:2d5320103d9cc16fc8a9df7fd53daa97@sunfest
-DTSTAMP:20260614T115644Z
-DTSTART:20260619T113000
-DTEND:20260619T130000
-SUMMARY:Алхимия прикосновения
-DESCRIPTION:Ведущий: Вишвас. Практика взгляда\, заботы о себе и доверительного прикосновения в контакте.
-URL:https://mim21.github.io/sunfest/#event-%D0%90%D0%BB%D1%85%D0%B8%D0%BC%D0%B8%D1%8F-%D0%BF%D1%80%D0%B8%D0%BA%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F-20260619-1130
-END:VEVENT
-BEGIN:VEVENT
-UID:d6247979ed7b660434bd9f0fead08612@sunfest
-DTSTAMP:20260614T115644Z
-DTSTART:20260620T111500
-DTEND:20260620T124500
-SUMMARY:Отношения: от первой искры до зрелой любви
-DESCRIPTION:Ведущий: Вишвас. Исследование сценариев привлечения\, типов отношений и причин конфликтов.
-URL:https://mim21.github.io/sunfest/#event-%D0%9E%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE%D1%82-%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B9-%D0%B8%D1%81%D0%BA%D1%80%D1%8B-%D0%B4%D0%BE-%D0%B7%D1%80%D0%B5%D0%BB%D0%BE%D0%B9-%D0%BB%D1%8E%D0%B1%D0%B2%D0%B8-20260620-1115
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:SunFest — подборка
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2d5320103d9cc16fc8a9df7fd53daa97@sunfest
+DTSTAMP:20260614T121555Z
+DTSTART:20260619T113000
+DTEND:20260619T130000
+SUMMARY:Алхимия прикосновения
+DESCRIPTION:Ведущий: Вишвас. Практика взгляда\,
+  заботы о себе и доверительного прикосно
+ вения в контакте.
+URL:https://mim21.github.io/sunfest/#event-%D0%90%D0%BB%D1%85%D0%B8%D0%BC%D
+ 0%B8%D1%8F-%D0%BF%D1%80%D0%B8%D0%BA%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5%D0
+ %BD%D0%B8%D1%8F-20260619-1130
+END:VEVENT
+BEGIN:VEVENT
+UID:d6247979ed7b660434bd9f0fead08612@sunfest
+DTSTAMP:20260614T121555Z
+DTSTART:20260620T111500
+DTEND:20260620T124500
+SUMMARY:Отношения: от первой искры до зрелой 
+ любви
+DESCRIPTION:Ведущий: Вишвас. Исследование сцен
+ ариев привлечения\, типов отношений и пр
+ ичин конфликтов.
+URL:https://mim21.github.io/sunfest/#event-%D0%9E%D1%82%D0%BD%D0%BE%D1%88%D
+ 0%B5%D0%BD%D0%B8%D1%8F-%D0%BE%D1%82-%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B9-%
+ D0%B8%D1%81%D0%BA%D1%80%D1%8B-%D0%B4%D0%BE-%D0%B7%D1%80%D0%B5%D0%BB%D0%BE%
+ D0%B9-%D0%BB%D1%8E%D0%B1%D0%B2%D0%B8-20260620-1115
+END:VEVENT
+END:VCALENDAR

@@ -429,6 +429,28 @@ def _ics_escape(s):
     return s.replace('\\', '\\\\').replace('\n', '\\n').replace(',', '\\,').replace(';', '\\;')
 
 
+def _ics_fold(line):
+    '''RFC 5545 content-line folding: wrap to ≤75 octets without splitting a
+    multi-byte UTF-8 char; continuation lines begin with one space. Google
+    Calendar (unlike Apple) drops over-long unfolded DESCRIPTION/URL lines.'''
+    if len(line.encode('utf-8')) <= 75:
+        return line
+    parts, cur, limit = [], bytearray(), 75
+    for ch in line:
+        cb = ch.encode('utf-8')
+        if len(cur) + len(cb) > limit:
+            parts.append(cur.decode('utf-8'))
+            cur, limit = bytearray(), 74   # continuation lines carry a leading space
+        cur += cb
+    parts.append(cur.decode('utf-8'))
+    return '\r\n '.join(parts)
+
+
+def _ics_join(lines):
+    '''Join ICS content lines (CRLF), folding each to RFC 5545 length, + trailing CRLF.'''
+    return '\r\n'.join(_ics_fold(l) for l in lines) + '\r\n'
+
+
 def _event_slug(event):
     title = _str(event.get('title')) or 'event'
     d = _str(event.get('date_only') or event.get('event_start') or '')[:10].replace('-', '')
@@ -542,7 +564,7 @@ def _make_full_cal(events):
         if result:
             lines.extend(result[4])
     lines.append('END:VCALENDAR')
-    ics_content = '\r\n'.join(lines) + '\r\n'
+    ics_content = _ics_join(lines)
 
     tracker    = CALENDAR_TRACKER.rstrip('/')
     apple_ics  = (tracker + '/calendar.ics?src=apple')  if tracker else (SITE_URL + '/calendar.ics')
@@ -580,7 +602,7 @@ def _write_event_cals(events):
             'X-WR-TIMEZONE:Asia/Jerusalem',
             'REFRESH-INTERVAL;VALUE=DURATION:PT12H', 'X-PUBLISHED-TTL:PT12H',
         ] + result[4] + ['END:VCALENDAR']
-        (EVENTS_DIR / name).write_text('\r\n'.join(lines) + '\r\n', encoding='utf-8')
+        (EVENTS_DIR / name).write_bytes(_ics_join(lines).encode('utf-8'))
     for stale in EVENTS_DIR.glob('*.ics'):
         if stale.name not in keep and not stale.name.startswith('filter-'):
             stale.unlink()
@@ -640,7 +662,7 @@ def _write_filter_cals(events):
                             if r:
                                 lines += r[4]
                         lines.append('END:VCALENDAR')
-                        (EVENTS_DIR / fname).write_text('\r\n'.join(lines) + '\r\n', encoding='utf-8')
+                        (EVENTS_DIR / fname).write_bytes(_ics_join(lines).encode('utf-8'))
                     feed_map[key] = base + '/events/' + fname
     for stale in EVENTS_DIR.glob('filter-*.ics'):
         if stale.name not in written:
@@ -773,7 +795,7 @@ def step_html():
 
     cards_html              = '\n'.join(_make_card(e) for e in events)
     full_cal_html, ics_content = _make_full_cal(events)
-    OUTPUT_CAL.write_text(ics_content, encoding='utf-8')
+    OUTPUT_CAL.write_bytes(ics_content.encode('utf-8'))  # binary: keep CRLF verbatim (text mode doubles CR on Windows)
     n_feeds = _write_event_cals(events)
     feed_map = _write_filter_cals(events)
     n_filter = len(list(EVENTS_DIR.glob('filter-*.ics')))
