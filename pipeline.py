@@ -807,7 +807,7 @@ def step_html():
   <header>
     <h1>☀️ SunFest «Сила Солнца» 2026</h1>
     <p>Фестиваль духовных практик · 18–20 июня 2026 &nbsp;|&nbsp; {len(events)} событий</p>
-    <p class="last-updated">Обновлено: {datetime.now().strftime('%d.%m.%Y %H:%M')}</p>
+    <p class="last-updated">Обновлено: {datetime.now().strftime('%d.%m.%Y %H:%M')}{_ver_str}</p>
     <div class="header-actions">{full_cal_html}</div>
     {filter_html}
   </header>
