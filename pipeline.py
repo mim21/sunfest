@@ -693,7 +693,7 @@ def step_html():
         '<div class="filters">'
         f'<label>Ведущий: <select id="f-master"><option value="">Все</option>{master_opts}</select></label>'
         f'<label>Категория: <select id="f-cat"><option value="">Все</option>{cat_opts}</select></label>'
-        f'<label>Тип события: <select id="f-type"><option value="">Все</option>{type_opts}</select></label>'
+        f'<label>Формат: <select id="f-type"><option value="">Все</option>{type_opts}</select></label>'
         '<span id="f-count"></span>'
         '<a id="dl-visible" class="cal-link full-cal-dl" download="sunfest-filtered.ics" href="#">📅 Скачать видимые (.ics)</a>'
         '</div>'

@@ -311,7 +311,7 @@ def classify(title, master):
     t = title.lower()
     if master == 'Frisson Trio' or 'концерт' in t:
         return 'concert'
-    if 'йога' in t or 'цигун' in t:
+    if 'йога' in t:
         return 'yoga'
     if 'медитац' in t:
         return 'meditation'
