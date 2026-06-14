@@ -586,7 +586,7 @@ def _make_card(event):
 
     desc = h(_str(event.get('description')))
     safe_link = h(_safe_url(event.get('registration_link') or ''))
-    link_label = 'Купить билет →' if etype == 'festival' else 'Подробнее →'
+    link_label = 'О фестивале →' if etype == 'festival' else 'Подробнее →'
     link_html = f'<a class="reg-link" href="{safe_link}" target="_blank" rel="noopener noreferrer">{link_label}</a>' if safe_link else ''
 
     contacts = []

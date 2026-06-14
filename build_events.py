@@ -18,8 +18,65 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-REG_LINK   = 'https://sunfest.co.il/payment.html'
+BASE          = 'https://sunfest.co.il/'
+FESTIVAL_LINK = BASE                 # the festival's own explanation page (home)
+FALLBACK_LINK = BASE + 'plan.html'   # used when an event has no dedicated page
 SITE       = 'https://sunfest.co.il/'
+
+# Each master-class title → its explanation page on sunfest.co.il
+PAGE = {
+    'Круг знакомства': 'krug-znakomstv.html',
+    'Медитация «Львиное сердце»': 'lions-heart-meditation-lvinoe-serdtse.html',
+    'Добаюкивание': 'dobayukivanie.html',
+    'Внутренний ребёнок и исцеление детских травм': 'vstrecha-s-vnutrennim-rebenkom.html',
+    'Аюрведические секреты красоты: сияние изнутри': 'ayurvedicheskie-sekrety-krasoty.html',
+    'Звучать всем телом': 'zvuchat-vsem-telom.html',
+    'ГДЕ МОИ ДЕНЬГИ? Ловушка духовности и проработок': 'gde-moi-dengi.html',
+    'Исцеляющее касание': 'istselyayuschee-kasanie.html',
+    'Официальное открытие фестиваля. Концерт Frisson Trio': 'frisson-trio.html',
+    'Хатха-йога': 'hatkha-yoga.html',
+    'Дыхание с Источником': 'dihanie-istochnikom.html',
+    'Гвоздестояние. Тело помнит всё!': 'gvozdi.html',
+    'Смехо-йога': 'smehoyoga.html',
+    'Цигун': 'tsigun.html',
+    'Психосоматическая реабилитационная кинезиология': 'psihosamoticheskaya-reabilitatsionnaya-kineziologiya.html',
+    'Безлимитная мотивация, или Как добиться успеха': 'bezlimitnaya-motivatsiya-ili-kak-dobitsya-uspeha.html',
+    'Голос души: навигация по Хьюман Дизайну': 'dizayn-cheloveka.html',
+    'Процессуальная работа: услышать и проявить скрытое в себе': 'protsessualnaya-rabota-kak-uslyshat-i-proyavit-skrytoe-v-sebe.html',
+    '«Быть в потоке». Нейрографика': 'byt-v-potoke.html',
+    'Ментальное здоровье и целостность': 'mentalnoe-zdorove-i-tselostnost.html',
+    'Алхимия прикосновения': 'alhimiya-prikosnoveniya.html',
+    '4 вида наслаждения': 'naslajdenie.html',
+    'Аутентичное движение': 'autentichnoe-dvizhenie.html',
+    'AI и человек будущего: как ИИ меняет бизнес и жизнь': 'ai-i-chelovek-buduschego-kak-iskusstvennyy-intellekt-menyaet-biznes-rabotu-i-nashu-zhizn.html',
+    'Естественное звучание': 'raskrytie-zvuchaniya.html',
+    'Женский круг с нейрографическими практиками «ПЕРЕХОД»': 'zhenskiy-krug-s-neyrograficheskimi-praktikami-perehod.html',
+    'Танец отношений': 'tanets-otnosheniy.html',
+    'Пробуждение внутреннего целителя': 'celitel.html',
+    'Массаж в 10 рук с музыкальным сопровождением': 'v-ritme-serdtsa-massazh-v-10-ruk.html',
+    'Нейрографика. Язык Вселенной: линии, меняющие реальность': 'yazyk-vselennoy-linii-kotorye-menyayut-realnost.html',
+    'Линия времени': 'liniya-vremeni-i-glubokaya-prorabotka-travm-detstva.html',
+    'Искусство быть желанной. Коды женского соблазна (для девушек)': 'iskusstvo-byt-zhelannoy-kody-zhenskogo-soblazna.html',
+    'PRO отношения 3.0 (только для мужчин)': 'muzhchina-novogo-vremeni.html',
+    'Дао эмоций': 'dao-emotsiy.html',
+    'Алхимия дыхания': 'alkhimiya-dyhania.html',
+    'Женский сакральный танец': 'zhenskiy-sakralniy-tanec.html',
+    'Тайская йога': 'tayskaya-yoga.html',
+    'Интуитивный контактный танец': 'intuitivnyy-kontaktnyy-tanets.html',
+    'Воплощение мечты — сейчас!': 'voploschenie-mechty-seichas.html',
+    'Путь с Отцом': 'put-s-ottsom.html',
+    'Бизнес-расстановки: деньги, команда и энергия роста': 'bizness-rasstanovki.html',
+    'Голос как энергия': 'golos.html',
+    'Отношения: от первой искры до зрелой любви': 'otnosheniya-ot-pervoy-iskry-do-zreloy-lyubvi.html',
+    'Тибетские чаши. Звук, который ведёт': 'tibetskie-chashi-zvuk-kotoryy-vedyot.html',
+    # No dedicated page (linked to the schedule instead):
+    #   'Практики управления энергией' + the late-night ceremonies / closing
+}
+
+
+def event_link(title):
+    slug = PAGE.get(title)
+    return (BASE + slug) if slug else FALLBACK_LINK
 POSTER     = 'https://sunfest.co.il/images/page-header-bg.jpg'  # festival hero banner (og:image is 404)
 CITY       = None           # location intentionally omitted from cards
 POST_DATE  = '2026-06-09'   # date the schedule was published / last seen
@@ -136,7 +193,7 @@ def make_workshop(day, start, end, master, title):
         'price_note': None,
         'price_details': None,
         'description': desc,
-        'registration_link': REG_LINK,
+        'registration_link': event_link(title),
         'image_url': None,
         'contact_info': {'phone': [], 'telegram': [], 'instagram': [], 'other': []},
         'source_messages': [{
@@ -175,7 +232,7 @@ def headline():
             'медитация, дыхательные и телесные практики, нейрографика, звукотерапия, '
             'концерт Frisson Trio, церемонии у костра и детская программа.'
         ),
-        'registration_link': REG_LINK,
+        'registration_link': FESTIVAL_LINK,
         'image_url': POSTER,
         'contact_info': CONTACT,
         'source_messages': [{
