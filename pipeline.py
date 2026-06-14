@@ -41,8 +41,6 @@ OUTPUT_HTML = Path(os.environ.get('SUNFEST_OUTPUT_HTML', Path(__file__).parent /
 OUTPUT_CAL  = Path(os.environ.get('SUNFEST_OUTPUT_CAL',  Path(__file__).parent / 'calendar.ics'))
 EVENTS_DIR  = OUTPUT_CAL.parent / 'events'   # per-event .ics feeds for subscription
 SITE_URL         = 'https://mim21.github.io/sunfest'
-# Festival "all master-classes" page — every card's category mark links here
-MASTER_CLASSES_URL = 'https://sunfest.co.il/master-klassy.html'
 # Set to your Cloudflare Worker URL if you want ICS subscription counting
 CALENDAR_TRACKER = os.environ.get('SUNFEST_CALENDAR_TRACKER', '')
 
@@ -684,7 +682,7 @@ def _make_card(event):
     status_html = f'<div class="status-banner">{status_label}</div>' if status_label else ''
 
     category = _str(event.get('category'))
-    cat_mark = (f'<a class="cat-mark" href="{h(MASTER_CLASSES_URL)}" target="_blank" rel="noopener noreferrer">🏷 {h(category)}</a>'
+    cat_mark = (f'<a class="cat-mark" href="#" data-catf="{h(category)}" title="Фильтровать: {h(category)}">🏷 {h(category)}</a>'
                 if category else '')
 
     title    = h(_str(event.get('title')) or 'Событие')
@@ -844,7 +842,12 @@ def step_html():
         "cn.textContent='Показано: '+n+' из '+cards.length;updateSub();}"
         "function onChange(){refresh();apply();}"
         "fm.addEventListener('change',onChange);fc.addEventListener('change',onChange);"
-        "ft.addEventListener('change',onChange);refresh();apply();"
+        "ft.addEventListener('change',onChange);"
+        "Array.prototype.forEach.call(document.querySelectorAll('.cat-mark'),function(a){"
+        "a.addEventListener('click',function(e){e.preventDefault();"
+        "fm.value='';ft.value='';refresh();fc.value=a.getAttribute('data-catf');onChange();"
+        "window.scrollTo({top:0,behavior:'smooth'});});});"
+        "refresh();apply();"
         "})();"
     )
     js_hash = base64.b64encode(hashlib.sha256(filter_js.encode('utf-8')).digest()).decode('ascii')
