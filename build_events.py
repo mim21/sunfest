@@ -21,7 +21,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 REG_LINK   = 'https://sunfest.co.il/payment.html'
 SITE       = 'https://sunfest.co.il/'
 POSTER     = 'https://sunfest.co.il/images/page-header-bg.jpg'  # festival hero banner (og:image is 404)
-CITY       = 'Кинерет'
+CITY       = None           # location intentionally omitted from cards
 POST_DATE  = '2026-06-09'   # date the schedule was published / last seen
 
 CONTACT = {
