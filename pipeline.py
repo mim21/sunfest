@@ -632,8 +632,9 @@ def _make_card(event):
     cal_html = _make_cal_links(event, event_url)
     featured = ' featured' if etype == 'festival' else ''
     master = _str(event.get('facilitator'))
+    cat_filter = '' if category == 'Все мастер-классы' else category
 
-    return f"""<div class="card{featured}" id="{slug}" data-master="{h(master)}" data-type="{h(label)}" style="background:{card_bg}">
+    return f"""<div class="card{featured}" id="{slug}" data-master="{h(master)}" data-cat="{h(cat_filter)}" data-type="{h(label)}" style="background:{card_bg}">
   {status_html}
   {img_tag}
   <div class="card-body">
@@ -679,14 +680,18 @@ def step_html():
     full_cal_html, ics_content = _make_full_cal(events)
     OUTPUT_CAL.write_text(ics_content, encoding='utf-8')
 
-    # ── Filter controls: by facilitator (Ведущий) and by event type ──
+    # ── Filter controls: by facilitator (Ведущий), category (Категория), event type ──
     facilitators = sorted({_str(e.get('facilitator')) for e in events if _str(e.get('facilitator'))})
+    categories   = sorted({_str(e.get('category')) for e in events
+                           if _str(e.get('category')) and _str(e.get('category')) != 'Все мастер-классы'})
     type_labels  = sorted({TYPE_LABELS.get(_str(e.get('event_type')) or 'other', ('✨', 'Событие'))[1] for e in events})
     master_opts  = ''.join(f'<option value="{h(m)}">{h(m)}</option>' for m in facilitators)
+    cat_opts     = ''.join(f'<option value="{h(c)}">{h(c)}</option>' for c in categories)
     type_opts    = ''.join(f'<option value="{h(t)}">{h(t)}</option>' for t in type_labels)
     filter_html = (
         '<div class="filters">'
         f'<label>Ведущий: <select id="f-master"><option value="">Все</option>{master_opts}</select></label>'
+        f'<label>Категория: <select id="f-cat"><option value="">Все</option>{cat_opts}</select></label>'
         f'<label>Тип события: <select id="f-type"><option value="">Все</option>{type_opts}</select></label>'
         '<span id="f-count"></span>'
         '</div>'
@@ -695,24 +700,30 @@ def step_html():
     # The two dropdowns cascade: each lists only values valid for the other's selection.
     filter_js = (
         "(function(){"
-        "var fm=document.getElementById('f-master'),ft=document.getElementById('f-type'),"
-        "fc=document.getElementById('f-count');"
+        "var fm=document.getElementById('f-master'),fc=document.getElementById('f-cat'),"
+        "ft=document.getElementById('f-type'),cn=document.getElementById('f-count');"
         "var cards=Array.prototype.slice.call(document.querySelectorAll('.grid .card'));"
-        "var data=cards.map(function(c){return {el:c,m:c.getAttribute('data-master'),t:c.getAttribute('data-type')};});"
+        "var data=cards.map(function(c){return {el:c,m:c.getAttribute('data-master'),"
+        "c:c.getAttribute('data-cat'),t:c.getAttribute('data-type')};});"
         "function uniq(a){return a.filter(function(v,i){return v&&a.indexOf(v)===i;})"
         ".sort(function(x,y){return x.localeCompare(y,'ru');});}"
         "function fill(sel,vals){var cur=sel.value;sel.length=1;vals.forEach(function(v){"
         "var o=document.createElement('option');o.value=v;o.textContent=v;sel.appendChild(o);});"
         "sel.value=vals.indexOf(cur)>=0?cur:'';}"
-        "function refresh(){var m=fm.value,t=ft.value;"
-        "fill(fm,uniq(data.filter(function(d){return !t||d.t===t;}).map(function(d){return d.m;})));"
-        "fill(ft,uniq(data.filter(function(d){return !m||d.m===m;}).map(function(d){return d.t;})));}"
-        "function apply(){var m=fm.value,t=ft.value,n=0;data.forEach(function(d){"
-        "var ok=(!m||d.m===m)&&(!t||d.t===t);d.el.style.display=ok?'':'none';if(ok)n++;});"
-        "fc.textContent='Показано: '+n+' из '+cards.length;}"
+        "function match(d,ex){"
+        "if(ex!=='m'&&fm.value&&d.m!==fm.value)return false;"
+        "if(ex!=='c'&&fc.value&&d.c!==fc.value)return false;"
+        "if(ex!=='t'&&ft.value&&d.t!==ft.value)return false;return true;}"
+        "function refresh(){"
+        "fill(fm,uniq(data.filter(function(d){return match(d,'m');}).map(function(d){return d.m;})));"
+        "fill(fc,uniq(data.filter(function(d){return match(d,'c');}).map(function(d){return d.c;})));"
+        "fill(ft,uniq(data.filter(function(d){return match(d,'t');}).map(function(d){return d.t;})));}"
+        "function apply(){var n=0;data.forEach(function(d){var ok=match(d,null);"
+        "d.el.style.display=ok?'':'none';if(ok)n++;});"
+        "cn.textContent='Показано: '+n+' из '+cards.length;}"
         "function onChange(){refresh();apply();}"
-        "fm.addEventListener('change',onChange);ft.addEventListener('change',onChange);"
-        "refresh();apply();"
+        "fm.addEventListener('change',onChange);fc.addEventListener('change',onChange);"
+        "ft.addEventListener('change',onChange);refresh();apply();"
         "})();"
     )
     js_hash = base64.b64encode(hashlib.sha256(filter_js.encode('utf-8')).digest()).decode('ascii')
