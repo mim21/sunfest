@@ -40,6 +40,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 EVENTS_JSON = Path(os.environ.get('SUNFEST_EVENTS_JSON', Path(__file__).parent / 'events.json'))
 OUTPUT_HTML = Path(os.environ.get('SUNFEST_OUTPUT_HTML', Path(__file__).parent / 'index.html'))
 OUTPUT_CAL  = Path(os.environ.get('SUNFEST_OUTPUT_CAL',  Path(__file__).parent / 'calendar.ics'))
+EVENTS_DIR  = OUTPUT_CAL.parent / 'events'   # per-event .ics feeds for subscription
 SITE_URL         = 'https://mim21.github.io/sunfest'
 # Festival "all master-classes" page — every card's category mark links here
 MASTER_CLASSES_URL = 'https://sunfest.co.il/master-klassy.html'
@@ -437,6 +438,11 @@ def _event_slug(event):
     return f'event-{slug}{suffix}'
 
 
+def _event_ics_name(event):
+    '''ASCII filename for an event's per-event .ics feed (the slug has Cyrillic).'''
+    return hashlib.md5(_event_slug(event).encode('utf-8')).hexdigest()[:16] + '.ics'
+
+
 def _event_cal_data(event, event_url=''):
     '''Return (gs, ge, timed, gcal_url, vevent_lines) or None if event has no date.'''
     title     = _str(event.get('title')) or 'Событие'
@@ -509,19 +515,17 @@ def _event_cal_data(event, event_url=''):
 
 
 def _make_cal_links(event, event_url=''):
-    result = _event_cal_data(event, event_url)
-    if not result:
+    if not _event_cal_data(event, event_url):
         return ''
-    _, _, _, gcal_url, vevent = result
-    title = _str(event.get('title')) or 'Событие'
-
-    cal_lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//sunfest//pipeline//RU'] + vevent + ['END:VCALENDAR']
-    ics_b64 = base64.b64encode(('\r\n'.join(cal_lines) + '\r\n').encode('utf-8')).decode('ascii')
-    safe_fn = h(re.sub(r'[\\/:"*?<>|]', '', title)[:50])
-
+    # Per-event SUBSCRIPTION (auto-updating): points at the hosted per-event feed
+    # events/<hash>.ics, rebuilt from the same data as the full calendar — so it
+    # tracks changes just like the full subscription, scoped to this one event.
+    feed   = (CALENDAR_TRACKER.rstrip('/') or SITE_URL) + '/events/' + _event_ics_name(event)
+    webcal = re.sub(r'^https?://', 'webcal://', feed)
+    gcal   = 'https://calendar.google.com/calendar/r?cid=' + quote(webcal, safe='')
     return (
-        f'<a class="cal-link gcal" href="{h(gcal_url)}" target="_blank" rel="noopener noreferrer">📅 Google</a>'
-        f'<a class="cal-link apple" href="data:text/calendar;base64,{ics_b64}" download="{safe_fn}.ics">📅 Apple</a>'
+        f'<a class="cal-link gcal" href="{h(gcal)}" target="_blank" rel="noopener noreferrer">📅 Google</a>'
+        f'<a class="cal-link apple" href="{h(webcal)}">📅 Apple</a>'
     )
 
 
@@ -542,7 +546,6 @@ def _make_full_cal(events):
 
     tracker    = CALENDAR_TRACKER.rstrip('/')
     apple_ics  = (tracker + '/calendar.ics?src=apple')  if tracker else (SITE_URL + '/calendar.ics')
-    dl_ics     = (tracker + '/calendar.ics?src=dl')     if tracker else 'calendar.ics'
 
     webcal_url = apple_ics.replace('https://', 'webcal://')
     # Google "add by URL" needs a webcal:// feed as the (fully-encoded) cid; an
@@ -554,8 +557,33 @@ def _make_full_cal(events):
 
     apple_sub  = f'<a class="cal-link full-cal-apple" href="{h(webcal_url)}">📅 Apple — подписаться</a>'
     google_sub = f'<a class="cal-link full-cal-gcal" href="{h(gcal_url)}" target="_blank" rel="noopener noreferrer">📅 Google — подписаться</a>'
-    download   = f'<a class="cal-link full-cal-dl" href="{h(dl_ics)}" download="sunfest.ics">⬇ Скачать ICS</a>'
-    return apple_sub + google_sub + download, ics_content
+    return apple_sub + google_sub, ics_content
+
+
+def _write_event_cals(events):
+    '''Write one .ics feed per event into EVENTS_DIR for per-event subscription.
+    Each is a single-VEVENT VCALENDAR named after the event and rebuilt from the
+    same data as the full calendar, so subscribers auto-update. Prunes stale files.'''
+    EVENTS_DIR.mkdir(parents=True, exist_ok=True)
+    keep = set()
+    for e in events:
+        result = _event_cal_data(e, f'{SITE_URL}/#{_event_slug(e)}')
+        if not result:
+            continue
+        name = _event_ics_name(e)
+        keep.add(name)
+        title = _str(e.get('title')) or 'Событие'
+        lines = [
+            'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//sunfest//pipeline//RU',
+            'X-WR-CALNAME:' + _ics_escape(title),
+            'X-WR-TIMEZONE:Asia/Jerusalem',
+            'REFRESH-INTERVAL;VALUE=DURATION:PT12H', 'X-PUBLISHED-TTL:PT12H',
+        ] + result[4] + ['END:VCALENDAR']
+        (EVENTS_DIR / name).write_text('\r\n'.join(lines) + '\r\n', encoding='utf-8')
+    for stale in EVENTS_DIR.glob('*.ics'):
+        if stale.name not in keep:
+            stale.unlink()
+    return len(keep)
 
 
 def _make_card(event):
@@ -638,10 +666,8 @@ def _make_card(event):
     cal_html = '' if etype == 'festival' else _make_cal_links(event, event_url)
     master = _str(event.get('facilitator'))
     cat_filter = category
-    _cal = _event_cal_data(event, event_url)
-    ics_b64 = base64.b64encode('\r\n'.join(_cal[4]).encode('utf-8')).decode('ascii') if _cal else ''
 
-    return f"""<div class="card{featured}" id="{slug}" data-master="{h(master)}" data-cat="{h(cat_filter)}" data-type="{h(label)}" data-ics="{ics_b64}" style="background:{card_bg}">
+    return f"""<div class="card{featured}" id="{slug}" data-master="{h(master)}" data-cat="{h(cat_filter)}" data-type="{h(label)}" style="background:{card_bg}">
   {status_html}
   {img_tag}
   <div class="card-body">
@@ -686,6 +712,8 @@ def step_html():
     cards_html              = '\n'.join(_make_card(e) for e in events)
     full_cal_html, ics_content = _make_full_cal(events)
     OUTPUT_CAL.write_text(ics_content, encoding='utf-8')
+    n_feeds = _write_event_cals(events)
+    print(f"  Wrote {n_feeds} per-event .ics feeds → {EVENTS_DIR}")
 
     # ── Filter controls: by facilitator (Ведущий), category (Категория), event type ──
     facilitators = sorted({_str(e.get('facilitator')) for e in events if _str(e.get('facilitator'))})
@@ -700,7 +728,6 @@ def step_html():
         f'<label>Категория: <select id="f-cat"><option value="">Все</option>{cat_opts}</select></label>'
         f'<label>Формат: <select id="f-type"><option value="">Все</option>{type_opts}</select></label>'
         '<span id="f-count"></span>'
-        '<a id="dl-visible" class="cal-link full-cal-dl" download="sunfest-filtered.ics" href="#">📅 Скачать видимые (.ics)</a>'
         '</div>'
     )
     # Inline filter script — CSP allows it via its sha256 hash (script-src stays strict).
@@ -708,19 +735,10 @@ def step_html():
     filter_js = (
         "(function(){"
         "var fm=document.getElementById('f-master'),fc=document.getElementById('f-cat'),"
-        "ft=document.getElementById('f-type'),cn=document.getElementById('f-count'),"
-        "dl=document.getElementById('dl-visible');"
+        "ft=document.getElementById('f-type'),cn=document.getElementById('f-count');"
         "var cards=Array.prototype.slice.call(document.querySelectorAll('.grid .card'));"
         "var data=cards.map(function(c){return {el:c,m:c.getAttribute('data-master'),"
-        "c:c.getAttribute('data-cat'),t:c.getAttribute('data-type'),i:c.getAttribute('data-ics')};});"
-        "function enc(s){return btoa(unescape(encodeURIComponent(s)));}"
-        "function dec(s){return decodeURIComponent(escape(atob(s)));}"
-        "function buildICS(){var v=data.filter(function(d){return d.el.style.display!=='none'&&d.i;})"
-        ".map(function(d){return dec(d.i);});"
-        "var ics='BEGIN:VCALENDAR\\r\\nVERSION:2.0\\r\\nPRODID:-//sunfest//pipeline//RU\\r\\n'"
-        "+'X-WR-CALNAME:SunFest \\u2014 \\u0432\\u044b\\u0431\\u0440\\u0430\\u043d\\u043d\\u044b\\u0435\\r\\n'"
-        "+'X-WR-TIMEZONE:Asia/Jerusalem\\r\\n'+v.join('\\r\\n')+'\\r\\nEND:VCALENDAR\\r\\n';"
-        "dl.href='data:text/calendar;base64,'+enc(ics);dl.style.display=v.length?'':'none';}"
+        "c:c.getAttribute('data-cat'),t:c.getAttribute('data-type')};});"
         "function uniq(a){return a.filter(function(v,i){return v&&a.indexOf(v)===i;})"
         ".sort(function(x,y){return x.localeCompare(y,'ru');});}"
         "function fill(sel,vals){var cur=sel.value;sel.length=1;vals.forEach(function(v){"
@@ -736,7 +754,7 @@ def step_html():
         "fill(ft,uniq(data.filter(function(d){return match(d,'t');}).map(function(d){return d.t;})));}"
         "function apply(){var n=0;data.forEach(function(d){var ok=match(d,null);"
         "d.el.style.display=ok?'':'none';if(ok)n++;});"
-        "cn.textContent='Показано: '+n+' из '+cards.length;buildICS();}"
+        "cn.textContent='Показано: '+n+' из '+cards.length;}"
         "function onChange(){refresh();apply();}"
         "fm.addEventListener('change',onChange);fc.addEventListener('change',onChange);"
         "ft.addEventListener('change',onChange);refresh();apply();"
@@ -819,8 +837,6 @@ def step_html():
     .cal-link.full-cal-apple:hover {{ background: #1b4332; }}
     .cal-link.full-cal-gcal {{ background: #f59e0b; color: white; padding: 8px 20px; border-radius: 8px; font-size: 0.85rem; font-weight: 600; text-decoration: none; }}
     .cal-link.full-cal-gcal:hover {{ background: #d97706; }}
-    .cal-link.full-cal-dl {{ background: #6b7280; color: white; padding: 8px 20px; border-radius: 8px; font-size: 0.85rem; font-weight: 600; text-decoration: none; }}
-    .cal-link.full-cal-dl:hover {{ background: #4b5563; }}
     .header-actions {{ margin-top: 14px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }}
     .filters {{ margin-top: 16px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; align-items: center; }}
     .filters label {{ font-size: 0.85rem; color: #92633a; font-weight: 600; }}

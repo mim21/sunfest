@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:Аутентичное движение
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:e267dd9af92bc9cf2e1680d6a8a8d3da@sunfest
+DTSTAMP:20260614T113953Z
+DTSTART:20260619T143000
+DTEND:20260619T160000
+SUMMARY:Аутентичное движение
+DESCRIPTION:Ведущий: Катя Величко. Свободное движение с закрытыми глазами в присутствии наблюдателя-свидетеля.
+URL:https://mim21.github.io/sunfest/#event-%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%87%D0%BD%D0%BE%D0%B5-%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-20260619-1430
+END:VEVENT
+END:VCALENDAR

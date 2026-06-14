@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:Аюрведические секреты красоты: сияние изнутри
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:0d13fb91a0fa70cea91d6b143a617eaf@sunfest
+DTSTAMP:20260614T113953Z
+DTSTART:20260618T190000
+DTEND:20260618T203000
+SUMMARY:Аюрведические секреты красоты: сияние изнутри
+DESCRIPTION:Ведущий: Оксана Керен-Злата. Аюрведические ритуалы ухода\, самомассаж лица и дыхание для здоровья кожи.
+URL:https://mim21.github.io/sunfest/#event-%D0%90%D1%8E%D1%80%D0%B2%D0%B5%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D1%81%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B-%D0%BA%D1%80%D0%B0%D1%81%D0%BE%D1%82%D1%8B-%D1%81%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5-%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8-20260618-1900
+END:VEVENT
+END:VCALENDAR

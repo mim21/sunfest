@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:Путь с Отцом
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:276db57c789db6a5f45c63d15edcc4bc@sunfest
+DTSTAMP:20260614T113953Z
+DTSTART:20260620T093000
+DTEND:20260620T110000
+SUMMARY:Путь с Отцом
+DESCRIPTION:Ведущий: Эзра Щебальский. Переписывание внутреннего образа отца через демонстрацию метода.
+URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%83%D1%82%D1%8C-%D1%81-%D0%9E%D1%82%D1%86%D0%BE%D0%BC-20260620-0930
+END:VEVENT
+END:VCALENDAR

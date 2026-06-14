@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:PRO отношения 3.0 (только для мужчин)
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:08313269bea141a0d7ef781dcd5b51d9@sunfest
+DTSTAMP:20260614T113953Z
+DTSTART:20260619T190000
+DTEND:20260619T203000
+SUMMARY:PRO отношения 3.0 (только для мужчин)
+DESCRIPTION:Ведущий: Марк Мальцер. Лекция для мужчин о построении близости и ошибках в отношениях.
+URL:https://mim21.github.io/sunfest/#event-PRO-%D0%BE%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-3-0-%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B4%D0%BB%D1%8F-%D0%BC%D1%83%D0%B6%D1%87%D0%B8%D0%BD-20260619-1900
+END:VEVENT
+END:VCALENDAR
