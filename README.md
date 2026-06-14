@@ -16,7 +16,7 @@ but the data **source is a festival website** (not a WhatsApp chat).
 2. `pipeline.py`:
    - **Clean** — drops events whose date has passed, de-duplicates
    - **Validate** — checks `events.json` against the schema
-   - **Enrich** *(optional)* — fills any missing price/time/city via Playwright
+   - **Enrich** *(opt-in, `--enrich`)* — fills any missing price/time/city via Playwright
    - **HTML** — renders a self-contained `index.html` + `calendar.ics`
 3. Publishes to GitHub Pages
 
@@ -32,12 +32,12 @@ python pipeline.py --push     # also commit + push to GitHub Pages
 run.bat                       # Windows: build + pipeline + push in one go
 ```
 
-Enrichment needs Playwright (optional):
+Enrichment is **off by default** because `build_events.py` already produces
+complete data. Enable it with `--enrich` (needs Playwright):
 ```bash
 pip install playwright && playwright install chromium
+python pipeline.py --enrich
 ```
-Skip it with `SUNFEST_SKIP_ENRICH=1` — the data from `build_events.py` is already
-complete, so enrichment is normally a no-op.
 
 ## When the festival schedule changes
 

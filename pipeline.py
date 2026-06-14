@@ -856,7 +856,8 @@ def step_push():
 if __name__ == '__main__':
     import argparse
     ap = argparse.ArgumentParser(description='SunFest event pipeline')
-    ap.add_argument('--force', action='store_true', help='Re-enrich all events, not just incomplete ones')
+    ap.add_argument('--enrich', action='store_true', help='Scrape registration links to fill missing price/time/city (off by default — build_events.py is authoritative)')
+    ap.add_argument('--force', action='store_true', help='With --enrich, re-enrich all events, not just incomplete ones')
     ap.add_argument('--push',  action='store_true', help='Git-push after generating HTML')
     args = ap.parse_args()
 
@@ -866,10 +867,10 @@ if __name__ == '__main__':
     except ValidationError as ex:
         print(f'\nAborted: {ex}')
         sys.exit(1)
-    if os.environ.get('SUNFEST_SKIP_ENRICH', '') == '1':
-        print('\n── Step 3: Enrich skipped (SUNFEST_SKIP_ENRICH=1) ──')
-    else:
+    if args.enrich:
         asyncio.run(step_enrich(force=args.force))
+    else:
+        print('\n── Step 3: Enrich skipped (use --enrich to scrape registration links) ──')
     step_html()
     if args.push:
         step_push()

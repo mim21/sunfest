@@ -22,7 +22,6 @@ REG_LINK   = 'https://sunfest.co.il/payment.html'
 SITE       = 'https://sunfest.co.il/'
 POSTER     = 'https://sunfest.co.il/images/page-header-bg.jpg'  # festival hero banner (og:image is 404)
 CITY       = 'Кинерет'
-LOCATION   = 'Берег озера Кинерет, Израиль'
 POST_DATE  = '2026-06-09'   # date the schedule was published / last seen
 
 CONTACT = {
@@ -119,10 +118,7 @@ def classify(title, master):
 
 def make_workshop(day, start, end, master, title):
     etype = classify(title, master)
-    if master:
-        desc = f'Ведущий: {master}. В рамках фестиваля «Сила Солнца».'
-    else:
-        desc = 'Общефестивальное событие в рамках «Силы Солнца».'
+    desc = f'Ведущий: {master}.' if master else 'Общефестивальное событие.'
     raw = f'{day} июня 2026'
     return {
         'title': title,
@@ -133,9 +129,9 @@ def make_workshop(day, start, end, master, title):
         'start_time_only': start,
         'end_time_only': end,
         'raw_date_text': raw,
-        'location_name': LOCATION,
+        'location_name': None,
         'city': CITY,
-        'price_text': 'Входит в билет фестиваля',
+        'price_text': None,
         'price_unit': None,
         'price_note': None,
         'price_details': None,
@@ -162,7 +158,7 @@ def headline():
         'start_time_only': '12:00',
         'end_time_only': None,
         'raw_date_text': '18–20 июня 2026',
-        'location_name': LOCATION,
+        'location_name': None,
         'city': CITY,
         'price_text': 'от ₪750',
         'price_unit': 'person',

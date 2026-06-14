@@ -4,543 +4,543 @@ PRODID:-//sunfest//pipeline//RU
 X-WR-CALNAME:SunFest «Сила Солнца»
 X-WR-TIMEZONE:Asia/Jerusalem
 BEGIN:VEVENT
-UID:4a931decdbd4452bd88e14b756a079e4@sunfest
-DTSTAMP:20260614T073624Z
+UID:1224f3b19d0a19d4eff14fc1349e056b@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260621
 SUMMARY:Фестиваль «Сила Солнца» 2026
 DESCRIPTION:3 дня и 2 ночи на берегу Кинерета: 45+ мастер-классов в 3 потоках — йога\, медитация\, дыхательные и телесные практики\, нейрографика\, звукотерапия\, концерт Frisson Trio\, церемонии у костра и детская программа.
-LOCATION:Берег озера Кинерет\, Израиль
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%A4%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C-%D0%A1%D0%B8%D0%BB%D0%B0-%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B0-2026-20260618-1200
 END:VEVENT
 BEGIN:VEVENT
-UID:2a63a198ffe327c318b0c87825e3b76f@sunfest
-DTSTAMP:20260614T073624Z
+UID:d7bf4240f79416c0b22a9c17388ce54e@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260618T163000
 DTEND:20260618T180000
 SUMMARY:Круг знакомства
-DESCRIPTION:Ведущий: Эрик Розенталь. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Эрик Розенталь.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%9A%D1%80%D1%83%D0%B3-%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%B0-20260618-1630
 END:VEVENT
 BEGIN:VEVENT
-UID:46ba1665d73941a23d8eeee263b994f7@sunfest
-DTSTAMP:20260614T073624Z
+UID:868624628938d4c832a10516bb635bf4@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260618T163000
 DTEND:20260618T180000
 SUMMARY:Медитация «Львиное сердце»
-DESCRIPTION:Ведущий: Вишвас. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Вишвас.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%9C%D0%B5%D0%B4%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D1%8F-%D0%9B%D1%8C%D0%B2%D0%B8%D0%BD%D0%BE%D0%B5-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5-20260618-1630
 END:VEVENT
 BEGIN:VEVENT
-UID:4d9d591d983ec9c9655467dd105307b0@sunfest
-DTSTAMP:20260614T073624Z
+UID:13dae852601a91c0ea5747aae3e915bf@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260618T163000
 DTEND:20260618T180000
 SUMMARY:Добаюкивание
-DESCRIPTION:Ведущий: Эзра Щебальский. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Эзра Щебальский.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%94%D0%BE%D0%B1%D0%B0%D1%8E%D0%BA%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-20260618-1630
 END:VEVENT
 BEGIN:VEVENT
-UID:c39816a4cabfb07621e2021bfe1deed1@sunfest
-DTSTAMP:20260614T073624Z
+UID:54bdf8aa60274c8864ab9cbaaf439e9a@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260618T190000
 DTEND:20260618T203000
 SUMMARY:Внутренний ребёнок и исцеление детских травм
-DESCRIPTION:Ведущий: Борис Мельцер. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Борис Мельцер.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B8%D0%B9-%D1%80%D0%B5%D0%B1%D1%91%D0%BD%D0%BE%D0%BA-%D0%B8-%D0%B8%D1%81%D1%86%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D1%85-%D1%82%D1%80%D0%B0%D0%B2%D0%BC-20260618-1900
 END:VEVENT
 BEGIN:VEVENT
-UID:409c922e9b700d247d53cce352da5cd9@sunfest
-DTSTAMP:20260614T073624Z
+UID:346657f5cafe4754e423467cc09a6fde@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260618T190000
 DTEND:20260618T203000
 SUMMARY:Аюрведические секреты красоты: сияние изнутри
-DESCRIPTION:Ведущий: Оксана Керен-Злата. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Оксана Керен-Злата.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%90%D1%8E%D1%80%D0%B2%D0%B5%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D1%81%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B-%D0%BA%D1%80%D0%B0%D1%81%D0%BE%D1%82%D1%8B-%D1%81%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5-%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8-20260618-1900
 END:VEVENT
 BEGIN:VEVENT
-UID:c39e4a9573d482fb9c5b0e7f9e7cc07f@sunfest
-DTSTAMP:20260614T073624Z
+UID:741015ea921c2ce89b6000efa6bb57ed@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260618T190000
 DTEND:20260618T203000
 SUMMARY:Звучать всем телом
-DESCRIPTION:Ведущий: Катя Величко. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Катя Величко.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%97%D0%B2%D1%83%D1%87%D0%B0%D1%82%D1%8C-%D0%B2%D1%81%D0%B5%D0%BC-%D1%82%D0%B5%D0%BB%D0%BE%D0%BC-20260618-1900
 END:VEVENT
 BEGIN:VEVENT
-UID:37ac0639a81212684e6ad66d5b04f8c8@sunfest
-DTSTAMP:20260614T073624Z
+UID:a01d46e14b3c673b0a4b51d44346cc47@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260618T190000
 DTEND:20260618T203000
 SUMMARY:ГДЕ МОИ ДЕНЬГИ? Ловушка духовности и проработок
-DESCRIPTION:Ведущий: Кирилл Саблин. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Кирилл Саблин.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%94%D0%95-%D0%9C%D0%9E%D0%98-%D0%94%D0%95%D0%9D%D0%AC%D0%93%D0%98-%D0%9B%D0%BE%D0%B2%D1%83%D1%88%D0%BA%D0%B0-%D0%B4%D1%83%D1%85%D0%BE%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%B8-%D0%BF%D1%80%D0%BE%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BE%D0%BA-20260618-1900
 END:VEVENT
 BEGIN:VEVENT
-UID:4ae96aa9a915ed1ec73562f100c5ca75@sunfest
-DTSTAMP:20260614T073624Z
+UID:9422a54a4d6d09b926d09938a7e420e7@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260618T190000
 DTEND:20260618T203000
 SUMMARY:Исцеляющее касание
-DESCRIPTION:Ведущий: Константин Грингут. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Константин Грингут.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%98%D1%81%D1%86%D0%B5%D0%BB%D1%8F%D1%8E%D1%89%D0%B5%D0%B5-%D0%BA%D0%B0%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-20260618-1900
 END:VEVENT
 BEGIN:VEVENT
-UID:286307bb4692bde1bfe7bec44d8afcdd@sunfest
-DTSTAMP:20260614T073624Z
+UID:8ebfa173a4e3bfa6cca70394679735c1@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260618T210000
 DTEND:20260618T223000
 SUMMARY:Официальное открытие фестиваля. Концерт Frisson Trio
-DESCRIPTION:Ведущий: Frisson Trio. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Frisson Trio.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%9E%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8F-%D0%9A%D0%BE%D0%BD%D1%86%D0%B5%D1%80%D1%82-Frisson-Trio-20260618-2100
 END:VEVENT
 BEGIN:VEVENT
-UID:687cded34c92d439020b5d330d4205a2@sunfest
-DTSTAMP:20260614T073624Z
+UID:105625b3390b37832935eceaf17f4f3f@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260618T223000
 DTEND:20260619T003000
 SUMMARY:Праздник Летнего Солнцестояния: прыжки через костёр\, музыкальный джем
-DESCRIPTION:Общефестивальное событие в рамках «Силы Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Общефестивальное событие.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA-%D0%9B%D0%B5%D1%82%D0%BD%D0%B5%D0%B3%D0%BE-%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B5%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F-%D0%BF%D1%80%D1%8B%D0%B6%D0%BA%D0%B8-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D0%BA%D0%BE%D1%81%D1%82%D1%91%D1%80-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B6%D0%B5%D0%BC-20260618-2230
 END:VEVENT
 BEGIN:VEVENT
-UID:4c91a5600b2fd887f79350b044b0c10a@sunfest
-DTSTAMP:20260614T073624Z
+UID:9e68fbec5b9b5f21c89edfd0c93dd910@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T070000
 DTEND:20260619T083000
 SUMMARY:Хатха-йога
-DESCRIPTION:Ведущий: Либи Гордон. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Либи Гордон.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%A5%D0%B0%D1%82%D1%85%D0%B0-%D0%B9%D0%BE%D0%B3%D0%B0-20260619-0700
 END:VEVENT
 BEGIN:VEVENT
-UID:e19f66557d78afcc165478be4117fc50@sunfest
-DTSTAMP:20260614T073624Z
+UID:435544257541e7914d9701e8585406fb@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T070000
 DTEND:20260619T083000
 SUMMARY:Дыхание с Источником
-DESCRIPTION:Ведущий: Эзра Щебальский. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Эзра Щебальский.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%94%D1%8B%D1%85%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81-%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D0%BC-20260619-0700
 END:VEVENT
 BEGIN:VEVENT
-UID:c4fcf6c146a3787bcd9fe3c39dc03edf@sunfest
-DTSTAMP:20260614T073624Z
+UID:8f2270611dd78b9d5e8d96f6a6e96c33@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T070000
 DTEND:20260619T083000
 SUMMARY:Гвоздестояние. Тело помнит всё!
-DESCRIPTION:Ведущий: Александра Тропп. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Александра Тропп.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%B2%D0%BE%D0%B7%D0%B4%D0%B5%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5-%D0%A2%D0%B5%D0%BB%D0%BE-%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8%D1%82-%D0%B2%D1%81%D1%91-20260619-0700
 END:VEVENT
 BEGIN:VEVENT
-UID:305dfb82c1c7d1b8763a31c807ec23e9@sunfest
-DTSTAMP:20260614T073624Z
+UID:fc3a0b5264ead0bc99397dcdb6be788b@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T070000
 DTEND:20260619T083000
 SUMMARY:Смехо-йога
-DESCRIPTION:Ведущий: Митя Колтун. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Митя Колтун.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%A1%D0%BC%D0%B5%D1%85%D0%BE-%D0%B9%D0%BE%D0%B3%D0%B0-20260619-0700
 END:VEVENT
 BEGIN:VEVENT
-UID:8f7d0b82ac3ce0c6f52ca04045f4d036@sunfest
-DTSTAMP:20260614T073624Z
+UID:f36b15e38cac45e64df63b739cae4a78@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T070000
 DTEND:20260619T083000
 SUMMARY:Цигун
-DESCRIPTION:Ведущий: Мария Рабин. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Мария Рабин.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%A6%D0%B8%D0%B3%D1%83%D0%BD-20260619-0700
 END:VEVENT
 BEGIN:VEVENT
-UID:d02142b3eca261c47abc593455435e30@sunfest
-DTSTAMP:20260614T073624Z
+UID:9507aba838aa94a7f80915f84b1adf94@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T093000
 DTEND:20260619T110000
 SUMMARY:Психосоматическая реабилитационная кинезиология
-DESCRIPTION:Ведущий: Ян Осадчий. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Ян Осадчий.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D1%81%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%80%D0%B5%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BA%D0%B8%D0%BD%D0%B5%D0%B7%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F-20260619-0930
 END:VEVENT
 BEGIN:VEVENT
-UID:e926a5cefbfc3b0990d3306c030b1db7@sunfest
-DTSTAMP:20260614T073624Z
+UID:d475e7ffce7e0c588a05064b2dfe386f@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T093000
 DTEND:20260619T110000
 SUMMARY:Безлимитная мотивация\, или Как добиться успеха
-DESCRIPTION:Ведущий: Семён Графман. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Семён Графман.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%91%D0%B5%D0%B7%D0%BB%D0%B8%D0%BC%D0%B8%D1%82%D0%BD%D0%B0%D1%8F-%D0%BC%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F-%D0%B8%D0%BB%D0%B8-%D0%9A%D0%B0%D0%BA-%D0%B4%D0%BE%D0%B1%D0%B8%D1%82%D1%8C%D1%81%D1%8F-%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B0-20260619-0930
 END:VEVENT
 BEGIN:VEVENT
-UID:08ab6e3524e3340756872010c2257f31@sunfest
-DTSTAMP:20260614T073624Z
+UID:9daabae662a7e40f0d816648bd528fba@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T093000
 DTEND:20260619T110000
 SUMMARY:Голос души: навигация по Хьюман Дизайну
-DESCRIPTION:Ведущий: Оксана Керен-Злата. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Оксана Керен-Злата.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%BE%D0%BB%D0%BE%D1%81-%D0%B4%D1%83%D1%88%D0%B8-%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%A5%D1%8C%D1%8E%D0%BC%D0%B0%D0%BD-%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D1%83-20260619-0930
 END:VEVENT
 BEGIN:VEVENT
-UID:d600ddf03eb22f588cc103fdd7a41071@sunfest
-DTSTAMP:20260614T073624Z
+UID:bda9723ffd9d5489e1c62e8581529e45@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T093000
 DTEND:20260619T110000
 SUMMARY:Процессуальная работа: услышать и проявить скрытое в себе
-DESCRIPTION:Ведущий: Константин Грингут. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Константин Грингут.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%83%D1%81%D0%BB%D1%8B%D1%88%D0%B0%D1%82%D1%8C-%D0%B8-%D0%BF%D1%80%D0%BE%D1%8F%D0%B2%D0%B8%D1%82%D1%8C-%D1%81%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D0%B5-%D0%B2-%D1%81%D0%B5%D0%B1%D0%B5-20260619-0930
 END:VEVENT
 BEGIN:VEVENT
-UID:df1eb0f6d19d129cef26ae4e22410b5b@sunfest
-DTSTAMP:20260614T073624Z
+UID:9875e750e97151ddc2a2f92636efd4ec@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T093000
 DTEND:20260619T110000
 SUMMARY:«Быть в потоке». Нейрографика
-DESCRIPTION:Ведущий: Жанна Касплер-Алон. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Жанна Касплер-Алон.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%91%D1%8B%D1%82%D1%8C-%D0%B2-%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B5-%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0-20260619-0930
 END:VEVENT
 BEGIN:VEVENT
-UID:495263b8fe97e0d6d14db35d06af16c5@sunfest
-DTSTAMP:20260614T073624Z
+UID:a4f5211f80c203630ed62286705961d5@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T113000
 DTEND:20260619T130000
 SUMMARY:Ментальное здоровье и целостность
-DESCRIPTION:Ведущий: Эзра Щебальский. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Эзра Щебальский.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%9C%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%8C%D0%B5-%D0%B8-%D1%86%D0%B5%D0%BB%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C-20260619-1130
 END:VEVENT
 BEGIN:VEVENT
-UID:e25986035d383dbad9ac73a8a264491f@sunfest
-DTSTAMP:20260614T073624Z
+UID:fa6f0cdbd5f383a70946504c6b519c5f@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T113000
 DTEND:20260619T130000
 SUMMARY:Алхимия прикосновения
-DESCRIPTION:Ведущий: Вишвас. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Вишвас.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%90%D0%BB%D1%85%D0%B8%D0%BC%D0%B8%D1%8F-%D0%BF%D1%80%D0%B8%D0%BA%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F-20260619-1130
 END:VEVENT
 BEGIN:VEVENT
-UID:ca37c55e9d5de848e8ae96105d215130@sunfest
-DTSTAMP:20260614T073624Z
+UID:8ff85cb75a15b2918090291e65312efa@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T113000
 DTEND:20260619T130000
 SUMMARY:4 вида наслаждения
-DESCRIPTION:Ведущий: Кирилл Саблин. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Кирилл Саблин.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-4-%D0%B2%D0%B8%D0%B4%D0%B0-%D0%BD%D0%B0%D1%81%D0%BB%D0%B0%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-20260619-1130
 END:VEVENT
 BEGIN:VEVENT
-UID:de3751bf36d4932576d371362a11ae5f@sunfest
-DTSTAMP:20260614T073624Z
+UID:77996ddd1e0b6dd75733fc707ad0c70f@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T143000
 DTEND:20260619T160000
 SUMMARY:Аутентичное движение
-DESCRIPTION:Ведущий: Катя Величко. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Катя Величко.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%87%D0%BD%D0%BE%D0%B5-%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-20260619-1430
 END:VEVENT
 BEGIN:VEVENT
-UID:db1bc1f0bf9bcc036baeb8a915c740a7@sunfest
-DTSTAMP:20260614T073624Z
+UID:29e0a66da67b049182df4b5014e561f8@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T143000
 DTEND:20260619T160000
 SUMMARY:AI и человек будущего: как ИИ меняет бизнес и жизнь
-DESCRIPTION:Ведущий: Алекс Кап. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Алекс Кап.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-AI-%D0%B8-%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA-%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B3%D0%BE-%D0%BA%D0%B0%D0%BA-%D0%98%D0%98-%D0%BC%D0%B5%D0%BD%D1%8F%D0%B5%D1%82-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%B8-%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C-20260619-1430
 END:VEVENT
 BEGIN:VEVENT
-UID:80446a801602f6b4dc12631906409b50@sunfest
-DTSTAMP:20260614T073624Z
+UID:4488cbf486d8d5ce1f54aba17a72633f@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T143000
 DTEND:20260619T160000
 SUMMARY:Естественное звучание
-DESCRIPTION:Ведущий: Роман Тизенберг. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Роман Тизенберг.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%95%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%B7%D0%B2%D1%83%D1%87%D0%B0%D0%BD%D0%B8%D0%B5-20260619-1430
 END:VEVENT
 BEGIN:VEVENT
-UID:d6da13d9e19c4a7d7ba012bdc54f2d66@sunfest
-DTSTAMP:20260614T073624Z
+UID:e66a711929e76419df0b21c8c7afde5f@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T143000
 DTEND:20260619T160000
 SUMMARY:Женский круг с нейрографическими практиками «ПЕРЕХОД»
-DESCRIPTION:Ведущий: Ольга Шнайдер (Симери). В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Ольга Шнайдер (Симери).
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D1%80%D1%83%D0%B3-%D1%81-%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC%D0%B8-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0%D0%BC%D0%B8-%D0%9F%D0%95%D0%A0%D0%95%D0%A5%D0%9E%D0%94-20260619-1430
 END:VEVENT
 BEGIN:VEVENT
-UID:be9020782544d6f7b17346bf019206a2@sunfest
-DTSTAMP:20260614T073624Z
+UID:c397c822ca652b3079b8eb655df4eb32@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T163000
 DTEND:20260619T180000
 SUMMARY:Танец отношений
-DESCRIPTION:Ведущий: Александр Коско. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Александр Коско.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B0%D0%BD%D0%B5%D1%86-%D0%BE%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D0%B9-20260619-1630
 END:VEVENT
 BEGIN:VEVENT
-UID:8338a2430f050679f64f8633769f5902@sunfest
-DTSTAMP:20260614T073624Z
+UID:0b0597379d905e6138654692c27d33aa@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T163000
 DTEND:20260619T180000
 SUMMARY:Добаюкивание
-DESCRIPTION:Ведущий: Эзра Щебальский. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Эзра Щебальский.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%94%D0%BE%D0%B1%D0%B0%D1%8E%D0%BA%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-20260619-1630
 END:VEVENT
 BEGIN:VEVENT
-UID:aaa3203600452b20da95f54852717b06@sunfest
-DTSTAMP:20260614T073624Z
+UID:4ab2f3e88d92549e6fb279b67589a5bd@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T163000
 DTEND:20260619T180000
 SUMMARY:Пробуждение внутреннего целителя
-DESCRIPTION:Ведущий: Ольга Альвайс. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Ольга Альвайс.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%80%D0%BE%D0%B1%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B5%D0%B3%D0%BE-%D1%86%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8F-20260619-1630
 END:VEVENT
 BEGIN:VEVENT
-UID:f0f4ba3d50c2fe7b35d61db0c0d8790f@sunfest
-DTSTAMP:20260614T073624Z
+UID:0884d5efe8f478ec692537330e199e07@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T163000
 DTEND:20260619T180000
 SUMMARY:Массаж в 10 рук с музыкальным сопровождением
-DESCRIPTION:Ведущий: Даниэль Деглин и Инна Головичер. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Даниэль Деглин и Инна Головичер.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%9C%D0%B0%D1%81%D1%81%D0%B0%D0%B6-%D0%B2-10-%D1%80%D1%83%D0%BA-%D1%81-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC-%D1%81%D0%BE%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC-20260619-1630
 END:VEVENT
 BEGIN:VEVENT
-UID:31f6f24fe93ecd8d11e99a7519f4ce32@sunfest
-DTSTAMP:20260614T073624Z
+UID:8f4fde2a996b5d83f6e93fa90fa823ec@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T163000
 DTEND:20260619T180000
 SUMMARY:Нейрографика. Язык Вселенной: линии\, меняющие реальность
-DESCRIPTION:Ведущий: Мири Мельничук. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Мири Мельничук.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0-%D0%AF%D0%B7%D1%8B%D0%BA-%D0%92%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9-%D0%BB%D0%B8%D0%BD%D0%B8%D0%B8-%D0%BC%D0%B5%D0%BD%D1%8F%D1%8E%D1%89%D0%B8%D0%B5-%D1%80%D0%B5%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C-20260619-1630
 END:VEVENT
 BEGIN:VEVENT
-UID:7e7039d09caf9ebc1b70ac18d138d3af@sunfest
-DTSTAMP:20260614T073624Z
+UID:4769720292b27529e9421014f8caf213@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T190000
 DTEND:20260619T203000
 SUMMARY:Линия времени
-DESCRIPTION:Ведущий: Борис Мельцер. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Борис Мельцер.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%9B%D0%B8%D0%BD%D0%B8%D1%8F-%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8-20260619-1900
 END:VEVENT
 BEGIN:VEVENT
-UID:41cb0f9bfe5f51d800f4fc181c3d82cb@sunfest
-DTSTAMP:20260614T073624Z
+UID:282907164fed8af10cc3d5200907c164@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T190000
 DTEND:20260619T203000
 SUMMARY:Искусство быть желанной. Коды женского соблазна (для девушек)
-DESCRIPTION:Ведущий: Елена Чудная. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Елена Чудная.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE-%D0%B1%D1%8B%D1%82%D1%8C-%D0%B6%D0%B5%D0%BB%D0%B0%D0%BD%D0%BD%D0%BE%D0%B9-%D0%9A%D0%BE%D0%B4%D1%8B-%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D1%81%D0%BE%D0%B1%D0%BB%D0%B0%D0%B7%D0%BD%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B5%D0%B2%D1%83%D1%88%D0%B5%D0%BA-20260619-1900
 END:VEVENT
 BEGIN:VEVENT
-UID:ecd6b55e299b78cff32428faa07f76bd@sunfest
-DTSTAMP:20260614T073624Z
+UID:5454105a4274e74d8c263d355025c70d@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T190000
 DTEND:20260619T203000
 SUMMARY:PRO отношения 3.0 (только для мужчин)
-DESCRIPTION:Ведущий: Марк Мальцер. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Марк Мальцер.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-PRO-%D0%BE%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-3-0-%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B4%D0%BB%D1%8F-%D0%BC%D1%83%D0%B6%D1%87%D0%B8%D0%BD-20260619-1900
 END:VEVENT
 BEGIN:VEVENT
-UID:a64305d204b51d61c4b2a609852285f7@sunfest
-DTSTAMP:20260614T073624Z
+UID:d136876dcc36ccd13c2eec933da478ea@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T190000
 DTEND:20260619T203000
 SUMMARY:Практики управления энергией
-DESCRIPTION:Ведущий: Михаэль Натанэль. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Михаэль Натанэль.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D0%B5%D0%B9-20260619-1900
 END:VEVENT
 BEGIN:VEVENT
-UID:5f9fc6e5af50ca463a47076aee61c5a3@sunfest
-DTSTAMP:20260614T073624Z
+UID:4217a8a8fce5f708bdfb4c10f19bf4a4@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T190000
 DTEND:20260619T203000
 SUMMARY:Дао эмоций
-DESCRIPTION:Ведущий: Константин Грингут. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Константин Грингут.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%94%D0%B0%D0%BE-%D1%8D%D0%BC%D0%BE%D1%86%D0%B8%D0%B9-20260619-1900
 END:VEVENT
 BEGIN:VEVENT
-UID:6966c978206ca4a2245d71c52de672b4@sunfest
-DTSTAMP:20260614T073624Z
+UID:59f625e8a08fd336b0087dd488b777ed@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T204500
 DTEND:20260619T220000
 SUMMARY:Алхимия дыхания
-DESCRIPTION:Ведущий: Ольга Альвайс. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Ольга Альвайс.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%90%D0%BB%D1%85%D0%B8%D0%BC%D0%B8%D1%8F-%D0%B4%D1%8B%D1%85%D0%B0%D0%BD%D0%B8%D1%8F-20260619-2045
 END:VEVENT
 BEGIN:VEVENT
-UID:3a98c622fa6fa40dfb9bc79b37e8c7ef@sunfest
-DTSTAMP:20260614T073624Z
+UID:30593c1ae133dfbe702faf91a225a830@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260619T220000
 DTEND:20260620T000000
 SUMMARY:Экстатик-денс в наушниках (дресс-код белый)\, джем\, посиделки у костра
-DESCRIPTION:Общефестивальное событие в рамках «Силы Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Общефестивальное событие.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%AD%D0%BA%D1%81%D1%82%D0%B0%D1%82%D0%B8%D0%BA-%D0%B4%D0%B5%D0%BD%D1%81-%D0%B2-%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B0%D1%85-%D0%B4%D1%80%D0%B5%D1%81%D1%81-%D0%BA%D0%BE%D0%B4-%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9-%D0%B4%D0%B6%D0%B5%D0%BC-%D0%BF%D0%BE%D1%81%D0%B8%D0%B4%D0%B5%D0%BB%D0%BA%D0%B8-%D1%83-%D0%BA%D0%BE%D1%81%D1%82%D1%80%D0%B0-20260619-2200
 END:VEVENT
 BEGIN:VEVENT
-UID:1435616eb73d15f69b1b6ff394850bd7@sunfest
-DTSTAMP:20260614T073624Z
+UID:1c1f1882459c4cabbfbed848fd8936e8@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260620T070000
 DTEND:20260620T083000
 SUMMARY:Хатха-йога
-DESCRIPTION:Ведущий: Либи Гордон. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Либи Гордон.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%A5%D0%B0%D1%82%D1%85%D0%B0-%D0%B9%D0%BE%D0%B3%D0%B0-20260620-0700
 END:VEVENT
 BEGIN:VEVENT
-UID:6f361e3ad8af68074def01afd0aec962@sunfest
-DTSTAMP:20260614T073624Z
+UID:a95db8ed2ab54df032dd11510c084d7e@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260620T070000
 DTEND:20260620T083000
 SUMMARY:Дыхание с Источником
-DESCRIPTION:Ведущий: Эзра Щебальский. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Эзра Щебальский.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%94%D1%8B%D1%85%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81-%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D0%BC-20260620-0700
 END:VEVENT
 BEGIN:VEVENT
-UID:894282a45cad7d3b5d9af44347e581a8@sunfest
-DTSTAMP:20260614T073624Z
+UID:fdbc8dd9dd86b9acb51efa757f47bf6e@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260620T070000
 DTEND:20260620T083000
 SUMMARY:Смехо-йога
-DESCRIPTION:Ведущий: Митя Колтун. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Митя Колтун.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%A1%D0%BC%D0%B5%D1%85%D0%BE-%D0%B9%D0%BE%D0%B3%D0%B0-20260620-0700
 END:VEVENT
 BEGIN:VEVENT
-UID:e38b4af39cbd0f7c48a467ae10755554@sunfest
-DTSTAMP:20260614T073624Z
+UID:7942d00df5d52ce6b1d8b81c6b3072f1@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260620T070000
 DTEND:20260620T083000
 SUMMARY:Женский сакральный танец
-DESCRIPTION:Ведущий: Симери (Ольга Шнайдер). В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Симери (Ольга Шнайдер).
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D1%81%D0%B0%D0%BA%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%82%D0%B0%D0%BD%D0%B5%D1%86-20260620-0700
 END:VEVENT
 BEGIN:VEVENT
-UID:0819b5e5657bbeb5ebd95cd11d84f2b2@sunfest
-DTSTAMP:20260614T073624Z
+UID:a777b097f81f4fd75eed122f4347a1e1@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260620T070000
 DTEND:20260620T083000
 SUMMARY:Тайская йога
-DESCRIPTION:Ведущий: Мария Рабин. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Мария Рабин.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F-%D0%B9%D0%BE%D0%B3%D0%B0-20260620-0700
 END:VEVENT
 BEGIN:VEVENT
-UID:230c84dee78ebff125ba0b38dfbe1c9a@sunfest
-DTSTAMP:20260614T073624Z
+UID:3f794175be6184db7f8e89e380b9fba8@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260620T070000
 DTEND:20260620T083000
 SUMMARY:Гвоздестояние. Тело помнит всё!
-DESCRIPTION:Ведущий: Александра Тропп. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Александра Тропп.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%B2%D0%BE%D0%B7%D0%B4%D0%B5%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5-%D0%A2%D0%B5%D0%BB%D0%BE-%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8%D1%82-%D0%B2%D1%81%D1%91-20260620-0700
 END:VEVENT
 BEGIN:VEVENT
-UID:56a6315ce43f8d5421e85d6f7069e531@sunfest
-DTSTAMP:20260614T073624Z
+UID:eeaca9cb50d2b6c4aa7ad32f5a061d7a@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260620T093000
 DTEND:20260620T110000
 SUMMARY:Интуитивный контактный танец
-DESCRIPTION:Ведущий: Катя Величко. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Катя Величко.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%98%D0%BD%D1%82%D1%83%D0%B8%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%BD%D1%8B%D0%B9-%D1%82%D0%B0%D0%BD%D0%B5%D1%86-20260620-0930
 END:VEVENT
 BEGIN:VEVENT
-UID:3ab4c810602d5d84d3bb178a9d7476c4@sunfest
-DTSTAMP:20260614T073624Z
+UID:c351d0e294bb281753c23da6e26f4a5c@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260620T093000
 DTEND:20260620T110000
 SUMMARY:Воплощение мечты — сейчас!
-DESCRIPTION:Ведущий: Игорь Юровский. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Игорь Юровский.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%92%D0%BE%D0%BF%D0%BB%D0%BE%D1%89%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BC%D0%B5%D1%87%D1%82%D1%8B-%D1%81%D0%B5%D0%B9%D1%87%D0%B0%D1%81-20260620-0930
 END:VEVENT
 BEGIN:VEVENT
-UID:71df5208569fc446e421b55a1a09cb05@sunfest
-DTSTAMP:20260614T073624Z
+UID:e6269e6206096c5712b2b102e62caac5@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260620T093000
 DTEND:20260620T110000
 SUMMARY:Путь с Отцом
-DESCRIPTION:Ведущий: Эзра Щебальский. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Эзра Щебальский.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%83%D1%82%D1%8C-%D1%81-%D0%9E%D1%82%D1%86%D0%BE%D0%BC-20260620-0930
 END:VEVENT
 BEGIN:VEVENT
-UID:5978831b86cf5fbbbf16c3c7cf98a5dd@sunfest
-DTSTAMP:20260614T073624Z
+UID:bc11203b0c1b5d9404243d06bf651ddd@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260620T111500
 DTEND:20260620T124500
 SUMMARY:Бизнес-расстановки: деньги\, команда и энергия роста
-DESCRIPTION:Ведущий: Ольга Альвайс. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Ольга Альвайс.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D1%80%D0%B0%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8-%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0-%D0%B8-%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F-%D1%80%D0%BE%D1%81%D1%82%D0%B0-20260620-1115
 END:VEVENT
 BEGIN:VEVENT
-UID:55ef0e92f185c6d0d3e52d0d2fe393e9@sunfest
-DTSTAMP:20260614T073624Z
+UID:d428a6524ead7acc83cda3dc83eddfb7@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260620T111500
 DTEND:20260620T124500
 SUMMARY:Голос как энергия
-DESCRIPTION:Ведущий: Александр Коско. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Александр Коско.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%BE%D0%BB%D0%BE%D1%81-%D0%BA%D0%B0%D0%BA-%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F-20260620-1115
 END:VEVENT
 BEGIN:VEVENT
-UID:7fa85da1d804615c89c281cc35b8dea1@sunfest
-DTSTAMP:20260614T073624Z
+UID:6af0ebfab5699b8acce9f75faf09d104@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260620T111500
 DTEND:20260620T124500
 SUMMARY:Отношения: от первой искры до зрелой любви
-DESCRIPTION:Ведущий: Вишвас. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Вишвас.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%9E%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE%D1%82-%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B9-%D0%B8%D1%81%D0%BA%D1%80%D1%8B-%D0%B4%D0%BE-%D0%B7%D1%80%D0%B5%D0%BB%D0%BE%D0%B9-%D0%BB%D1%8E%D0%B1%D0%B2%D0%B8-20260620-1115
 END:VEVENT
 BEGIN:VEVENT
-UID:3bca836c37683e52ff23dbdd3cf082d3@sunfest
-DTSTAMP:20260614T073624Z
+UID:017b787f05bd6e4ef471eba20e6e640d@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260620T111500
 DTEND:20260620T124500
 SUMMARY:Тибетские чаши. Звук\, который ведёт
-DESCRIPTION:Ведущий: Александра Тропп. В рамках фестиваля «Сила Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Ведущий: Александра Тропп.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B8%D0%B1%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B5-%D1%87%D0%B0%D1%88%D0%B8-%D0%97%D0%B2%D1%83%D0%BA-%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B9-%D0%B2%D0%B5%D0%B4%D1%91%D1%82-20260620-1115
 END:VEVENT
 BEGIN:VEVENT
-UID:bc27f269563f1081bb8a2af2cbe34a23@sunfest
-DTSTAMP:20260614T073624Z
+UID:6b249767b19432823ac07ff94916b76c@sunfest
+DTSTAMP:20260614T074419Z
 DTSTART:20260620T131000
 DTEND:20260620T140000
 SUMMARY:Закрытие фестиваля. Саундхиллинг\, интеграция
-DESCRIPTION:Общефестивальное событие в рамках «Силы Солнца».
-LOCATION:Берег озера Кинерет\, Израиль
+DESCRIPTION:Общефестивальное событие.
+LOCATION:Кинерет
 URL:https://mim21.github.io/sunfest/#event-%D0%97%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8F-%D0%A1%D0%B0%D1%83%D0%BD%D0%B4%D1%85%D0%B8%D0%BB%D0%BB%D0%B8%D0%BD%D0%B3-%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-20260620-1310
 END:VEVENT
 END:VCALENDAR
