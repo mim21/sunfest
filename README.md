@@ -23,7 +23,9 @@ but the data **source is a festival website** (not a WhatsApp chat).
 The festival is one **headline card** (dates, price tiers, lineup) plus an
 individual card for **every master-class / concert / ceremony** in the schedule.
 
-The page has client-side **filters by Ведущий (facilitator) and by event type**.
+The page has cascading client-side **filters by Ведущий, Категория and Тип
+события**, plus a **"Скачать видимые (.ics)"** button that exports exactly the
+currently-visible events to a calendar file (rebuilt on every filter change).
 The filter script is inline and allowed by a strict CSP via its sha256 hash
 (no `unsafe-inline` for scripts).
 

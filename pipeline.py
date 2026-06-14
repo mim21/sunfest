@@ -633,8 +633,10 @@ def _make_card(event):
     featured = ' featured' if etype == 'festival' else ''
     master = _str(event.get('facilitator'))
     cat_filter = '' if category == 'Все мастер-классы' else category
+    _cal = _event_cal_data(event, event_url)
+    ics_b64 = base64.b64encode('\r\n'.join(_cal[4]).encode('utf-8')).decode('ascii') if _cal else ''
 
-    return f"""<div class="card{featured}" id="{slug}" data-master="{h(master)}" data-cat="{h(cat_filter)}" data-type="{h(label)}" style="background:{card_bg}">
+    return f"""<div class="card{featured}" id="{slug}" data-master="{h(master)}" data-cat="{h(cat_filter)}" data-type="{h(label)}" data-ics="{ics_b64}" style="background:{card_bg}">
   {status_html}
   {img_tag}
   <div class="card-body">
@@ -694,6 +696,7 @@ def step_html():
         f'<label>Категория: <select id="f-cat"><option value="">Все</option>{cat_opts}</select></label>'
         f'<label>Тип события: <select id="f-type"><option value="">Все</option>{type_opts}</select></label>'
         '<span id="f-count"></span>'
+        '<a id="dl-visible" class="cal-link full-cal-dl" download="sunfest-filtered.ics" href="#">📅 Скачать видимые (.ics)</a>'
         '</div>'
     )
     # Inline filter script — CSP allows it via its sha256 hash (script-src stays strict).
@@ -701,10 +704,19 @@ def step_html():
     filter_js = (
         "(function(){"
         "var fm=document.getElementById('f-master'),fc=document.getElementById('f-cat'),"
-        "ft=document.getElementById('f-type'),cn=document.getElementById('f-count');"
+        "ft=document.getElementById('f-type'),cn=document.getElementById('f-count'),"
+        "dl=document.getElementById('dl-visible');"
         "var cards=Array.prototype.slice.call(document.querySelectorAll('.grid .card'));"
         "var data=cards.map(function(c){return {el:c,m:c.getAttribute('data-master'),"
-        "c:c.getAttribute('data-cat'),t:c.getAttribute('data-type')};});"
+        "c:c.getAttribute('data-cat'),t:c.getAttribute('data-type'),i:c.getAttribute('data-ics')};});"
+        "function enc(s){return btoa(unescape(encodeURIComponent(s)));}"
+        "function dec(s){return decodeURIComponent(escape(atob(s)));}"
+        "function buildICS(){var v=data.filter(function(d){return d.el.style.display!=='none'&&d.i;})"
+        ".map(function(d){return dec(d.i);});"
+        "var ics='BEGIN:VCALENDAR\\r\\nVERSION:2.0\\r\\nPRODID:-//sunfest//pipeline//RU\\r\\n'"
+        "+'X-WR-CALNAME:SunFest \\u2014 \\u0432\\u044b\\u0431\\u0440\\u0430\\u043d\\u043d\\u044b\\u0435\\r\\n'"
+        "+'X-WR-TIMEZONE:Asia/Jerusalem\\r\\n'+v.join('\\r\\n')+'\\r\\nEND:VCALENDAR\\r\\n';"
+        "dl.href='data:text/calendar;base64,'+enc(ics);dl.style.display=v.length?'':'none';}"
         "function uniq(a){return a.filter(function(v,i){return v&&a.indexOf(v)===i;})"
         ".sort(function(x,y){return x.localeCompare(y,'ru');});}"
         "function fill(sel,vals){var cur=sel.value;sel.length=1;vals.forEach(function(v){"
@@ -720,7 +732,7 @@ def step_html():
         "fill(ft,uniq(data.filter(function(d){return match(d,'t');}).map(function(d){return d.t;})));}"
         "function apply(){var n=0;data.forEach(function(d){var ok=match(d,null);"
         "d.el.style.display=ok?'':'none';if(ok)n++;});"
-        "cn.textContent='Показано: '+n+' из '+cards.length;}"
+        "cn.textContent='Показано: '+n+' из '+cards.length;buildICS();}"
         "function onChange(){refresh();apply();}"
         "fm.addEventListener('change',onChange);fc.addEventListener('change',onChange);"
         "ft.addEventListener('change',onChange);refresh();apply();"
