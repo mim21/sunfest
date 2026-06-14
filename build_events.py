@@ -192,8 +192,38 @@ IMAGE = {
 }
 
 
-def event_image(title):
-    return IMAGE.get(PAGE.get(title))
+# Facilitator → image from their master page (fallback when the event page has none)
+MASTER_IMG = {
+    'Эрик Розенталь': 'https://sunfest.co.il/images/upload-20260605-214237-6a2342cd05036-og.jpg',
+    'Вишвас': 'https://sunfest.co.il/images/upload-20260208-023009-6987d91105753-og.jpg',
+    'Эзра Щебальский': 'https://sunfest.co.il/images/upload-20260208-021623-6987d5d794d0b-og.jpg',
+    'Борис Мельцер': 'https://sunfest.co.il/images/upload-20260205-153132-69849bb49b03b-og.jpg',
+    'Оксана Керен-Злата': 'https://sunfest.co.il/images/upload-20260205-152500-69849a2ccd3dd-og.jpg',
+    'Катя Величко': 'https://sunfest.co.il/images/upload-20260203-233152-69826948b767b-og.jpg',
+    'Кирилл Саблин': 'https://sunfest.co.il/images/upload-20260208-022756-6987d88cc8979-og.jpg',
+    'Константин Грингут': 'https://sunfest.co.il/images/upload-20260208-012915-6987cacb0f466-og.jpg',
+    'Либи Гордон': 'https://sunfest.co.il/images/upload-20260208-015916-6987d1d45d4b0-og.jpg',
+    'Александра Тропп': 'https://sunfest.co.il/images/upload-20260531-202835-6a1c99f341dbe-og.jpg',
+    'Митя Колтун': 'https://sunfest.co.il/images/upload-20260205-151012-698496b45d19e-og.jpg',
+    'Мария Рабин': 'https://sunfest.co.il/images/upload-20260605-214144-6a2342985c672-og.jpg',
+    'Ян Осадчий': 'https://sunfest.co.il/images/upload-20260531-202744-6a1c99c033e26-og.jpg',
+    'Семён Графман': 'https://sunfest.co.il/images/upload-20260209-142516-6989d22ccb65e-og.jpg',
+    'Жанна Касплер-Алон': 'https://sunfest.co.il/images/upload-20260531-202126-6a1c98462d8c2-og.jpg',
+    'Алекс Кап': 'https://sunfest.co.il/images/upload-20260209-134632-6989c91889640-og.jpg',
+    'Роман Тизенберг': 'https://sunfest.co.il/images/upload-20260205-152932-69849b3c6bb6b-og.jpg',
+    'Ольга Шнайдер (Симери)': 'https://sunfest.co.il/images/upload-20260208-015540-6987d0fc4dc94-og.jpg',
+    'Александр Коско': 'https://sunfest.co.il/images/upload-20260208-013756-6987ccd49a92f-og.jpg',
+    'Ольга Альвайс': 'https://sunfest.co.il/images/upload-20260208-021756-6987d63411c49-og.jpg',
+    'Мири Мельничук': 'https://sunfest.co.il/images/upload-20260208-012645-6987ca35be69b-og.jpg',
+    'Елена Чудная': 'https://sunfest.co.il/images/upload-20260531-202659-6a1c99932d575-og.jpg',
+    'Михаэль Натанэль': 'https://sunfest.co.il/images/upload-20260209-135833-6989cbe9e8c8d-og.jpg',
+    'Игорь Юровский': 'https://sunfest.co.il/images/upload-20260208-022847-6987d8bfa45ba-og.jpg',
+    # Марк Мальцер: his master page has no usable image → no fallback
+}
+
+
+def event_image(title, master=None):
+    return IMAGE.get(PAGE.get(title)) or MASTER_IMG.get(master)
 POSTER     = 'https://sunfest.co.il/images/page-header-bg.jpg'  # festival hero banner (og:image is 404)
 CITY       = None           # location intentionally omitted from cards
 POST_DATE  = '2026-06-09'   # date the schedule was published / last seen
@@ -313,7 +343,7 @@ def make_workshop(day, start, end, master, title):
         'price_details': None,
         'description': desc,
         'registration_link': event_link(title),
-        'image_url': event_image(title),
+        'image_url': event_image(title, master),
         'contact_info': {'phone': [], 'telegram': [], 'instagram': [], 'other': []},
         'source_messages': [{
             'line_reference': None,
