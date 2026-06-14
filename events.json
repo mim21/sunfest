@@ -2,7 +2,7 @@
   {
     "title": "Фестиваль «Сила Солнца» 2026",
     "event_type": "festival",
-    "category": "Все мастер-классы",
+    "category": "Общефестивальное событие.",
     "facilitator": null,
     "status": "scheduled",
     "date_only": "2026-06-18",
@@ -365,7 +365,7 @@
   {
     "title": "Праздник Летнего Солнцестояния: прыжки через костёр, музыкальный джем",
     "event_type": "ceremony",
-    "category": "Все мастер-классы",
+    "category": "Общефестивальное событие.",
     "facilitator": null,
     "status": "scheduled",
     "date_only": "2026-06-18",
@@ -379,7 +379,7 @@
     "price_unit": null,
     "price_note": null,
     "price_details": null,
-    "description": "Общефестивальное событие.",
+    "description": null,
     "registration_link": "https://sunfest.co.il/plan.html",
     "image_url": null,
     "contact_info": {
@@ -470,7 +470,7 @@
   {
     "title": "Гвоздестояние. Тело помнит всё!",
     "event_type": "workshop",
-    "category": "Все мастер-классы",
+    "category": "Телесные практики и энергия",
     "facilitator": "Александра Тропп",
     "status": "scheduled",
     "date_only": "2026-06-19",
@@ -1205,7 +1205,7 @@
   {
     "title": "Искусство быть желанной. Коды женского соблазна (для девушек)",
     "event_type": "workshop",
-    "category": "Все мастер-классы",
+    "category": "Отношения и близость",
     "facilitator": "Елена Чудная",
     "status": "scheduled",
     "date_only": "2026-06-19",
@@ -1380,7 +1380,7 @@
   {
     "title": "Экстатик-денс в наушниках (дресс-код белый), джем, посиделки у костра",
     "event_type": "dance",
-    "category": "Все мастер-классы",
+    "category": "Общефестивальное событие.",
     "facilitator": null,
     "status": "scheduled",
     "date_only": "2026-06-19",
@@ -1394,7 +1394,7 @@
     "price_unit": null,
     "price_note": null,
     "price_details": null,
-    "description": "Общефестивальное событие.",
+    "description": null,
     "registration_link": "https://sunfest.co.il/plan.html",
     "image_url": null,
     "contact_info": {
@@ -1590,7 +1590,7 @@
   {
     "title": "Гвоздестояние. Тело помнит всё!",
     "event_type": "workshop",
-    "category": "Все мастер-классы",
+    "category": "Телесные практики и энергия",
     "facilitator": "Александра Тропп",
     "status": "scheduled",
     "date_only": "2026-06-20",
@@ -1870,7 +1870,7 @@
   {
     "title": "Закрытие фестиваля. Саундхиллинг, интеграция",
     "event_type": "ceremony",
-    "category": "Все мастер-классы",
+    "category": "Общефестивальное событие.",
     "facilitator": null,
     "status": "scheduled",
     "date_only": "2026-06-20",
@@ -1884,7 +1884,7 @@
     "price_unit": null,
     "price_note": null,
     "price_details": null,
-    "description": "Общефестивальное событие.",
+    "description": null,
     "registration_link": "https://sunfest.co.il/plan.html",
     "image_url": null,
     "contact_info": {

@@ -103,6 +103,7 @@ CATEGORY = {
     'zhenskiy-krug-s-neyrograficheskimi-praktikami-perehod.html': 'creative',
     'zhenskiy-sakralniy-tanec.html': 'body',
     'zvuchat-vsem-telom.html': 'music',
+    'iskusstvo-byt-zhelannoy-kody-zhenskogo-soblazna.html': 'love',
     'istselyayuschee-kasanie.html': 'body',
     'frisson-trio.html': 'music',
     'krug-znakomstv.html': 'love',
@@ -117,6 +118,7 @@ CATEGORY = {
     'smehoyoga.html': 'breath',
     'tanets-otnosheniy.html': 'contact',
     'tayskaya-yoga.html': 'body',
+    'gvozdi.html': 'body',
     'tibetskie-chashi-zvuk-kotoryy-vedyot.html': 'music',
     'hatkha-yoga.html': 'body',
     'tsigun.html': 'body',
@@ -125,7 +127,7 @@ CATEGORY = {
     'intuitivnyy-kontaktnyy-tanets.html': 'contact',
 }
 CAT_LABEL = {
-    'all':          'Все мастер-классы',
+    'all':          'Общефестивальное событие.',
     'body':         'Телесные практики и энергия',
     'breath':       'Дыхание и трансформационные практики',
     'creative':     'Творчество и самовыражение',
@@ -322,7 +324,7 @@ def classify(title, master):
 
 def make_workshop(day, start, end, master, title):
     etype = classify(title, master)
-    desc = f'Ведущий: {master}.' if master else 'Общефестивальное событие.'
+    desc = f'Ведущий: {master}.' if master else None  # festival-wide events: the category mark carries the label
     raw = f'{day} июня 2026'
     return {
         'title': title,

@@ -632,7 +632,7 @@ def _make_card(event):
     cal_html = _make_cal_links(event, event_url)
     featured = ' featured' if etype == 'festival' else ''
     master = _str(event.get('facilitator'))
-    cat_filter = '' if category == 'Все мастер-классы' else category
+    cat_filter = category
     _cal = _event_cal_data(event, event_url)
     ics_b64 = base64.b64encode('\r\n'.join(_cal[4]).encode('utf-8')).decode('ascii') if _cal else ''
 
@@ -684,8 +684,7 @@ def step_html():
 
     # ── Filter controls: by facilitator (Ведущий), category (Категория), event type ──
     facilitators = sorted({_str(e.get('facilitator')) for e in events if _str(e.get('facilitator'))})
-    categories   = sorted({_str(e.get('category')) for e in events
-                           if _str(e.get('category')) and _str(e.get('category')) != 'Все мастер-классы'})
+    categories   = sorted({_str(e.get('category')) for e in events if _str(e.get('category'))})
     type_labels  = sorted({TYPE_LABELS.get(_str(e.get('event_type')) or 'other', ('✨', 'Событие'))[1] for e in events})
     master_opts  = ''.join(f'<option value="{h(m)}">{h(m)}</option>' for m in facilitators)
     cat_opts     = ''.join(f'<option value="{h(c)}">{h(c)}</option>' for c in categories)
