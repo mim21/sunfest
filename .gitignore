@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 *.tmp
 .DS_Store
+
+# Personal, machine-local Claude Code config (never publish)
+.claude/settings.local.json
