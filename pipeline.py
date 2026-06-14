@@ -691,17 +691,28 @@ def step_html():
         '<span id="f-count"></span>'
         '</div>'
     )
-    # Inline filter script — CSP allows it via its sha256 hash (script-src stays strict)
+    # Inline filter script — CSP allows it via its sha256 hash (script-src stays strict).
+    # The two dropdowns cascade: each lists only values valid for the other's selection.
     filter_js = (
         "(function(){"
         "var fm=document.getElementById('f-master'),ft=document.getElementById('f-type'),"
-        "fc=document.getElementById('f-count'),cards=document.querySelectorAll('.grid .card');"
-        "function apply(){var m=fm.value,t=ft.value,n=0;cards.forEach(function(c){"
-        "var okm=!m||c.getAttribute('data-master')===m;"
-        "var okt=!t||c.getAttribute('data-type')===t;"
-        "var ok=okm&&okt;c.style.display=ok?'':'none';if(ok)n++;});"
+        "fc=document.getElementById('f-count');"
+        "var cards=Array.prototype.slice.call(document.querySelectorAll('.grid .card'));"
+        "var data=cards.map(function(c){return {el:c,m:c.getAttribute('data-master'),t:c.getAttribute('data-type')};});"
+        "function uniq(a){return a.filter(function(v,i){return v&&a.indexOf(v)===i;})"
+        ".sort(function(x,y){return x.localeCompare(y,'ru');});}"
+        "function fill(sel,vals){var cur=sel.value;sel.length=1;vals.forEach(function(v){"
+        "var o=document.createElement('option');o.value=v;o.textContent=v;sel.appendChild(o);});"
+        "sel.value=vals.indexOf(cur)>=0?cur:'';}"
+        "function refresh(){var m=fm.value,t=ft.value;"
+        "fill(fm,uniq(data.filter(function(d){return !t||d.t===t;}).map(function(d){return d.m;})));"
+        "fill(ft,uniq(data.filter(function(d){return !m||d.m===m;}).map(function(d){return d.t;})));}"
+        "function apply(){var m=fm.value,t=ft.value,n=0;data.forEach(function(d){"
+        "var ok=(!m||d.m===m)&&(!t||d.t===t);d.el.style.display=ok?'':'none';if(ok)n++;});"
         "fc.textContent='Показано: '+n+' из '+cards.length;}"
-        "fm.addEventListener('change',apply);ft.addEventListener('change',apply);apply();"
+        "function onChange(){refresh();apply();}"
+        "fm.addEventListener('change',onChange);ft.addEventListener('change',onChange);"
+        "refresh();apply();"
         "})();"
     )
     js_hash = base64.b64encode(hashlib.sha256(filter_js.encode('utf-8')).digest()).decode('ascii')
