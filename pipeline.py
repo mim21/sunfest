@@ -20,7 +20,6 @@ import base64
 import hashlib
 import ipaddress
 import json
-import math
 import os
 import re
 import socket
@@ -732,16 +731,6 @@ def _make_card(event):
             contacts.append(f'<a class="contact-ig" href="https://instagram.com/{h(handle)}" target="_blank" rel="noopener noreferrer">📷 {h(handle)}</a>')
     contact_html = ''.join(contacts)
 
-    try:
-        conf = float(event.get('confidence', 0))
-        if not math.isfinite(conf):
-            conf = 0.0
-        conf = max(0.0, min(1.0, conf))
-    except (TypeError, ValueError):
-        conf = 0.0
-    conf_color = '#28a745' if conf >= 0.8 else '#ffc107' if conf >= 0.5 else '#dc3545'
-    dot_count = round(conf * 5)
-    dots = '●' * dot_count + '○' * (5 - dot_count)
     slug = _event_slug(event)
     event_url = f'{SITE_URL}/#{slug}'
     featured = ' featured' if etype == 'festival' else ''
@@ -757,7 +746,6 @@ def _make_card(event):
   <div class="card-body">
     <div class="card-header-row">
       <span class="badge">{icon} {label}</span>
-      <span class="confidence" style="color:{conf_color}" title="{dot_count * 20}%">{dots}</span>
     </div>
     <h2 class="card-title">{title}</h2>
     {cat_mark}
@@ -905,7 +893,6 @@ def step_html():
     .card-body {{ padding: 16px; flex: 1; display: flex; flex-direction: column; gap: 6px; }}
     .card-header-row {{ display: flex; justify-content: space-between; align-items: center; }}
     .badge {{ font-size: 0.75rem; padding: 3px 10px; border-radius: 999px; background: #fff0db; color: #c2410c; font-weight: 600; }}
-    .confidence {{ font-size: 0.7rem; letter-spacing: 1px; }}
     .card-title {{ font-size: 1.1rem; font-weight: 700; color: #1a202c; margin: 4px 0; line-height: 1.3; }}
     .cat-mark {{ display: inline-block; align-self: flex-start; font-size: 0.72rem; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: #f59e0b; color: #fff; text-decoration: none; }}
     .cat-mark:hover {{ background: #d97706; }}
