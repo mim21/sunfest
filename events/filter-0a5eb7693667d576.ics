@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:SunFest — подборка
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:d66fad42de6a0373e902d7a601006c44@sunfest
+DTSTAMP:20260614T114928Z
+DTSTART:20260619T070000
+DTEND:20260619T083000
+SUMMARY:Гвоздестояние. Тело помнит всё!
+DESCRIPTION:Ведущий: Александра Тропп. Стояние на гвоздях с дыханием\, звуком и работой в парах.
+URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%B2%D0%BE%D0%B7%D0%B4%D0%B5%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5-%D0%A2%D0%B5%D0%BB%D0%BE-%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8%D1%82-%D0%B2%D1%81%D1%91-20260619-0700
+END:VEVENT
+BEGIN:VEVENT
+UID:7cd8415c9daad0c77d20e1c04c186225@sunfest
+DTSTAMP:20260614T114928Z
+DTSTART:20260620T070000
+DTEND:20260620T083000
+SUMMARY:Гвоздестояние. Тело помнит всё!
+DESCRIPTION:Ведущий: Александра Тропп. Стояние на гвоздях с дыханием\, звуком и работой в парах.
+URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%B2%D0%BE%D0%B7%D0%B4%D0%B5%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5-%D0%A2%D0%B5%D0%BB%D0%BE-%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8%D1%82-%D0%B2%D1%81%D1%91-20260620-0700
+END:VEVENT
+END:VCALENDAR

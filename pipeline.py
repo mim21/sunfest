@@ -581,9 +581,70 @@ def _write_event_cals(events):
         ] + result[4] + ['END:VCALENDAR']
         (EVENTS_DIR / name).write_text('\r\n'.join(lines) + '\r\n', encoding='utf-8')
     for stale in EVENTS_DIR.glob('*.ics'):
-        if stale.name not in keep:
+        if stale.name not in keep and not stale.name.startswith('filter-'):
             stale.unlink()
     return len(keep)
+
+
+def _filter_label(e):
+    return TYPE_LABELS.get(_str(e.get('event_type')) or 'other', ('✨', 'Событие'))[1]
+
+
+def _write_filter_cals(events):
+    '''Pre-generate a feed for every reachable filter combination, so the
+    "subscribe to visible" button always has a real, auto-updating feed to point
+    at. Returns {set-key: absolute feed URL}, where set-key is the sorted
+    per-event feed names of the matching events — exactly what the page JS builds
+    from the currently-visible cards. Distinct result-sets are deduplicated:
+    the full set → calendar.ics, a single event → its per-event feed, otherwise
+    a shared filter-<hash>.ics.'''
+    dated = [e for e in events if _event_cal_data(e, '')]
+    if not dated:
+        return {}
+    masters = sorted({_str(e.get('facilitator')) for e in dated if _str(e.get('facilitator'))})
+    cats    = sorted({_str(e.get('category')) for e in dated if _str(e.get('category'))})
+    types   = sorted({_filter_label(e) for e in dated})
+    base    = CALENDAR_TRACKER.rstrip('/') or SITE_URL
+    all_key = '|'.join(sorted(_event_ics_name(e) for e in dated))
+
+    feed_map, written = {}, set()
+    for m in [''] + masters:
+        for c in [''] + cats:
+            for t in [''] + types:
+                sel = [e for e in dated
+                       if (not m or _str(e.get('facilitator')) == m)
+                       and (not c or _str(e.get('category')) == c)
+                       and (not t or _filter_label(e) == t)]
+                if not sel:
+                    continue
+                key = '|'.join(sorted(_event_ics_name(e) for e in sel))
+                if key in feed_map:
+                    continue
+                if key == all_key:
+                    feed_map[key] = base + '/calendar.ics'
+                elif len(sel) == 1:
+                    feed_map[key] = base + '/events/' + _event_ics_name(sel[0])
+                else:
+                    fname = 'filter-' + hashlib.md5(key.encode('utf-8')).hexdigest()[:16] + '.ics'
+                    if fname not in written:
+                        written.add(fname)
+                        lines = [
+                            'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//sunfest//pipeline//RU',
+                            'X-WR-CALNAME:SunFest — подборка',
+                            'X-WR-TIMEZONE:Asia/Jerusalem',
+                            'REFRESH-INTERVAL;VALUE=DURATION:PT12H', 'X-PUBLISHED-TTL:PT12H',
+                        ]
+                        for e in sel:
+                            r = _event_cal_data(e, f'{SITE_URL}/#{_event_slug(e)}')
+                            if r:
+                                lines += r[4]
+                        lines.append('END:VCALENDAR')
+                        (EVENTS_DIR / fname).write_text('\r\n'.join(lines) + '\r\n', encoding='utf-8')
+                    feed_map[key] = base + '/events/' + fname
+    for stale in EVENTS_DIR.glob('filter-*.ics'):
+        if stale.name not in written:
+            stale.unlink()
+    return feed_map
 
 
 def _make_card(event):
@@ -667,7 +728,7 @@ def _make_card(event):
     master = _str(event.get('facilitator'))
     cat_filter = category
 
-    return f"""<div class="card{featured}" id="{slug}" data-master="{h(master)}" data-cat="{h(cat_filter)}" data-type="{h(label)}" style="background:{card_bg}">
+    return f"""<div class="card{featured}" id="{slug}" data-master="{h(master)}" data-cat="{h(cat_filter)}" data-type="{h(label)}" data-feed="{_event_ics_name(event)}" style="background:{card_bg}">
   {status_html}
   {img_tag}
   <div class="card-body">
@@ -713,7 +774,10 @@ def step_html():
     full_cal_html, ics_content = _make_full_cal(events)
     OUTPUT_CAL.write_text(ics_content, encoding='utf-8')
     n_feeds = _write_event_cals(events)
-    print(f"  Wrote {n_feeds} per-event .ics feeds → {EVENTS_DIR}")
+    feed_map = _write_filter_cals(events)
+    n_filter = len(list(EVENTS_DIR.glob('filter-*.ics')))
+    feed_map_json = json.dumps(feed_map, ensure_ascii=True, separators=(',', ':'))
+    print(f"  Wrote {n_feeds} per-event + {n_filter} filter .ics feeds → {EVENTS_DIR}")
 
     # ── Filter controls: by facilitator (Ведущий), category (Категория), event type ──
     facilitators = sorted({_str(e.get('facilitator')) for e in events if _str(e.get('facilitator'))})
@@ -728,6 +792,10 @@ def step_html():
         f'<label>Категория: <select id="f-cat"><option value="">Все</option>{cat_opts}</select></label>'
         f'<label>Формат: <select id="f-type"><option value="">Все</option>{type_opts}</select></label>'
         '<span id="f-count"></span>'
+        '<span id="vis-sub">Подписаться на видимые: '
+        '<a id="sub-va" class="cal-link apple" href="#">📅 Apple</a>'
+        '<a id="sub-vg" class="cal-link gcal" href="#" target="_blank" rel="noopener noreferrer">📅 Google</a>'
+        '</span>'
         '</div>'
     )
     # Inline filter script — CSP allows it via its sha256 hash (script-src stays strict).
@@ -735,10 +803,18 @@ def step_html():
     filter_js = (
         "(function(){"
         "var fm=document.getElementById('f-master'),fc=document.getElementById('f-cat'),"
-        "ft=document.getElementById('f-type'),cn=document.getElementById('f-count');"
+        "ft=document.getElementById('f-type'),cn=document.getElementById('f-count'),"
+        "sva=document.getElementById('sub-va'),svg=document.getElementById('sub-vg'),"
+        "svs=document.getElementById('vis-sub');"
+        "var FEEDMAP=" + feed_map_json + ";"
         "var cards=Array.prototype.slice.call(document.querySelectorAll('.grid .card'));"
         "var data=cards.map(function(c){return {el:c,m:c.getAttribute('data-master'),"
-        "c:c.getAttribute('data-cat'),t:c.getAttribute('data-type')};});"
+        "c:c.getAttribute('data-cat'),t:c.getAttribute('data-type'),f:c.getAttribute('data-feed')};});"
+        "function updateSub(){var vis=data.filter(function(d){return d.el.style.display!=='none';})"
+        ".map(function(d){return d.f;}).sort();var u=FEEDMAP[vis.join('|')];"
+        "if(u){var w=u.replace('https://','webcal://');sva.href=w;"
+        "svg.href='https://calendar.google.com/calendar/r?cid='+encodeURIComponent(w);"
+        "svs.style.display='';}else{svs.style.display='none';}}"
         "function uniq(a){return a.filter(function(v,i){return v&&a.indexOf(v)===i;})"
         ".sort(function(x,y){return x.localeCompare(y,'ru');});}"
         "function fill(sel,vals){var cur=sel.value;sel.length=1;vals.forEach(function(v){"
@@ -754,7 +830,7 @@ def step_html():
         "fill(ft,uniq(data.filter(function(d){return match(d,'t');}).map(function(d){return d.t;})));}"
         "function apply(){var n=0;data.forEach(function(d){var ok=match(d,null);"
         "d.el.style.display=ok?'':'none';if(ok)n++;});"
-        "cn.textContent='Показано: '+n+' из '+cards.length;}"
+        "cn.textContent='Показано: '+n+' из '+cards.length;updateSub();}"
         "function onChange(){refresh();apply();}"
         "fm.addEventListener('change',onChange);fc.addEventListener('change',onChange);"
         "ft.addEventListener('change',onChange);refresh();apply();"
@@ -842,6 +918,7 @@ def step_html():
     .filters label {{ font-size: 0.85rem; color: #92633a; font-weight: 600; }}
     .filters select {{ font-size: 0.85rem; padding: 6px 10px; border-radius: 8px; border: 1px solid #f0c98a; background: #fff; color: #1a202c; max-width: 280px; margin-left: 4px; }}
     #f-count {{ font-size: 0.8rem; color: #b08d63; }}
+    #vis-sub {{ font-size: 0.85rem; color: #92633a; font-weight: 600; display: inline-flex; gap: 6px; align-items: center; flex-wrap: wrap; }}
     footer {{ text-align: center; margin-top: 40px; color: #b08d63; font-size: 0.8rem; }}
     .last-updated {{ font-size: 0.8rem; color: #b08d63; margin-top: 4px; }}
   </style>

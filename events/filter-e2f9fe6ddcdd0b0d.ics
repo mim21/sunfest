@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:SunFest — подборка
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:e267dd9af92bc9cf2e1680d6a8a8d3da@sunfest
+DTSTAMP:20260614T114928Z
+DTSTART:20260619T143000
+DTEND:20260619T160000
+SUMMARY:Аутентичное движение
+DESCRIPTION:Ведущий: Катя Величко. Свободное движение с закрытыми глазами в присутствии наблюдателя-свидетеля.
+URL:https://mim21.github.io/sunfest/#event-%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%87%D0%BD%D0%BE%D0%B5-%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-20260619-1430
+END:VEVENT
+BEGIN:VEVENT
+UID:c41d267e04ebff6eea55d9130faf4734@sunfest
+DTSTAMP:20260614T114928Z
+DTSTART:20260619T163000
+DTEND:20260619T180000
+SUMMARY:Танец отношений
+DESCRIPTION:Ведущий: Александр Коско. Парные двигательные упражнения\, проигрывающие этапы отношений через тело.
+URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B0%D0%BD%D0%B5%D1%86-%D0%BE%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D0%B9-20260619-1630
+END:VEVENT
+BEGIN:VEVENT
+UID:227a1def38491c7430a4437ad2e6dcaf@sunfest
+DTSTAMP:20260614T114928Z
+DTSTART:20260620T093000
+DTEND:20260620T110000
+SUMMARY:Интуитивный контактный танец
+DESCRIPTION:Ведущий: Катя Величко. Импровизация в парах через спонтанное движение и контакт тел.
+URL:https://mim21.github.io/sunfest/#event-%D0%98%D0%BD%D1%82%D1%83%D0%B8%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%BD%D1%8B%D0%B9-%D1%82%D0%B0%D0%BD%D0%B5%D1%86-20260620-0930
+END:VEVENT
+END:VCALENDAR
