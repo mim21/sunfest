@@ -1,1 +1,0 @@
-playwright   # optional — only needed for the enrich step (python pipeline.py)
