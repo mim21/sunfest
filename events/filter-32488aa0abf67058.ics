@@ -7,26 +7,26 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:60cc233dd3e0a290e5f8ba41a0d5b728@sunfest
-DTSTAMP:20260615T105323Z
+DTSTAMP:20260615T121120Z
 DTSTART:20260619T070000
 DTEND:20260619T083000
 SUMMARY:Цигун
 DESCRIPTION:Ведущий: Мария Рабин. Медленные ос
  ознанные движения с дыханием в стиле Ней
  гун.
-URL:https://sunfest-festival.netlify.app/#event-%D0%A6%D0%B8%D0%B3%D1%83%D0
- %BD-20260619-0700
+URL:https://mim21.github.io/sunfest/#event-%D0%A6%D0%B8%D0%B3%D1%83%D0%BD-2
+ 0260619-0700
 END:VEVENT
 BEGIN:VEVENT
 UID:c23b99303d7c410dde98a8f7350607af@sunfest
-DTSTAMP:20260615T105323Z
+DTSTAMP:20260615T121120Z
 DTSTART:20260620T070000
 DTEND:20260620T083000
 SUMMARY:Тайская йога
 DESCRIPTION:Ведущий: Мария Рабин. Мягкие растя
  жки\, скручивания и статические позы с ос
  ознанным дыханием.
-URL:https://sunfest-festival.netlify.app/#event-%D0%A2%D0%B0%D0%B9%D1%81%D0
- %BA%D0%B0%D1%8F-%D0%B9%D0%BE%D0%B3%D0%B0-20260620-0700
+URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D
+ 0%B0%D1%8F-%D0%B9%D0%BE%D0%B3%D0%B0-20260620-0700
 END:VEVENT
 END:VCALENDAR
