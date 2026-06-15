@@ -833,7 +833,7 @@ def step_html():
         "c:c.getAttribute('data-cat'),t:c.getAttribute('data-type'),f:c.getAttribute('data-feed')};});"
         "function updateSub(){var vis=data.filter(function(d){return d.el.style.display!=='none';})"
         ".map(function(d){return d.f;}).sort();var u=FEEDMAP[vis.join('|')];"
-        "if(u){var w=u.replace('https://','webcal://');sva.href=w;"
+        "if(u&&vis.length<data.length){var w=u.replace('https://','webcal://');sva.href=w;"
         "svg.href='https://calendar.google.com/calendar/r?cid='+encodeURIComponent(w);"
         "svs.style.display='';}else{svs.style.display='none';}}"
         "function uniq(a){return a.filter(function(v,i){return v&&a.indexOf(v)===i;})"
