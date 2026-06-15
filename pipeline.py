@@ -817,12 +817,10 @@ def step_html():
         '<div class="filters">'
         f'<label>Ведущий: <select id="f-master"><option value="">Все</option>{master_opts}</select></label>'
         f'<label>Категория: <select id="f-cat"><option value="">Все</option>{cat_opts}</select></label>'
-        f'<label class="f-type-label">Формат: <select id="f-type"><option value="">Все</option>{type_opts}</select></label>'
+        f'<label>Формат: <select id="f-type"><option value="">Все</option>{type_opts}</select></label>'
         '<button type="button" id="f-reset">Сбросить</button>'
         '<span id="f-count"></span>'
-        '<span id="vis-sub">'
-        '<span class="sub-label-full">Подписаться на видимые: </span>'
-        '<span class="sub-label-short">Подписка: </span>'
+        '<span id="vis-sub">Подписаться на видимые: '
         '<a id="sub-va" class="cal-link apple" href="#">📅 Apple</a>'
         '<a id="sub-vg" class="cal-link gcal" href="#" target="_blank" rel="noopener noreferrer">📅 Google</a>'
         '</span>'
@@ -961,14 +959,6 @@ def step_html():
     .header-actions {{ margin-top: 14px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; align-items: center; }}
     .sub-all-label {{ font-size: 0.9rem; color: #92633a; font-weight: 600; }}
     .filters {{ position: sticky; top: 0; z-index: 100; background: #fff7e6; box-shadow: 0 2px 8px rgba(0,0,0,0.10); padding: 10px 16px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; align-items: center; }}
-    .sub-label-short {{ display: none; }}
-    @media (max-width: 640px) {{
-      .f-type-label {{ display: none; }}
-      #f-count {{ display: none; }}
-      .sub-label-full {{ display: none; }}
-      .sub-label-short {{ display: inline; }}
-      .filters {{ gap: 8px; padding: 8px 12px; }}
-    }}
     .filters label {{ font-size: 0.85rem; color: #92633a; font-weight: 600; }}
     .filters select {{ font-size: 0.85rem; padding: 6px 10px; border-radius: 8px; border: 1px solid #f0c98a; background: #fff; color: #1a202c; max-width: 280px; margin-left: 4px; }}
     #f-count {{ font-size: 0.8rem; color: #b08d63; }}
