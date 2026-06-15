@@ -815,10 +815,13 @@ def step_html():
     type_opts    = ''.join(f'<option value="{h(t)}">{h(t)}</option>' for t in type_labels)
     filter_html = (
         '<div class="filters">'
+        '<button type="button" id="f-toggle">🔍 Фильтры ▾</button>'
+        '<div id="f-controls">'
         f'<label>Ведущий: <select id="f-master"><option value="">Все</option>{master_opts}</select></label>'
         f'<label>Категория: <select id="f-cat"><option value="">Все</option>{cat_opts}</select></label>'
         f'<label>Формат: <select id="f-type"><option value="">Все</option>{type_opts}</select></label>'
         '<button type="button" id="f-reset">Сбросить</button>'
+        '</div>'
         '<span id="f-count"></span>'
         '<span id="vis-sub">Подписаться на видимые: '
         '<a id="sub-va" class="cal-link apple" href="#">📅 Apple</a>'
@@ -873,6 +876,10 @@ def step_html():
         "document.getElementById('f-reset').addEventListener('click',function(){"
         "fm.value='';fc.value='';ft.value='';onChange();});"
         "refresh();apply();"
+        "var ftog=document.getElementById('f-toggle'),fctl=document.getElementById('f-controls');"
+        "if(ftog){ftog.addEventListener('click',function(){"
+        "var open=fctl.classList.toggle('open');"
+        "ftog.textContent=open?'🔍 Фильтры ▴':'🔍 Фильтры ▾';});}"
         "})();"
     )
     js_hash = base64.b64encode(hashlib.sha256(filter_js.encode('utf-8')).digest()).decode('ascii')
@@ -959,6 +966,14 @@ def step_html():
     .header-actions {{ margin-top: 14px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; align-items: center; }}
     .sub-all-label {{ font-size: 0.9rem; color: #92633a; font-weight: 600; }}
     .filters {{ position: sticky; top: 0; z-index: 100; background: #fff7e6; box-shadow: 0 2px 8px rgba(0,0,0,0.10); padding: 10px 16px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; align-items: center; }}
+    #f-toggle {{ display: none; font-size: 0.85rem; padding: 6px 14px; border-radius: 8px; background: #f59e0b; color: white; border: none; font-weight: 600; cursor: pointer; }}
+    #f-controls {{ display: contents; }}
+    @media (max-width: 640px) {{
+      #f-toggle {{ display: block; }}
+      #f-controls {{ display: none; width: 100%; justify-content: center; flex-wrap: wrap; gap: 8px; padding-top: 6px; }}
+      #f-controls.open {{ display: flex; }}
+      #vis-sub {{ width: 100%; justify-content: center; }}
+    }}
     .filters label {{ font-size: 0.85rem; color: #92633a; font-weight: 600; }}
     .filters select {{ font-size: 0.85rem; padding: 6px 10px; border-radius: 8px; border: 1px solid #f0c98a; background: #fff; color: #1a202c; max-width: 280px; margin-left: 4px; }}
     #f-count {{ font-size: 0.8rem; color: #b08d63; }}
