@@ -958,7 +958,7 @@ def step_html():
     .cal-link.full-cal-gcal:hover {{ background: #d97706; }}
     .header-actions {{ margin-top: 14px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; align-items: center; }}
     .sub-all-label {{ font-size: 0.9rem; color: #92633a; font-weight: 600; }}
-    .filters {{ margin-top: 16px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; align-items: center; }}
+    .filters {{ position: sticky; top: 0; z-index: 100; background: #fff7e6; box-shadow: 0 2px 8px rgba(0,0,0,0.10); padding: 10px 16px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; align-items: center; }}
     .filters label {{ font-size: 0.85rem; color: #92633a; font-weight: 600; }}
     .filters select {{ font-size: 0.85rem; padding: 6px 10px; border-radius: 8px; border: 1px solid #f0c98a; background: #fff; color: #1a202c; max-width: 280px; margin-left: 4px; }}
     #f-count {{ font-size: 0.8rem; color: #b08d63; }}
@@ -973,8 +973,8 @@ def step_html():
     <p>Фестиваль духовных практик · 18–20 июня 2026 &nbsp;|&nbsp; {len(events)} событий</p>
     <p class="last-updated">Обновлено: {datetime.now().strftime('%d.%m.%Y %H:%M')}{_ver_str}</p>
     <div class="header-actions">{full_cal_html}</div>
-    {filter_html}
   </header>
+  {filter_html}
   <div class="grid">
     {cards_html}
   </div>
