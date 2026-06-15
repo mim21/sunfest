@@ -40,7 +40,7 @@ EVENTS_JSON = Path(os.environ.get('SUNFEST_EVENTS_JSON', Path(__file__).parent /
 OUTPUT_HTML = Path(os.environ.get('SUNFEST_OUTPUT_HTML', Path(__file__).parent / 'index.html'))
 OUTPUT_CAL  = Path(os.environ.get('SUNFEST_OUTPUT_CAL',  Path(__file__).parent / 'calendar.ics'))
 EVENTS_DIR  = OUTPUT_CAL.parent / 'events'   # per-event .ics feeds for subscription
-SITE_URL         = 'https://mim21.github.io/sunfest'
+SITE_URL         = os.environ.get('SUNFEST_SITE_URL', 'https://mim21.github.io/sunfest')
 # Set to your Cloudflare Worker URL if you want ICS subscription counting
 CALENDAR_TRACKER = os.environ.get('SUNFEST_CALENDAR_TRACKER', '')
 
