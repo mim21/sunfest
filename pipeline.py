@@ -40,7 +40,6 @@ EVENTS_JSON = Path(os.environ.get('SUNFEST_EVENTS_JSON', Path(__file__).parent /
 OUTPUT_HTML = Path(os.environ.get('SUNFEST_OUTPUT_HTML', Path(__file__).parent / 'index.html'))
 OUTPUT_CAL  = Path(os.environ.get('SUNFEST_OUTPUT_CAL',  Path(__file__).parent / 'calendar.ics'))
 EVENTS_DIR  = OUTPUT_CAL.parent / 'events'   # per-event .ics feeds for subscription
-IMAGES_DIR  = OUTPUT_HTML.parent / 'images'  # downloaded event images served as static files
 SITE_URL         = os.environ.get('SUNFEST_SITE_URL', 'https://mim21.github.io/sunfest')
 # Set to your Cloudflare Worker URL if you want ICS subscription counting
 CALENDAR_TRACKER = os.environ.get('SUNFEST_CALENDAR_TRACKER', '')
@@ -319,10 +318,9 @@ class _NoRedirectHandler(urllib.request.HTTPRedirectHandler):
 _no_redirect_opener = urllib.request.build_opener(_NoRedirectHandler())
 
 
-def _img_local(url):
-    '''Download a remote HTTPS image at build time, save to images/<hash>.<ext>,
-    and return the relative src path. Cached: skips download if file already exists.
-    Applies the same SSRF guards as before; serving is from our own domain.'''
+def _img_uri_remote(url):
+    '''Fetch a remote HTTPS image at build time and return a data URI.
+    Inlining avoids client-side requests to attacker-controlled hosts.'''
     if not _safe_url(url):
         return None
     try:
@@ -360,14 +358,7 @@ def _img_local(url):
             data = resp.read(10_000_001)
             if len(data) > 10_000_000:
                 return None
-            ext = {'image/jpeg': 'jpg', 'image/png': 'png', 'image/gif': 'gif',
-                   'image/webp': 'webp', 'image/svg+xml': 'svg'}.get(ct, 'bin')
-            fname = hashlib.md5(url.encode('utf-8')).hexdigest()[:16] + '.' + ext
-            IMAGES_DIR.mkdir(parents=True, exist_ok=True)
-            img_path = IMAGES_DIR / fname
-            if not img_path.exists():
-                img_path.write_bytes(data)
-            return 'images/' + fname
+            return f'data:{ct};base64,{base64.b64encode(data).decode("ascii")}'
     except Exception:
         return None
 
@@ -678,13 +669,13 @@ def _write_filter_cals(events):
 
 def _make_card(event):
     img_tag = ''
-    image_url = _safe_url(_str(event.get('image_url') or ''))
-    if image_url:
-        src = _img_local(image_url)
-        if src:
-            img_tag = f'<div class="card-img"><img src="{h(src)}" alt="" loading="lazy"/></div>'
-
     etype = _str(event.get('event_type')) or 'other'
+    image_url = _safe_url(_str(event.get('image_url') or ''))
+    if image_url and etype != 'festival':
+        uri = _img_uri_remote(image_url)
+        if uri:
+            img_tag = f'<div class="card-img"><img src="{uri}" alt="" loading="lazy"/></div>'
+
     icon, label = TYPE_LABELS.get(etype, ('✨', h(etype)))
     status = _str(event.get('status')) or 'scheduled'
     status_label, card_bg = STATUS_STYLES.get(status, ('', 'white'))
@@ -1056,7 +1047,7 @@ def step_push():
     except subprocess.CalledProcessError as ex:
         print(f'  Warning: pull --rebase skipped ({ex.stderr.strip()[:100]})')
     subprocess.run(
-        ['git', '-C', str(cwd), 'add', '-f', 'index.html', 'calendar.ics', 'events.json', 'images/'],
+        ['git', '-C', str(cwd), 'add', '-f', 'index.html', 'calendar.ics', 'events.json'],
         check=True
     )
     result = subprocess.run(
