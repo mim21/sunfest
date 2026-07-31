@@ -12,8 +12,12 @@ Non-negotiable rules:
 - A timetable is current only when its displayed festival dates match the
   future festival. Preserve superseded pages under `archive/`; do not relabel
   old calendar feeds as current.
+- This is a manually maintained static site. Never schedule or perform
+  background research, polling, message ingestion, or Unsplash/image refreshes.
+  Research and update only after an explicit user request.
 - Preserve unrelated changes. Validate locally, commit only intended files,
-  publish when requested, and verify both the live homepage and archive.
+  publish when requested, and make one bounded live check of the homepage and
+  archive.
 - Use the repository's existing Git remote and SSH access. Do not change global
   Git configuration, GitHub credentials, tokens, Pages settings, or repository
   permissions. If sandboxed DNS blocks an otherwise approved `git` or `curl`

@@ -8,6 +8,10 @@ description: Research, update, validate, archive, and publish the SunFest GitHub
 Run the whole sequence when publication is requested. Keep research bounded and
 do not turn a stale timetable into current information.
 
+This is a manually maintained static site. Never create scheduled jobs or
+background monitoring, ingest GitHub/email/chat messages, or refresh images
+from Unsplash. Research and updates happen only after an explicit user request.
+
 ## Establish state
 
 1. Read `AGENTS.md` and `.task-state.md` if one exists. Use task state only for
@@ -73,12 +77,13 @@ inside a preserved generated archive is not a reason to rewrite that archive.
 ## Verify GitHub Pages
 
 1. Confirm `origin/main` contains the exact local commit.
-2. Poll `https://mim21.github.io/sunfest/` and the current archive for up to
-   three minutes. Use a cache-busting query and bounded intervals.
-3. Require the live homepage to contain the future festival dates and the live
+2. After deployment completes, make one bounded request to
+   `https://mim21.github.io/sunfest/` and the current archive. Do not start a
+   recurring monitor or polling loop.
+3. Require the returned homepage to contain the future festival dates and the
    archive to contain its archive banner and old event cards. Do not report
    success while Pages still serves the previous commit.
-4. If Pages remains stale, report the pushed commit and deployment state; do
+4. If Pages is still stale, report the pushed commit and deployment state; do
    not alter Pages settings or credentials as an automatic workaround.
 
 Report the official sources and verification date, facts changed, validator
