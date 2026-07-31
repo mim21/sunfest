@@ -5,3 +5,6 @@ __pycache__/
 
 # Personal, machine-local Claude Code config (never publish)
 .claude/settings.local.json
+
+# Local agent checkpoint; never publish operational state
+.task-state.md

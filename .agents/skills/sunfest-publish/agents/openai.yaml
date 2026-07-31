@@ -1,0 +1,4 @@
+interface:
+  display_name: "SunFest Publish"
+  short_description: "Verify and publish the SunFest Pages site"
+  default_prompt: "Use $sunfest-publish to update and publish the current SunFest website."
