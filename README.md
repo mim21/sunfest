@@ -1,14 +1,14 @@
-# SunFest «Сила Солнца» — Event Calendar
+# SunFest «Сила Солнца»
 
-Auto-generated event calendar for the [SunFest festival](https://sunfest.co.il/).
+GitHub Pages companion site for the [SunFest festival](https://sunfest.co.il/).
 
 ## Live site
 
 **https://mim21.github.io/sunfest/**
 
-- Browse and filter workshops, concerts, and ceremonies
-- Subscribe to a calendar feed (Apple Calendar / Google Calendar)
-- Auto-updates whenever the schedule changes
+- Current festival overview: 15–17 October 2026, Kinneret
+- Confirmed program highlights, ticket prices, practical information, and contacts
+- The 18–20 June 2026 schedule is preserved at `/archive/summer-2026/`
 
 ## Calendar feeds
 
@@ -17,8 +17,8 @@ Auto-generated event calendar for the [SunFest festival](https://sunfest.co.il/)
 | All events | `https://mim21.github.io/sunfest/calendar.ics` |
 | Individual events | `https://mim21.github.io/sunfest/events/<id>.ics` |
 
-To subscribe, open your calendar app and add the URL as a subscription feed, or click the **📅 Apple / 📅 Google** buttons on the site.
+The feeds currently contain the archived June 2026 schedule. The homepage deliberately does not present those entries as the October timetable.
 
 ---
 
-*This repository contains auto-generated output only. It is updated automatically on every schedule change.*
+The October timetable should be added only after it is published by the festival organizers.
