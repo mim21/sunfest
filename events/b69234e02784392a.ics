@@ -1,14 +1,19 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//sunfest//public-feed//RU
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:Цигун
 X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:event-Цигун-20261016-0700@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T070000
 DTEND:20261016T081500
 SUMMARY:Цигун
-DESCRIPTION:Ведущий: Мария Рабин. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%A6%D0%B8%D0%B3%D1%83%D0%BD-20261016-0700
+DESCRIPTION:Ведущий: Мария Рабин. По официальн
+ ому расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A6%D0%B8%D0%B3%D1%83%D0%BD-2
+ 0261016-0700
 END:VEVENT
 END:VCALENDAR

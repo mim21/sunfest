@@ -1,538 +1,787 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//sunfest//manual//RU
+PRODID:-//sunfest//pipeline//RU
 X-WR-CALNAME:SunFest «Сила Солнца»
 X-WR-TIMEZONE:Asia/Jerusalem
 BEGIN:VEVENT
-UID:event-Фестиваль-Сила-Солнца-октябрь-2026-20261015-1000@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Фестиваль-Сила-Солнца-октябрь-2026-2026
+ 1015-1000@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261018
-SUMMARY:Фестиваль «Сила Солнца» — октябрь 2026
-DESCRIPTION:3 дня и 2 ночи у Кинерета. Официальное расписание 15–17 октября опубликовано\; дневная\, вечерняя и детская программы проходят параллельно.
+SUMMARY:Фестиваль «Сила Солнца» — октябрь 202
+ 6
+DESCRIPTION:3 дня и 2 ночи у Кинерета. Официальн
+ ое расписание 15–17 октября опубликовано\
+ ; дневная\, вечерняя и детская программы 
+ проходят параллельно.
 LOCATION:Кинерет
-URL:https://mim21.github.io/sunfest/#event-%D0%A4%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C-%D0%A1%D0%B8%D0%BB%D0%B0-%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B0-%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C-2026-20261015-1000
+URL:https://mim21.github.io/sunfest/#event-%D0%A4%D0%B5%D1%81%D1%82%D0%B8%D
+ 0%B2%D0%B0%D0%BB%D1%8C-%D0%A1%D0%B8%D0%BB%D0%B0-%D0%A1%D0%BE%D0%BB%D0%BD%D
+ 1%86%D0%B0-%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C-2026-20261015-1000
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Круг-знакомства-20261015-1430@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261015T143000
 DTEND:20261015T160000
 SUMMARY:Круг знакомства
-DESCRIPTION:Ведущий: Эрик Розенталь. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9A%D1%80%D1%83%D0%B3-%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%B0-20261015-1430
+DESCRIPTION:Ведущий: Эрик Розенталь. По официа
+ льному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9A%D1%80%D1%83%D0%B3-%D0%B7%
+ D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%B0-20261015-1430
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Приветствие-и-открытие-линейки-мастеров-20261015-1600@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Приветствие-и-открытие-линейки-мас
+ теров-20261015-1600@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261015T160000
 DTEND:20261015T163000
-SUMMARY:Приветствие и открытие линейки мастеров
+SUMMARY:Приветствие и открытие линейки маст
+ еров
 DESCRIPTION:По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B5-%D0%B8-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B8-%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2-20261015-1600
+URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D
+ 1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B5-%D0%B8-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D
+ 1%82%D0%B8%D0%B5-%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B8-%D0%BC%D0%B0%D
+ 1%81%D1%82%D0%B5%D1%80%D0%BE%D0%B2-20261015-1600
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Открытые-разборы-с-Кириллом-Саблиным-20261015-1630@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Открытые-разборы-с-Кириллом-Саблин
+ ым-20261015-1630@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261015T163000
 DTEND:20261015T190000
-SUMMARY:Открытые разборы с Кириллом Саблиным
-DESCRIPTION:Ведущий: Кирилл Саблин. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B5-%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B-%D1%81-%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB%D0%BE%D0%BC-%D0%A1%D0%B0%D0%B1%D0%BB%D0%B8%D0%BD%D1%8B%D0%BC-20261015-1630
+SUMMARY:Открытые разборы с Кириллом Саблины
+ м
+DESCRIPTION:Ведущий: Кирилл Саблин. По официал
+ ьному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D
+ 1%82%D1%8B%D0%B5-%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B-%D1%81-%D0%9A%
+ D0%B8%D1%80%D0%B8%D0%BB%D0%BB%D0%BE%D0%BC-%D0%A1%D0%B0%D0%B1%D0%BB%D0%B8%D
+ 0%BD%D1%8B%D0%BC-20261015-1630
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Путь-с-отцом-мистерия-20261015-1630@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261015T163000
 DTEND:20261015T190000
 SUMMARY:Путь с отцом — мистерия
-DESCRIPTION:Ведущий: Эзра Щебальский. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%83%D1%82%D1%8C-%D1%81-%D0%BE%D1%82%D1%86%D0%BE%D0%BC-%D0%BC%D0%B8%D1%81%D1%82%D0%B5%D1%80%D0%B8%D1%8F-20261015-1630
+DESCRIPTION:Ведущий: Эзра Щебальский. По офици
+ альному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%83%D1%82%D1%8C-%D1%81-
+ %D0%BE%D1%82%D1%86%D0%BE%D0%BC-%D0%BC%D0%B8%D1%81%D1%82%D0%B5%D1%80%D0%B8%
+ D1%8F-20261015-1630
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Cuddle-Party-20261015-1630@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261015T163000
 DTEND:20261015T190000
 SUMMARY:Cuddle Party 🤍
-DESCRIPTION:Ведущий: Зара Залкинд. По официальному расписанию SunFest.
+DESCRIPTION:Ведущий: Зара Залкинд. По официаль
+ ному расписанию SunFest.
 URL:https://mim21.github.io/sunfest/#event-Cuddle-Party-20261015-1630
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Пои-дети-и-взрослые-20261015-1630@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261015T163000
 DTEND:20261015T190000
 SUMMARY:Пои — дети и взрослые
-DESCRIPTION:Ведущий: Роман Беленький. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9F%D0%BE%D0%B8-%D0%B4%D0%B5%D1%82%D0%B8-%D0%B8-%D0%B2%D0%B7%D1%80%D0%BE%D1%81%D0%BB%D1%8B%D0%B5-20261015-1630
+DESCRIPTION:Ведущий: Роман Беленький. По офици
+ альному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9F%D0%BE%D0%B8-%D0%B4%D0%B5%
+ D1%82%D0%B8-%D0%B8-%D0%B2%D0%B7%D1%80%D0%BE%D1%81%D0%BB%D1%8B%D0%B5-202610
+ 15-1630
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Медитация-Львиное-сердце-20261015-1630@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Медитация-Львиное-сердце-20261015-1630@sunf
+ est
+DTSTAMP:20261002T094411Z
 DTSTART:20261015T163000
 DTEND:20261015T190000
 SUMMARY:Медитация «Львиное сердце»
-DESCRIPTION:Ведущий: Вишвас. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9C%D0%B5%D0%B4%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D1%8F-%D0%9B%D1%8C%D0%B2%D0%B8%D0%BD%D0%BE%D0%B5-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5-20261015-1630
+DESCRIPTION:Ведущий: Вишвас. По официальному р
+ асписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9C%D0%B5%D0%B4%D0%B8%D1%82%D
+ 0%B0%D1%86%D0%B8%D1%8F-%D0%9B%D1%8C%D0%B2%D0%B8%D0%BD%D0%BE%D0%B5-%D1%81%D
+ 0%B5%D1%80%D0%B4%D1%86%D0%B5-20261015-1630
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Открывающий-сет-группы-PANTAMIM-20261015-2030@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Открывающий-сет-группы-PANTAMIM-20261015-2030
+ @sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261015T203000
 DTEND:20261015T210000
 SUMMARY:Открывающий сет группы PANTAMIM
-DESCRIPTION:Ведущий: PANTAMIM. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D0%B2%D0%B0%D1%8E%D1%89%D0%B8%D0%B9-%D1%81%D0%B5%D1%82-%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%8B-PANTAMIM-20261015-2030
+DESCRIPTION:Ведущий: PANTAMIM. По официальному рас
+ писанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D
+ 0%B2%D0%B0%D1%8E%D1%89%D0%B8%D0%B9-%D1%81%D0%B5%D1%82-%D0%B3%D1%80%D1%83%D
+ 0%BF%D0%BF%D1%8B-PANTAMIM-20261015-2030
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Официальное-открытие-фестиваля-Концерт-FromScratch-20261015-2100@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Официальное-открытие-фестиваля-Кон
+ церт-FromScratch-20261015-2100@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261015T210000
 DTEND:20261015T233000
-SUMMARY:Официальное открытие фестиваля · Концерт FromScratch
-DESCRIPTION:Ведущий: FromScratch. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9E%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8F-%D0%9A%D0%BE%D0%BD%D1%86%D0%B5%D1%80%D1%82-FromScratch-20261015-2100
+SUMMARY:Официальное открытие фестиваля · Ко
+ нцерт FromScratch
+DESCRIPTION:Ведущий: FromScratch. По официальному ра
+ списанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9E%D1%84%D0%B8%D1%86%D0%B8%D
+ 0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0
+ %B8%D0%B5-%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8F-%D0%9A%D0
+ %BE%D0%BD%D1%86%D0%B5%D1%80%D1%82-FromScratch-20261015-2100
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Музыкальный-джем-у-костра-20261015-2330@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Музыкальный-джем-у-костра-20261015-2330@sun
+ fest
+DTSTAMP:20261002T094411Z
 DTSTART:20261015T233000
 DTEND:20261016T013000
 SUMMARY:Музыкальный джем у костра
 DESCRIPTION:По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B6%D0%B5%D0%BC-%D1%83-%D0%BA%D0%BE%D1%81%D1%82%D1%80%D0%B0-20261015-2330
+URL:https://mim21.github.io/sunfest/#event-%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D
+ 0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B6%D0%B5%D0%BC-%D1%83-%D0%BA%
+ D0%BE%D1%81%D1%82%D1%80%D0%B0-20261015-2330
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Хатха-йога-20261016-0700@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T070000
 DTEND:20261016T081500
 SUMMARY:Хатха-йога
-DESCRIPTION:Ведущий: Либи Гордон. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%A5%D0%B0%D1%82%D1%85%D0%B0-%D0%B9%D0%BE%D0%B3%D0%B0-20261016-0700
+DESCRIPTION:Ведущий: Либи Гордон. По официальн
+ ому расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A5%D0%B0%D1%82%D1%85%D0%B0-%
+ D0%B9%D0%BE%D0%B3%D0%B0-20261016-0700
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Дыхание-с-Источником-20261016-0700@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T070000
 DTEND:20261016T081500
 SUMMARY:Дыхание с Источником
-DESCRIPTION:Ведущий: Эзра Щебальский. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%94%D1%8B%D1%85%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81-%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D0%BC-20261016-0700
+DESCRIPTION:Ведущий: Эзра Щебальский. По офици
+ альному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%94%D1%8B%D1%85%D0%B0%D0%BD%D
+ 0%B8%D0%B5-%D1%81-%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D
+ 0%BC-20261016-0700
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Гвоздестояние-Тело-помнит-всё-20261016-0700@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Гвоздестояние-Тело-помнит-всё-20261016-
+ 0700@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T070000
 DTEND:20261016T081500
 SUMMARY:Гвоздестояние. Тело помнит всё!
-DESCRIPTION:Ведущий: Александра Тропп. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%B2%D0%BE%D0%B7%D0%B4%D0%B5%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5-%D0%A2%D0%B5%D0%BB%D0%BE-%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8%D1%82-%D0%B2%D1%81%D1%91-20261016-0700
+DESCRIPTION:Ведущий: Александра Тропп. По офиц
+ иальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%B2%D0%BE%D0%B7%D0%B4%D
+ 0%B5%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5-%D0%A2%D0%B5%D0%BB%D0%BE-%D
+ 0%BF%D0%BE%D0%BC%D0%BD%D0%B8%D1%82-%D0%B2%D1%81%D1%91-20261016-0700
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Цигун-20261016-0700@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T070000
 DTEND:20261016T081500
 SUMMARY:Цигун
-DESCRIPTION:Ведущий: Мария Рабин. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%A6%D0%B8%D0%B3%D1%83%D0%BD-20261016-0700
+DESCRIPTION:Ведущий: Мария Рабин. По официальн
+ ому расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A6%D0%B8%D0%B3%D1%83%D0%BD-2
+ 0261016-0700
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Йога-в-стиле-FYSM-20261016-0700@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T070000
 DTEND:20261016T081500
 SUMMARY:Йога в стиле FYSM
-DESCRIPTION:Ведущий: Роман Беленький. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%99%D0%BE%D0%B3%D0%B0-%D0%B2-%D1%81%D1%82%D0%B8%D0%BB%D0%B5-FYSM-20261016-0700
+DESCRIPTION:Ведущий: Роман Беленький. По офици
+ альному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%99%D0%BE%D0%B3%D0%B0-%D0%B2-
+ %D1%81%D1%82%D0%B8%D0%BB%D0%B5-FYSM-20261016-0700
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Смехо-йога-20261016-0940@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T094000
 DTEND:20261016T111000
 SUMMARY:Смехо-йога
-DESCRIPTION:Ведущий: Митя Колтун. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%A1%D0%BC%D0%B5%D1%85%D0%BE-%D0%B9%D0%BE%D0%B3%D0%B0-20261016-0940
+DESCRIPTION:Ведущий: Митя Колтун. По официальн
+ ому расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A1%D0%BC%D0%B5%D1%85%D0%BE-%
+ D0%B9%D0%BE%D0%B3%D0%B0-20261016-0940
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Психосоматическая-реабилитационная-кинезиология-20261016-0940@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Психосоматическая-реабилитационна
+ я-кинезиология-20261016-0940@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T094000
 DTEND:20261016T111000
-SUMMARY:Психосоматическая реабилитационная кинезиология
-DESCRIPTION:Ведущий: Ян Осадчий. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D1%81%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%80%D0%B5%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BA%D0%B8%D0%BD%D0%B5%D0%B7%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F-20261016-0940
+SUMMARY:Психосоматическая реабилитационная
+  кинезиология
+DESCRIPTION:Ведущий: Ян Осадчий. По официально
+ му расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D
+ 1%81%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1
+ %80%D0%B5%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%B
+ D%D0%BD%D0%B0%D1%8F-%D0%BA%D0%B8%D0%BD%D0%B5%D0%B7%D0%B8%D0%BE%D0%BB%D0%BE
+ %D0%B3%D0%B8%D1%8F-20261016-0940
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Безлимитная-мотивация-или-Как-добиться-успеха-20261016-0940@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Безлимитная-мотивация-или-Как-доби
+ ться-успеха-20261016-0940@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T094000
 DTEND:20261016T111000
-SUMMARY:Безлимитная мотивация\, или Как добиться успеха
-DESCRIPTION:Ведущий: Семён Графман. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%91%D0%B5%D0%B7%D0%BB%D0%B8%D0%BC%D0%B8%D1%82%D0%BD%D0%B0%D1%8F-%D0%BC%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F-%D0%B8%D0%BB%D0%B8-%D0%9A%D0%B0%D0%BA-%D0%B4%D0%BE%D0%B1%D0%B8%D1%82%D1%8C%D1%81%D1%8F-%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B0-20261016-0940
+SUMMARY:Безлимитная мотивация\, или Как доби
+ ться успеха
+DESCRIPTION:Ведущий: Семён Графман. По официал
+ ьному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%91%D0%B5%D0%B7%D0%BB%D0%B8%D
+ 0%BC%D0%B8%D1%82%D0%BD%D0%B0%D1%8F-%D0%BC%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1
+ %86%D0%B8%D1%8F-%D0%B8%D0%BB%D0%B8-%D0%9A%D0%B0%D0%BA-%D0%B4%D0%BE%D0%B1%D
+ 0%B8%D1%82%D1%8C%D1%81%D1%8F-%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B0-20261016
+ -0940
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Голос-души-навигация-по-Хьюман-Дизайну-20261016-0940@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Голос-души-навигация-по-Хьюман-Диза
+ йну-20261016-0940@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T094000
 DTEND:20261016T111000
-SUMMARY:Голос души: навигация по Хьюман Дизайну
-DESCRIPTION:Ведущий: Оксана Керен-Злата Куликов. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%BE%D0%BB%D0%BE%D1%81-%D0%B4%D1%83%D1%88%D0%B8-%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%A5%D1%8C%D1%8E%D0%BC%D0%B0%D0%BD-%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D1%83-20261016-0940
+SUMMARY:Голос души: навигация по Хьюман Диза
+ йну
+DESCRIPTION:Ведущий: Оксана Керен-Злата Кулико
+ в. По официальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%BE%D0%BB%D0%BE%D1%81-%
+ D0%B4%D1%83%D1%88%D0%B8-%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D
+ 1%8F-%D0%BF%D0%BE-%D0%A5%D1%8C%D1%8E%D0%BC%D0%B0%D0%BD-%D0%94%D0%B8%D0%B7%
+ D0%B0%D0%B9%D0%BD%D1%83-20261016-0940
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Нейрографика-20261016-0940@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T094000
 DTEND:20261016T111000
 SUMMARY:Нейрографика
-DESCRIPTION:Ведущий: Мири Мельничук. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0-20261016-0940
+DESCRIPTION:Ведущий: Мири Мельничук. По официа
+ льному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D
+ 0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0-20261016-0940
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Животворящая-боль-и-сила-благодарности-Как-рождается-любовь-20261016-0940@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Животворящая-боль-и-сила-благодарн
+ ости-Как-рождается-любовь-20261016-0940@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T094000
 DTEND:20261016T111000
-SUMMARY:Животворящая боль и сила благодарности. Как рождается любовь
-DESCRIPTION:Ведущий: Ольга Альвайс. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%96%D0%B8%D0%B2%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D1%8F%D1%89%D0%B0%D1%8F-%D0%B1%D0%BE%D0%BB%D1%8C-%D0%B8-%D1%81%D0%B8%D0%BB%D0%B0-%D0%B1%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%9A%D0%B0%D0%BA-%D1%80%D0%BE%D0%B6%D0%B4%D0%B0%D0%B5%D1%82%D1%81%D1%8F-%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C-20261016-0940
+SUMMARY:Животворящая боль и сила благодарно
+ сти. Как рождается любовь
+DESCRIPTION:Ведущий: Ольга Альвайс. По официал
+ ьному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%96%D0%B8%D0%B2%D0%BE%D1%82%D
+ 0%B2%D0%BE%D1%80%D1%8F%D1%89%D0%B0%D1%8F-%D0%B1%D0%BE%D0%BB%D1%8C-%D0%B8-%
+ D1%81%D0%B8%D0%BB%D0%B0-%D0%B1%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D
+ 0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%9A%D0%B0%D0%BA-%D1%80%D0%BE%D0%B6%D0%B4%D
+ 0%B0%D0%B5%D1%82%D1%81%D1%8F-%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C-20261016
+ -0940
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Встреча-со-страхом-от-напряжения-к-внутренней-опоре-20261016-1140@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Встреча-со-страхом-от-напряжения-к-
+ внутренней-опоре-20261016-1140@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T114000
 DTEND:20261016T131000
-SUMMARY:Встреча со страхом: от напряжения к внутренней опоре
-DESCRIPTION:Ведущий: Жанна Касплер-Алон. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%92%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0-%D1%81%D0%BE-%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%BC-%D0%BE%D1%82-%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B5%D0%B9-%D0%BE%D0%BF%D0%BE%D1%80%D0%B5-20261016-1140
+SUMMARY:Встреча со страхом: от напряжения к в
+ нутренней опоре
+DESCRIPTION:Ведущий: Жанна Касплер-Алон. По офи
+ циальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%92%D1%81%D1%82%D1%80%D0%B5%D
+ 1%87%D0%B0-%D1%81%D0%BE-%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%BC-%D0%BE%
+ D1%82-%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA-
+ %D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B5%D0%B9-%D0%BE%D0%BF%
+ D0%BE%D1%80%D0%B5-20261016-1140
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Алхимия-прикосновения-20261016-1140@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T114000
 DTEND:20261016T131000
 SUMMARY:Алхимия прикосновения
-DESCRIPTION:Ведущий: Вишвас. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%90%D0%BB%D1%85%D0%B8%D0%BC%D0%B8%D1%8F-%D0%BF%D1%80%D0%B8%D0%BA%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F-20261016-1140
+DESCRIPTION:Ведущий: Вишвас. По официальному р
+ асписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%90%D0%BB%D1%85%D0%B8%D0%BC%D
+ 0%B8%D1%8F-%D0%BF%D1%80%D0%B8%D0%BA%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5%D0
+ %BD%D0%B8%D1%8F-20261016-1140
 END:VEVENT
 BEGIN:VEVENT
-UID:event-4-вида-наслаждения-Здесь-вы-выйдете-из-помойки-проработок-в-жизнь-20261016-1140@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-4-вида-наслаждения-Здесь-вы-выйдете-
+ из-помойки-проработок-в-жизнь-20261016-1140@sunfe
+ st
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T114000
 DTEND:20261016T131000
-SUMMARY:4 вида наслаждения. Здесь вы выйдете из «помойки» проработок в жизнь
-DESCRIPTION:Ведущий: Кирилл Саблин. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-4-%D0%B2%D0%B8%D0%B4%D0%B0-%D0%BD%D0%B0%D1%81%D0%BB%D0%B0%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%97%D0%B4%D0%B5%D1%81%D1%8C-%D0%B2%D1%8B-%D0%B2%D1%8B%D0%B9%D0%B4%D0%B5%D1%82%D0%B5-%D0%B8%D0%B7-%D0%BF%D0%BE%D0%BC%D0%BE%D0%B9%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BE%D0%BA-%D0%B2-%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C-20261016-1140
+SUMMARY:4 вида наслаждения. Здесь вы выйдете 
+ из «помойки» проработок в жизнь
+DESCRIPTION:Ведущий: Кирилл Саблин. По официал
+ ьному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-4-%D0%B2%D0%B8%D0%B4%D0%B0-%D0%B
+ D%D0%B0%D1%81%D0%BB%D0%B0%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%97%D0%B4
+ %D0%B5%D1%81%D1%8C-%D0%B2%D1%8B-%D0%B2%D1%8B%D0%B9%D0%B4%D0%B5%D1%82%D0%B5
+ -%D0%B8%D0%B7-%D0%BF%D0%BE%D0%BC%D0%BE%D0%B9%D0%BA%D0%B8-%D0%BF%D1%80%D0%B
+ E%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BE%D0%BA-%D0%B2-%D0%B6%D0%B8%D0%B7%D0%B
+ D%D1%8C-20261016-1140
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Жонглирование-дети-и-взрослые-20261016-1140@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Жонглирование-дети-и-взрослые-20261016-
+ 1140@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T114000
 DTEND:20261016T131000
 SUMMARY:Жонглирование — дети и взрослые
-DESCRIPTION:Ведущий: Роман Беленький. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%96%D0%BE%D0%BD%D0%B3%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B4%D0%B5%D1%82%D0%B8-%D0%B8-%D0%B2%D0%B7%D1%80%D0%BE%D1%81%D0%BB%D1%8B%D0%B5-20261016-1140
+DESCRIPTION:Ведущий: Роман Беленький. По офици
+ альному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%96%D0%BE%D0%BD%D0%B3%D0%BB%D
+ 0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B4%D0%B5%D1%82%D0%B8-%D
+ 0%B8-%D0%B2%D0%B7%D1%80%D0%BE%D1%81%D0%BB%D1%8B%D0%B5-20261016-1140
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Нумерология-20261016-1140@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T114000
 DTEND:20261016T131000
 SUMMARY:Нумерология
-DESCRIPTION:Ведущий: Любовь Суховольская. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9D%D1%83%D0%BC%D0%B5%D1%80%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F-20261016-1140
+DESCRIPTION:Ведущий: Любовь Суховольская. По о
+ фициальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9D%D1%83%D0%BC%D0%B5%D1%80%D
+ 0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F-20261016-1140
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Тело-и-голос-20261016-1140@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T114000
 DTEND:20261016T131000
 SUMMARY:Тело и голос
-DESCRIPTION:Ведущий: Катя Величко. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B5%D0%BB%D0%BE-%D0%B8-%D0%B3%D0%BE%D0%BB%D0%BE%D1%81-20261016-1140
+DESCRIPTION:Ведущий: Катя Величко. По официаль
+ ному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B5%D0%BB%D0%BE-%D0%B8-
+ %D0%B3%D0%BE%D0%BB%D0%BE%D1%81-20261016-1140
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Искусство-исцеления-Энергетические-телесные-практики-DAO-20261016-1520@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Искусство-исцеления-Энергетически
+ е-телесные-практики-DAO-20261016-1520@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T152000
 DTEND:20261016T165000
-SUMMARY:Искусство исцеления. Энергетические телесные практики DAO
-DESCRIPTION:Ведущий: Михаэль Натанэль. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE-%D0%B8%D1%81%D1%86%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%AD%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8-DAO-20261016-1520
+SUMMARY:Искусство исцеления. Энергетические
+  телесные практики DAO
+DESCRIPTION:Ведущий: Михаэль Натанэль. По офиц
+ иальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%98%D1%81%D0%BA%D1%83%D1%81%D
+ 1%81%D1%82%D0%B2%D0%BE-%D0%B8%D1%81%D1%86%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1
+ %8F-%D0%AD%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%
+ BA%D0%B8%D0%B5-%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%BD%D1%8B%D0%B5-%D0%BF%D1%
+ 80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8-DAO-20261016-1520
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Танец-Природы-и-природа-Танца-20261016-1520@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Танец-Природы-и-природа-Танца-20261016-1
+ 520@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T152000
 DTEND:20261016T165000
 SUMMARY:Танец Природы и природа Танца
-DESCRIPTION:Ведущий: Катя Величко. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B0%D0%BD%D0%B5%D1%86-%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D1%8B-%D0%B8-%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0-%D0%A2%D0%B0%D0%BD%D1%86%D0%B0-20261016-1520
+DESCRIPTION:Ведущий: Катя Величко. По официаль
+ ному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B0%D0%BD%D0%B5%D1%86-%
+ D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D1%8B-%D0%B8-%D0%BF%D1%80%D0%B8%D1%80%
+ D0%BE%D0%B4%D0%B0-%D0%A2%D0%B0%D0%BD%D1%86%D0%B0-20261016-1520
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Женский-круг-с-нейрографическими-практиками-Мне-можно-20261016-1520@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Женский-круг-с-нейрографическими-п
+ рактиками-Мне-можно-20261016-1520@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T152000
 DTEND:20261016T165000
-SUMMARY:Женский круг с нейрографическими практиками «Мне можно»
-DESCRIPTION:Ведущий: Ольга Шнайдер (Симери). По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D1%80%D1%83%D0%B3-%D1%81-%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC%D0%B8-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0%D0%BC%D0%B8-%D0%9C%D0%BD%D0%B5-%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-20261016-1520
+SUMMARY:Женский круг с нейрографическими пр
+ актиками «Мне можно»
+DESCRIPTION:Ведущий: Ольга Шнайдер (Симери). По 
+ официальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D
+ 0%B8%D0%B9-%D0%BA%D1%80%D1%83%D0%B3-%D1%81-%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%
+ D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC%D0%B8-%D
+ 0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0%D0%BC%D0%B8-%D0%9C%D0%BD%D0
+ %B5-%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-20261016-1520
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Выравнивая-тело-выравниваешь-жизнь-20261016-1520@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Выравнивая-тело-выравниваешь-жизнь
+ -20261016-1520@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T152000
 DTEND:20261016T165000
-SUMMARY:Выравнивая тело — выравниваешь жизнь
-DESCRIPTION:Ведущий: Полина Пономарёва. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%92%D1%8B%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%B2%D0%B0%D1%8F-%D1%82%D0%B5%D0%BB%D0%BE-%D0%B2%D1%8B%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%B2%D0%B0%D0%B5%D1%88%D1%8C-%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C-20261016-1520
+SUMMARY:Выравнивая тело — выравниваешь жизн
+ ь
+DESCRIPTION:Ведущий: Полина Пономарёва. По офи
+ циальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%92%D1%8B%D1%80%D0%B0%D0%B2%D
+ 0%BD%D0%B8%D0%B2%D0%B0%D1%8F-%D1%82%D0%B5%D0%BB%D0%BE-%D0%B2%D1%8B%D1%80%D
+ 0%B0%D0%B2%D0%BD%D0%B8%D0%B2%D0%B0%D0%B5%D1%88%D1%8C-%D0%B6%D0%B8%D0%B7%D0
+ %BD%D1%8C-20261016-1520
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Встреча-с-собой-Детство-как-врата-к-истинной-природе-20261016-1520@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Встреча-с-собой-Детство-как-врата-к-
+ истинной-природе-20261016-1520@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T152000
 DTEND:20261016T165000
-SUMMARY:Встреча с собой. Детство как врата к истинной природе
-DESCRIPTION:Ведущий: Виталий Гревчук. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%92%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0-%D1%81-%D1%81%D0%BE%D0%B1%D0%BE%D0%B9-%D0%94%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%BE-%D0%BA%D0%B0%D0%BA-%D0%B2%D1%80%D0%B0%D1%82%D0%B0-%D0%BA-%D0%B8%D1%81%D1%82%D0%B8%D0%BD%D0%BD%D0%BE%D0%B9-%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B5-20261016-1520
+SUMMARY:Встреча с собой. Детство как врата к 
+ истинной природе
+DESCRIPTION:Ведущий: Виталий Гревчук. По офици
+ альному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%92%D1%81%D1%82%D1%80%D0%B5%D
+ 1%87%D0%B0-%D1%81-%D1%81%D0%BE%D0%B1%D0%BE%D0%B9-%D0%94%D0%B5%D1%82%D1%81%
+ D1%82%D0%B2%D0%BE-%D0%BA%D0%B0%D0%BA-%D0%B2%D1%80%D0%B0%D1%82%D0%B0-%D0%BA
+ -%D0%B8%D1%81%D1%82%D0%B8%D0%BD%D0%BD%D0%BE%D0%B9-%D0%BF%D1%80%D0%B8%D1%80
+ %D0%BE%D0%B4%D0%B5-20261016-1520
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Процессуальная-работа-как-услышать-и-проявить-скрытое-в-себе-20261016-1520@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Процессуальная-работа-как-услышать
+ -и-проявить-скрытое-в-себе-20261016-1520@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T152000
 DTEND:20261016T165000
-SUMMARY:Процессуальная работа: как услышать и проявить скрытое в себе
-DESCRIPTION:Ведущий: Константин Грингут. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D0%BA%D0%B0%D0%BA-%D1%83%D1%81%D0%BB%D1%8B%D1%88%D0%B0%D1%82%D1%8C-%D0%B8-%D0%BF%D1%80%D0%BE%D1%8F%D0%B2%D0%B8%D1%82%D1%8C-%D1%81%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D0%B5-%D0%B2-%D1%81%D0%B5%D0%B1%D0%B5-20261016-1520
+SUMMARY:Процессуальная работа: как услышать 
+ и проявить скрытое в себе
+DESCRIPTION:Ведущий: Константин Грингут. По оф
+ ициальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D
+ 1%81%D1%81%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B1%D0
+ %BE%D1%82%D0%B0-%D0%BA%D0%B0%D0%BA-%D1%83%D1%81%D0%BB%D1%8B%D1%88%D0%B0%D1
+ %82%D1%8C-%D0%B8-%D0%BF%D1%80%D0%BE%D1%8F%D0%B2%D0%B8%D1%82%D1%8C-%D1%81%D
+ 0%BA%D1%80%D1%8B%D1%82%D0%BE%D0%B5-%D0%B2-%D1%81%D0%B5%D0%B1%D0%B5-2026101
+ 6-1520
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Алхимия-дыхания-медитация-в-наушниках-20261016-1730@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Алхимия-дыхания-медитация-в-наушни
+ ках-20261016-1730@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T173000
 DTEND:20261016T190000
-SUMMARY:Алхимия дыхания — медитация в наушниках
-DESCRIPTION:Ведущий: Ольга Альвайс. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%90%D0%BB%D1%85%D0%B8%D0%BC%D0%B8%D1%8F-%D0%B4%D1%8B%D1%85%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BC%D0%B5%D0%B4%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B0%D1%85-20261016-1730
+SUMMARY:Алхимия дыхания — медитация в наушн
+ иках
+DESCRIPTION:Ведущий: Ольга Альвайс. По официал
+ ьному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%90%D0%BB%D1%85%D0%B8%D0%BC%D
+ 0%B8%D1%8F-%D0%B4%D1%8B%D1%85%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BC%D0%B5%D0%B4%D
+ 0%B8%D1%82%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D
+ 0%B8%D0%BA%D0%B0%D1%85-20261016-1730
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Тантра-двоих-энергия-притяжения-20261016-1730@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Тантра-двоих-энергия-притяжения-20261
+ 016-1730@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T173000
 DTEND:20261016T190000
 SUMMARY:Тантра двоих: энергия притяжения
-DESCRIPTION:Ведущий: Михаэль Натанэль. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B0%D0%BD%D1%82%D1%80%D0%B0-%D0%B4%D0%B2%D0%BE%D0%B8%D1%85-%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F-%D0%BF%D1%80%D0%B8%D1%82%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-20261016-1730
+DESCRIPTION:Ведущий: Михаэль Натанэль. По офиц
+ иальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B0%D0%BD%D1%82%D1%80%D
+ 0%B0-%D0%B4%D0%B2%D0%BE%D0%B8%D1%85-%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D
+ 1%8F-%D0%BF%D1%80%D0%B8%D1%82%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-20261016
+ -1730
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Театрон-20261016-1730@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T173000
 DTEND:20261016T190000
 SUMMARY:Театрон
-DESCRIPTION:Ведущий: Илья Доманов. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B5%D0%B0%D1%82%D1%80%D0%BE%D0%BD-20261016-1730
+DESCRIPTION:Ведущий: Илья Доманов. По официаль
+ ному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B5%D0%B0%D1%82%D1%80%D
+ 0%BE%D0%BD-20261016-1730
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Женский-сакральный-танец-20261016-1730@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Женский-сакральный-танец-20261016-1730@sunf
+ est
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T173000
 DTEND:20261016T190000
 SUMMARY:Женский сакральный танец
-DESCRIPTION:Ведущий: Симери. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D1%81%D0%B0%D0%BA%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%82%D0%B0%D0%BD%D0%B5%D1%86-20261016-1730
+DESCRIPTION:Ведущий: Симери. По официальному р
+ асписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D
+ 0%B8%D0%B9-%D1%81%D0%B0%D0%BA%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D
+ 1%82%D0%B0%D0%BD%D0%B5%D1%86-20261016-1730
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Концерт-Жени-Клебанова-20261016-2100@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T210000
 DTEND:20261016T233000
 SUMMARY:Концерт Жени Клебанова
-DESCRIPTION:Ведущий: Женя Клебанов. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9A%D0%BE%D0%BD%D1%86%D0%B5%D1%80%D1%82-%D0%96%D0%B5%D0%BD%D0%B8-%D0%9A%D0%BB%D0%B5%D0%B1%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0-20261016-2100
+DESCRIPTION:Ведущий: Женя Клебанов. По официал
+ ьному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9A%D0%BE%D0%BD%D1%86%D0%B5%D
+ 1%80%D1%82-%D0%96%D0%B5%D0%BD%D0%B8-%D0%9A%D0%BB%D0%B5%D0%B1%D0%B0%D0%BD%D
+ 0%BE%D0%B2%D0%B0-20261016-2100
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Ecstatic-Dance-в-наушниках-дресс-код-белый-20261016-2100@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Ecstatic-Dance-в-наушниках-дресс-код-белый
+ -20261016-2100@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T210000
 DTEND:20261016T230000
-SUMMARY:Ecstatic Dance в наушниках · дресс-код — белый
+SUMMARY:Ecstatic Dance в наушниках · дресс-код — бе
+ лый
 DESCRIPTION:По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-Ecstatic-Dance-%D0%B2-%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B0%D1%85-%D0%B4%D1%80%D0%B5%D1%81%D1%81-%D0%BA%D0%BE%D0%B4-%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9-20261016-2100
+URL:https://mim21.github.io/sunfest/#event-Ecstatic-Dance-%D0%B2-%D0%BD%D0%
+ B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B0%D1%85-%D0%B4%D1%80%D0%B5%D1%81%D1%8
+ 1-%D0%BA%D0%BE%D0%B4-%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9-20261016-2100
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Музыкальный-джем-20261016-2100@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T210000
 DTEND:20261016T230000
 SUMMARY:Музыкальный джем
 DESCRIPTION:По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B6%D0%B5%D0%BC-20261016-2100
+URL:https://mim21.github.io/sunfest/#event-%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D
+ 0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B6%D0%B5%D0%BC-20261016-2100
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Посиделки-у-костра-20261016-2100@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T210000
 DTEND:20261016T230000
 SUMMARY:Посиделки у костра
 DESCRIPTION:По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9F%D0%BE%D1%81%D0%B8%D0%B4%D0%B5%D0%BB%D0%BA%D0%B8-%D1%83-%D0%BA%D0%BE%D1%81%D1%82%D1%80%D0%B0-20261016-2100
+URL:https://mim21.github.io/sunfest/#event-%D0%9F%D0%BE%D1%81%D0%B8%D0%B4%D
+ 0%B5%D0%BB%D0%BA%D0%B8-%D1%83-%D0%BA%D0%BE%D1%81%D1%82%D1%80%D0%B0-2026101
+ 6-2100
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Хатха-йога-20261017-0700@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T070000
 DTEND:20261017T081500
 SUMMARY:Хатха-йога
-DESCRIPTION:Ведущий: Либи Гордон. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%A5%D0%B0%D1%82%D1%85%D0%B0-%D0%B9%D0%BE%D0%B3%D0%B0-20261017-0700
+DESCRIPTION:Ведущий: Либи Гордон. По официальн
+ ому расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A5%D0%B0%D1%82%D1%85%D0%B0-%
+ D0%B9%D0%BE%D0%B3%D0%B0-20261017-0700
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Дыхание-с-Источником-20261017-0700@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T070000
 DTEND:20261017T081500
 SUMMARY:Дыхание с Источником
-DESCRIPTION:Ведущий: Эзра Щебальский. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%94%D1%8B%D1%85%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81-%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D0%BC-20261017-0700
+DESCRIPTION:Ведущий: Эзра Щебальский. По офици
+ альному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%94%D1%8B%D1%85%D0%B0%D0%BD%D
+ 0%B8%D0%B5-%D1%81-%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D
+ 0%BC-20261017-0700
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Йога-в-стиле-FYSM-20261017-0700@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T070000
 DTEND:20261017T081500
 SUMMARY:Йога в стиле FYSM
-DESCRIPTION:Ведущий: Роман Беленький. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%99%D0%BE%D0%B3%D0%B0-%D0%B2-%D1%81%D1%82%D0%B8%D0%BB%D0%B5-FYSM-20261017-0700
+DESCRIPTION:Ведущий: Роман Беленький. По офици
+ альному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%99%D0%BE%D0%B3%D0%B0-%D0%B2-
+ %D1%81%D1%82%D0%B8%D0%BB%D0%B5-FYSM-20261017-0700
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Тайская-йога-20261017-0700@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T070000
 DTEND:20261017T081500
 SUMMARY:Тайская йога
-DESCRIPTION:Ведущий: Мария Рабин. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F-%D0%B9%D0%BE%D0%B3%D0%B0-20261017-0700
+DESCRIPTION:Ведущий: Мария Рабин. По официальн
+ ому расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D
+ 0%B0%D1%8F-%D0%B9%D0%BE%D0%B3%D0%B0-20261017-0700
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Гвоздестояние-Тело-помнит-всё-20261017-0700@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Гвоздестояние-Тело-помнит-всё-20261017-
+ 0700@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T070000
 DTEND:20261017T081500
 SUMMARY:Гвоздестояние. Тело помнит всё!
-DESCRIPTION:Ведущий: Александра Тропп. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%B2%D0%BE%D0%B7%D0%B4%D0%B5%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5-%D0%A2%D0%B5%D0%BB%D0%BE-%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8%D1%82-%D0%B2%D1%81%D1%91-20261017-0700
+DESCRIPTION:Ведущий: Александра Тропп. По офиц
+ иальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%B2%D0%BE%D0%B7%D0%B4%D
+ 0%B5%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5-%D0%A2%D0%B5%D0%BB%D0%BE-%D
+ 0%BF%D0%BE%D0%BC%D0%BD%D0%B8%D1%82-%D0%B2%D1%81%D1%91-20261017-0700
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Смехо-йога-20261017-0940@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T094000
 DTEND:20261017T111000
 SUMMARY:Смехо-йога
-DESCRIPTION:Ведущий: Митя Колтун. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%A1%D0%BC%D0%B5%D1%85%D0%BE-%D0%B9%D0%BE%D0%B3%D0%B0-20261017-0940
+DESCRIPTION:Ведущий: Митя Колтун. По официальн
+ ому расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A1%D0%BC%D0%B5%D1%85%D0%BE-%
+ D0%B9%D0%BE%D0%B3%D0%B0-20261017-0940
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Аутентичное-движение-20261017-0940@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T094000
 DTEND:20261017T111000
 SUMMARY:Аутентичное движение
-DESCRIPTION:Ведущий: Катя Величко. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%87%D0%BD%D0%BE%D0%B5-%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-20261017-0940
+DESCRIPTION:Ведущий: Катя Величко. По официаль
+ ному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%90%D1%83%D1%82%D0%B5%D0%BD%D
+ 1%82%D0%B8%D1%87%D0%BD%D0%BE%D0%B5-%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0
+ %B8%D0%B5-20261017-0940
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Голос-души-навигация-по-Хьюман-Дизайну-20261017-0940@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Голос-души-навигация-по-Хьюман-Диза
+ йну-20261017-0940@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T094000
 DTEND:20261017T111000
-SUMMARY:Голос души: навигация по Хьюман Дизайну
-DESCRIPTION:Ведущий: Оксана Керен-Злата Куликов. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%BE%D0%BB%D0%BE%D1%81-%D0%B4%D1%83%D1%88%D0%B8-%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%A5%D1%8C%D1%8E%D0%BC%D0%B0%D0%BD-%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D1%83-20261017-0940
+SUMMARY:Голос души: навигация по Хьюман Диза
+ йну
+DESCRIPTION:Ведущий: Оксана Керен-Злата Кулико
+ в. По официальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%BE%D0%BB%D0%BE%D1%81-%
+ D0%B4%D1%83%D1%88%D0%B8-%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D
+ 1%8F-%D0%BF%D0%BE-%D0%A5%D1%8C%D1%8E%D0%BC%D0%B0%D0%BD-%D0%94%D0%B8%D0%B7%
+ D0%B0%D0%B9%D0%BD%D1%83-20261017-0940
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Расширение-рамок-сознания-20261017-0940@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Расширение-рамок-сознания-20261017-0940@su
+ nfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T094000
 DTEND:20261017T111000
 SUMMARY:Расширение рамок сознания
-DESCRIPTION:Ведущий: Эзра Щебальский. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-%D1%80%D0%B0%D0%BC%D0%BE%D0%BA-%D1%81%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F-20261017-0940
+DESCRIPTION:Ведущий: Эзра Щебальский. По офици
+ альному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D
+ 1%80%D0%B5%D0%BD%D0%B8%D0%B5-%D1%80%D0%B0%D0%BC%D0%BE%D0%BA-%D1%81%D0%BE%D
+ 0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F-20261017-0940
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Колесо-эмоций-О-чём-говорит-твоё-подсознание-20261017-0940@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Колесо-эмоций-О-чём-говорит-твоё-по
+ дсознание-20261017-0940@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T094000
 DTEND:20261017T111000
-SUMMARY:Колесо эмоций. О чём говорит твоё подсознание
-DESCRIPTION:Ведущий: Виктория Ягудаев. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9A%D0%BE%D0%BB%D0%B5%D1%81%D0%BE-%D1%8D%D0%BC%D0%BE%D1%86%D0%B8%D0%B9-%D0%9E-%D1%87%D1%91%D0%BC-%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%82%D0%B2%D0%BE%D1%91-%D0%BF%D0%BE%D0%B4%D1%81%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5-20261017-0940
+SUMMARY:Колесо эмоций. О чём говорит твоё под
+ сознание
+DESCRIPTION:Ведущий: Виктория Ягудаев. По офиц
+ иальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9A%D0%BE%D0%BB%D0%B5%D1%81%D
+ 0%BE-%D1%8D%D0%BC%D0%BE%D1%86%D0%B8%D0%B9-%D0%9E-%D1%87%D1%91%D0%BC-%D0%B3
+ %D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%82%D0%B2%D0%BE%D1%91-%D0%BF%D0%BE
+ %D0%B4%D1%81%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5-20261017-0940
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Судьба-и-её-оттенки-Восприятие-внутренним-Я-20261017-0940@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Судьба-и-её-оттенки-Восприятие-внут
+ ренним-Я-20261017-0940@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T094000
 DTEND:20261017T111000
-SUMMARY:Судьба и её оттенки. Восприятие внутренним Я
-DESCRIPTION:Ведущий: Виталий Гревчук. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%A1%D1%83%D0%B4%D1%8C%D0%B1%D0%B0-%D0%B8-%D0%B5%D1%91-%D0%BE%D1%82%D1%82%D0%B5%D0%BD%D0%BA%D0%B8-%D0%92%D0%BE%D1%81%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B8%D0%BC-%D0%AF-20261017-0940
+SUMMARY:Судьба и её оттенки. Восприятие внут
+ ренним Я
+DESCRIPTION:Ведущий: Виталий Гревчук. По офици
+ альному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A1%D1%83%D0%B4%D1%8C%D0%B1%D
+ 0%B0-%D0%B8-%D0%B5%D1%91-%D0%BE%D1%82%D1%82%D0%B5%D0%BD%D0%BA%D0%B8-%D0%92
+ %D0%BE%D1%81%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5-%D0%B2%D0%BD%D1%83%
+ D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B8%D0%BC-%D0%AF-20261017-0940
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Пробуждение-внутреннего-целителя-Работа-с-энергиями-20261017-1140@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Пробуждение-внутреннего-целителя-Р
+ абота-с-энергиями-20261017-1140@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T114000
 DTEND:20261017T131000
-SUMMARY:Пробуждение внутреннего целителя. Работа с энергиями
-DESCRIPTION:Ведущий: Ольга Альвайс. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%80%D0%BE%D0%B1%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B5%D0%B3%D0%BE-%D1%86%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8F-%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F%D0%BC%D0%B8-20261017-1140
+SUMMARY:Пробуждение внутреннего целителя. Р
+ абота с энергиями
+DESCRIPTION:Ведущий: Ольга Альвайс. По официал
+ ьному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9F%D1%80%D0%BE%D0%B1%D1%83%D
+ 0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0
+ %BD%D0%BD%D0%B5%D0%B3%D0%BE-%D1%86%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%
+ 8F-%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%8D%D0%BD%D0%B5%D1%80%D0
+ %B3%D0%B8%D1%8F%D0%BC%D0%B8-20261017-1140
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Энергия-камней-20261017-1140@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T114000
 DTEND:20261017T131000
 SUMMARY:Энергия камней
-DESCRIPTION:Ведущий: Ира Волкова. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%AD%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F-%D0%BA%D0%B0%D0%BC%D0%BD%D0%B5%D0%B9-20261017-1140
+DESCRIPTION:Ведущий: Ира Волкова. По официальн
+ ому расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%AD%D0%BD%D0%B5%D1%80%D0%B3%D
+ 0%B8%D1%8F-%D0%BA%D0%B0%D0%BC%D0%BD%D0%B5%D0%B9-20261017-1140
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Отношения-от-первой-искры-до-зрелой-любви-20261017-1140@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Отношения-от-первой-искры-до-зрелой
+ -любви-20261017-1140@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T114000
 DTEND:20261017T131000
-SUMMARY:Отношения: от первой искры до зрелой любви
-DESCRIPTION:Ведущий: Вишвас. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9E%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE%D1%82-%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B9-%D0%B8%D1%81%D0%BA%D1%80%D1%8B-%D0%B4%D0%BE-%D0%B7%D1%80%D0%B5%D0%BB%D0%BE%D0%B9-%D0%BB%D1%8E%D0%B1%D0%B2%D0%B8-20261017-1140
+SUMMARY:Отношения: от первой искры до зрелой 
+ любви
+DESCRIPTION:Ведущий: Вишвас. По официальному р
+ асписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9E%D1%82%D0%BD%D0%BE%D1%88%D
+ 0%B5%D0%BD%D0%B8%D1%8F-%D0%BE%D1%82-%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B9-%
+ D0%B8%D1%81%D0%BA%D1%80%D1%8B-%D0%B4%D0%BE-%D0%B7%D1%80%D0%B5%D0%BB%D0%BE%
+ D0%B9-%D0%BB%D1%8E%D0%B1%D0%B2%D0%B8-20261017-1140
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Дао-эмоций-20261017-1140@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T114000
 DTEND:20261017T131000
 SUMMARY:Дао эмоций
-DESCRIPTION:Ведущий: Константин Грингут. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%94%D0%B0%D0%BE-%D1%8D%D0%BC%D0%BE%D1%86%D0%B8%D0%B9-20261017-1140
+DESCRIPTION:Ведущий: Константин Грингут. По оф
+ ициальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%94%D0%B0%D0%BE-%D1%8D%D0%BC%
+ D0%BE%D1%86%D0%B8%D0%B9-20261017-1140
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Беременность-и-роды-20261017-1140@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T114000
 DTEND:20261017T131000
 SUMMARY:Беременность и роды
-DESCRIPTION:Ведущий: Зара Залкинд. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%91%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8-%D1%80%D0%BE%D0%B4%D1%8B-20261017-1140
+DESCRIPTION:Ведущий: Зара Залкинд. По официаль
+ ному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%91%D0%B5%D1%80%D0%B5%D0%BC%D
+ 0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8-%D1%80%D0%BE%D0%B4%D1%8B-2
+ 0261017-1140
 END:VEVENT
 BEGIN:VEVENT
-UID:event-Закрытие-фестиваля-Саундхилинг-и-интеграция-20261017-1330@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Закрытие-фестиваля-Саундхилинг-и-и
+ нтеграция-20261017-1330@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T133000
 DTEND:20261017T143000
-SUMMARY:Закрытие фестиваля · Саундхилинг и интеграция
-DESCRIPTION:Ведущий: Инна Головичер и Инесса Бабицкая. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%97%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8F-%D0%A1%D0%B0%D1%83%D0%BD%D0%B4%D1%85%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3-%D0%B8-%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-20261017-1330
+SUMMARY:Закрытие фестиваля · Саундхилинг и и
+ нтеграция
+DESCRIPTION:Ведущий: Инна Головичер и Инесса Б
+ абицкая. По официальному расписанию SunFest
+ .
+URL:https://mim21.github.io/sunfest/#event-%D0%97%D0%B0%D0%BA%D1%80%D1%8B%D
+ 1%82%D0%B8%D0%B5-%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8F-%D
+ 0%A1%D0%B0%D1%83%D0%BD%D0%B4%D1%85%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3-%D0%B8-%D
+ 0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-20261017-1330
 END:VEVENT
 END:VCALENDAR

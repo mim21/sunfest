@@ -1,14 +1,20 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//sunfest//public-feed//RU
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:Алхимия прикосновения
 X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:event-Алхимия-прикосновения-20261016-1140@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T114000
 DTEND:20261016T131000
 SUMMARY:Алхимия прикосновения
-DESCRIPTION:Ведущий: Вишвас. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%90%D0%BB%D1%85%D0%B8%D0%BC%D0%B8%D1%8F-%D0%BF%D1%80%D0%B8%D0%BA%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F-20261016-1140
+DESCRIPTION:Ведущий: Вишвас. По официальному р
+ асписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%90%D0%BB%D1%85%D0%B8%D0%BC%D
+ 0%B8%D1%8F-%D0%BF%D1%80%D0%B8%D0%BA%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5%D0
+ %BD%D0%B8%D1%8F-20261016-1140
 END:VEVENT
 END:VCALENDAR

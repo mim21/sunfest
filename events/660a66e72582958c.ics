@@ -1,14 +1,24 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//sunfest//public-feed//RU
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:Выравнивая тело — выравниваешь ж
+ изнь
 X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:event-Выравнивая-тело-выравниваешь-жизнь-20261016-1520@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Выравнивая-тело-выравниваешь-жизнь
+ -20261016-1520@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T152000
 DTEND:20261016T165000
-SUMMARY:Выравнивая тело — выравниваешь жизнь
-DESCRIPTION:Ведущий: Полина Пономарёва. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%92%D1%8B%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%B2%D0%B0%D1%8F-%D1%82%D0%B5%D0%BB%D0%BE-%D0%B2%D1%8B%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%B2%D0%B0%D0%B5%D1%88%D1%8C-%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C-20261016-1520
+SUMMARY:Выравнивая тело — выравниваешь жизн
+ ь
+DESCRIPTION:Ведущий: Полина Пономарёва. По офи
+ циальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%92%D1%8B%D1%80%D0%B0%D0%B2%D
+ 0%BD%D0%B8%D0%B2%D0%B0%D1%8F-%D1%82%D0%B5%D0%BB%D0%BE-%D0%B2%D1%8B%D1%80%D
+ 0%B0%D0%B2%D0%BD%D0%B8%D0%B2%D0%B0%D0%B5%D1%88%D1%8C-%D0%B6%D0%B8%D0%B7%D0
+ %BD%D1%8C-20261016-1520
 END:VEVENT
 END:VCALENDAR

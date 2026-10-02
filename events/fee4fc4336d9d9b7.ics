@@ -1,14 +1,20 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//sunfest//public-feed//RU
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:Аутентичное движение
 X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:event-Аутентичное-движение-20261017-0940@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T094000
 DTEND:20261017T111000
 SUMMARY:Аутентичное движение
-DESCRIPTION:Ведущий: Катя Величко. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%87%D0%BD%D0%BE%D0%B5-%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-20261017-0940
+DESCRIPTION:Ведущий: Катя Величко. По официаль
+ ному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%90%D1%83%D1%82%D0%B5%D0%BD%D
+ 1%82%D0%B8%D1%87%D0%BD%D0%BE%D0%B5-%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0
+ %B8%D0%B5-20261017-0940
 END:VEVENT
 END:VCALENDAR

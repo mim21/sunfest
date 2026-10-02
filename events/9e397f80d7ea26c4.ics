@@ -1,14 +1,24 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//sunfest//public-feed//RU
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:Судьба и её оттенки. Восприятие вн
+ утренним Я
 X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:event-Судьба-и-её-оттенки-Восприятие-внутренним-Я-20261017-0940@sunfest
-DTSTAMP:20261002T090700Z
+UID:event-Судьба-и-её-оттенки-Восприятие-внут
+ ренним-Я-20261017-0940@sunfest
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T094000
 DTEND:20261017T111000
-SUMMARY:Судьба и её оттенки. Восприятие внутренним Я
-DESCRIPTION:Ведущий: Виталий Гревчук. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%A1%D1%83%D0%B4%D1%8C%D0%B1%D0%B0-%D0%B8-%D0%B5%D1%91-%D0%BE%D1%82%D1%82%D0%B5%D0%BD%D0%BA%D0%B8-%D0%92%D0%BE%D1%81%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B8%D0%BC-%D0%AF-20261017-0940
+SUMMARY:Судьба и её оттенки. Восприятие внут
+ ренним Я
+DESCRIPTION:Ведущий: Виталий Гревчук. По офици
+ альному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A1%D1%83%D0%B4%D1%8C%D0%B1%D
+ 0%B0-%D0%B8-%D0%B5%D1%91-%D0%BE%D1%82%D1%82%D0%B5%D0%BD%D0%BA%D0%B8-%D0%92
+ %D0%BE%D1%81%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5-%D0%B2%D0%BD%D1%83%
+ D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B8%D0%BC-%D0%AF-20261017-0940
 END:VEVENT
 END:VCALENDAR

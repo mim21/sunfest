@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:SunFest — подборка
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:event-Искусство-исцеления-Энергетически
+ е-телесные-практики-DAO-20261016-1520@sunfest
+DTSTAMP:20261002T094411Z
+DTSTART:20261016T152000
+DTEND:20261016T165000
+SUMMARY:Искусство исцеления. Энергетические
+  телесные практики DAO
+DESCRIPTION:Ведущий: Михаэль Натанэль. По офиц
+ иальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%98%D1%81%D0%BA%D1%83%D1%81%D
+ 1%81%D1%82%D0%B2%D0%BE-%D0%B8%D1%81%D1%86%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1
+ %8F-%D0%AD%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%
+ BA%D0%B8%D0%B5-%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%BD%D1%8B%D0%B5-%D0%BF%D1%
+ 80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8-DAO-20261016-1520
+END:VEVENT
+BEGIN:VEVENT
+UID:event-Тантра-двоих-энергия-притяжения-20261
+ 016-1730@sunfest
+DTSTAMP:20261002T094411Z
+DTSTART:20261016T173000
+DTEND:20261016T190000
+SUMMARY:Тантра двоих: энергия притяжения
+DESCRIPTION:Ведущий: Михаэль Натанэль. По офиц
+ иальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B0%D0%BD%D1%82%D1%80%D
+ 0%B0-%D0%B4%D0%B2%D0%BE%D0%B8%D1%85-%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D
+ 1%8F-%D0%BF%D1%80%D0%B8%D1%82%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-20261016
+ -1730
+END:VEVENT
+END:VCALENDAR

@@ -1,14 +1,19 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//sunfest//public-feed//RU
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:Нумерология
 X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:event-Нумерология-20261016-1140@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261016T114000
 DTEND:20261016T131000
 SUMMARY:Нумерология
-DESCRIPTION:Ведущий: Любовь Суховольская. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%9D%D1%83%D0%BC%D0%B5%D1%80%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F-20261016-1140
+DESCRIPTION:Ведущий: Любовь Суховольская. По о
+ фициальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9D%D1%83%D0%BC%D0%B5%D1%80%D
+ 0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F-20261016-1140
 END:VEVENT
 END:VCALENDAR

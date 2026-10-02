@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:SunFest — подборка
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:event-Гвоздестояние-Тело-помнит-всё-20261016-
+ 0700@sunfest
+DTSTAMP:20261002T094411Z
+DTSTART:20261016T070000
+DTEND:20261016T081500
+SUMMARY:Гвоздестояние. Тело помнит всё!
+DESCRIPTION:Ведущий: Александра Тропп. По офиц
+ иальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%B2%D0%BE%D0%B7%D0%B4%D
+ 0%B5%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5-%D0%A2%D0%B5%D0%BB%D0%BE-%D
+ 0%BF%D0%BE%D0%BC%D0%BD%D0%B8%D1%82-%D0%B2%D1%81%D1%91-20261016-0700
+END:VEVENT
+BEGIN:VEVENT
+UID:event-Гвоздестояние-Тело-помнит-всё-20261017-
+ 0700@sunfest
+DTSTAMP:20261002T094411Z
+DTSTART:20261017T070000
+DTEND:20261017T081500
+SUMMARY:Гвоздестояние. Тело помнит всё!
+DESCRIPTION:Ведущий: Александра Тропп. По офиц
+ иальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%93%D0%B2%D0%BE%D0%B7%D0%B4%D
+ 0%B5%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5-%D0%A2%D0%B5%D0%BB%D0%BE-%D
+ 0%BF%D0%BE%D0%BC%D0%BD%D0%B8%D1%82-%D0%B2%D1%81%D1%91-20261017-0700
+END:VEVENT
+END:VCALENDAR

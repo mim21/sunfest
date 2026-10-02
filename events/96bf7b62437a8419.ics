@@ -1,14 +1,20 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//sunfest//public-feed//RU
+PRODID:-//sunfest//pipeline//RU
+X-WR-CALNAME:Беременность и роды
 X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:event-Беременность-и-роды-20261017-1140@sunfest
-DTSTAMP:20261002T090700Z
+DTSTAMP:20261002T094411Z
 DTSTART:20261017T114000
 DTEND:20261017T131000
 SUMMARY:Беременность и роды
-DESCRIPTION:Ведущий: Зара Залкинд. По официальному расписанию SunFest.
-URL:https://mim21.github.io/sunfest/#event-%D0%91%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8-%D1%80%D0%BE%D0%B4%D1%8B-20261017-1140
+DESCRIPTION:Ведущий: Зара Залкинд. По официаль
+ ному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%91%D0%B5%D1%80%D0%B5%D0%BC%D
+ 0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8-%D1%80%D0%BE%D0%B4%D1%8B-2
+ 0261017-1140
 END:VEVENT
 END:VCALENDAR
