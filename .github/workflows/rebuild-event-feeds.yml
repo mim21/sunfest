@@ -1,0 +1,27 @@
+name: Rebuild current event feeds
+
+on:
+  push:
+    paths:
+      - 'tools/rebuild_event_feeds.py'
+      - '.github/workflows/rebuild-event-feeds.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-slim
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild per-event feeds from current calendar
+        run: python3 tools/rebuild_event_feeds.py
+      - name: Commit generated feeds
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A events/
+          git diff --cached --quiet || git commit -m "Rebuild October event feeds [skip ci]"
+          git push
