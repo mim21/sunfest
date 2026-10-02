@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//public-feed//RU
+X-WR-TIMEZONE:Asia/Jerusalem
+BEGIN:VEVENT
+UID:event-Пои-дети-и-взрослые-20261015-1630@sunfest
+DTSTAMP:20261002T090700Z
+DTSTART:20261015T163000
+DTEND:20261015T190000
+SUMMARY:Пои — дети и взрослые
+DESCRIPTION:Ведущий: Роман Беленький. По официальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9F%D0%BE%D0%B8-%D0%B4%D0%B5%D1%82%D0%B8-%D0%B8-%D0%B2%D0%B7%D1%80%D0%BE%D1%81%D0%BB%D1%8B%D0%B5-20261015-1630
+END:VEVENT
+END:VCALENDAR

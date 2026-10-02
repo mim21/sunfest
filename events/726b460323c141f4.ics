@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//public-feed//RU
+X-WR-TIMEZONE:Asia/Jerusalem
+BEGIN:VEVENT
+UID:event-Театрон-20261016-1730@sunfest
+DTSTAMP:20261002T090700Z
+DTSTART:20261016T173000
+DTEND:20261016T190000
+SUMMARY:Театрон
+DESCRIPTION:Ведущий: Илья Доманов. По официальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B5%D0%B0%D1%82%D1%80%D0%BE%D0%BD-20261016-1730
+END:VEVENT
+END:VCALENDAR

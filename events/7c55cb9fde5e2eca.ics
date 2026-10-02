@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//public-feed//RU
+X-WR-TIMEZONE:Asia/Jerusalem
+BEGIN:VEVENT
+UID:event-Хатха-йога-20261017-0700@sunfest
+DTSTAMP:20261002T090700Z
+DTSTART:20261017T070000
+DTEND:20261017T081500
+SUMMARY:Хатха-йога
+DESCRIPTION:Ведущий: Либи Гордон. По официальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A5%D0%B0%D1%82%D1%85%D0%B0-%D0%B9%D0%BE%D0%B3%D0%B0-20261017-0700
+END:VEVENT
+END:VCALENDAR

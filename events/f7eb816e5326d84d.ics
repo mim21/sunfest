@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//public-feed//RU
+X-WR-TIMEZONE:Asia/Jerusalem
+BEGIN:VEVENT
+UID:event-Cuddle-Party-20261015-1630@sunfest
+DTSTAMP:20261002T090700Z
+DTSTART:20261015T163000
+DTEND:20261015T190000
+SUMMARY:Cuddle Party 🤍
+DESCRIPTION:Ведущий: Зара Залкинд. По официальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-Cuddle-Party-20261015-1630
+END:VEVENT
+END:VCALENDAR

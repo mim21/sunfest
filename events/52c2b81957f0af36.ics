@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//public-feed//RU
+X-WR-TIMEZONE:Asia/Jerusalem
+BEGIN:VEVENT
+UID:event-Йога-в-стиле-FYSM-20261017-0700@sunfest
+DTSTAMP:20261002T090700Z
+DTSTART:20261017T070000
+DTEND:20261017T081500
+SUMMARY:Йога в стиле FYSM
+DESCRIPTION:Ведущий: Роман Беленький. По официальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%99%D0%BE%D0%B3%D0%B0-%D0%B2-%D1%81%D1%82%D0%B8%D0%BB%D0%B5-FYSM-20261017-0700
+END:VEVENT
+END:VCALENDAR

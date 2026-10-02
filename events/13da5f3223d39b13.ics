@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//public-feed//RU
+X-WR-TIMEZONE:Asia/Jerusalem
+BEGIN:VEVENT
+UID:event-Тело-и-голос-20261016-1140@sunfest
+DTSTAMP:20261002T090700Z
+DTSTART:20261016T114000
+DTEND:20261016T131000
+SUMMARY:Тело и голос
+DESCRIPTION:Ведущий: Катя Величко. По официальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B5%D0%BB%D0%BE-%D0%B8-%D0%B3%D0%BE%D0%BB%D0%BE%D1%81-20261016-1140
+END:VEVENT
+END:VCALENDAR

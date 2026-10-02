@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//public-feed//RU
+X-WR-TIMEZONE:Asia/Jerusalem
+BEGIN:VEVENT
+UID:event-Круг-знакомства-20261015-1430@sunfest
+DTSTAMP:20261002T090700Z
+DTSTART:20261015T143000
+DTEND:20261015T160000
+SUMMARY:Круг знакомства
+DESCRIPTION:Ведущий: Эрик Розенталь. По официальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9A%D1%80%D1%83%D0%B3-%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%B0-20261015-1430
+END:VEVENT
+END:VCALENDAR

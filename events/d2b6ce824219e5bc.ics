@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sunfest//public-feed//RU
+X-WR-TIMEZONE:Asia/Jerusalem
+BEGIN:VEVENT
+UID:event-Нейрографика-20261016-0940@sunfest
+DTSTAMP:20261002T090700Z
+DTSTART:20261016T094000
+DTEND:20261016T111000
+SUMMARY:Нейрографика
+DESCRIPTION:Ведущий: Мири Мельничук. По официальному расписанию SunFest.
+URL:https://mim21.github.io/sunfest/#event-%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0-20261016-0940
+END:VEVENT
+END:VCALENDAR
