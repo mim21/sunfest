@@ -36,7 +36,14 @@ def main():
     ht,hp=parse(home);at,ar=parse(archive);ct=cal.read_text(encoding="utf-8")
     for m in ("15–17 октября 2026","Расписание опубликовано",'href="calendar.ics"',"archive/summer-2026/","https://wa.me/972556617297"):
         if m not in ht:errors.append(f"index.html: missing marker: {m}")
+    for marker in ('id="f-search"', 'id="f-day"', 'id="f-master"', 'id="f-cat"',
+                   'id="f-type"', 'card-desc', 'data-day=', 'data-feed='):
+        if marker not in ht:errors.append(f"index.html: interactive UI missing: {marker}")
+    if hp.classes.count("card") < 59:errors.append("index.html: expected 59 rich event cards")
+    if hp.classes.count("card-img") < 40:errors.append("index.html: presenter portraits missing")
+    if "По официальному расписанию SunFest." in ht:errors.append("index.html: generic placeholder descriptions found")
     if "Точное расписание готовится" in ht:errors.append("index.html: stale pending-program marker found")
+    if ct.count("BEGIN:VEVENT") != 59:errors.append("calendar.ics: expected 59 October VEVENTs")
     if "202606" in ct:errors.append("calendar.ics: stale June current feed found")
     for m in ("20261015","20261016","20261017"):
         if m not in ct:errors.append(f"calendar.ics: missing October date {m}")
