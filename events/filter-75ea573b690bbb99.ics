@@ -7,22 +7,23 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:event-Cuddle-Party-20261015-1630@sunfest
-DTSTAMP:20261002T094411Z
+DTSTAMP:20261010T172354Z
 DTSTART:20261015T163000
 DTEND:20261015T190000
 SUMMARY:Cuddle Party 🤍
-DESCRIPTION:Ведущий: Зара Залкинд. По официаль
- ному расписанию SunFest.
+DESCRIPTION:Ведущий: Зара Залкинд. Бережное об
+ щение и безопасные объятия с уважением л
+ ичных границ.
 URL:https://mim21.github.io/sunfest/#event-Cuddle-Party-20261015-1630
 END:VEVENT
 BEGIN:VEVENT
 UID:event-Беременность-и-роды-20261017-1140@sunfest
-DTSTAMP:20261002T094411Z
+DTSTAMP:20261010T172354Z
 DTSTART:20261017T114000
 DTEND:20261017T131000
 SUMMARY:Беременность и роды
-DESCRIPTION:Ведущий: Зара Залкинд. По официаль
- ному расписанию SunFest.
+DESCRIPTION:Ведущий: Зара Залкинд. Тёплая встр
+ еча с доулой о беременности и родах.
 URL:https://mim21.github.io/sunfest/#event-%D0%91%D0%B5%D1%80%D0%B5%D0%BC%D
  0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8-%D1%80%D0%BE%D0%B4%D1%8B-2
  0261017-1140

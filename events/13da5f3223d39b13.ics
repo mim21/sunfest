@@ -7,12 +7,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:event-Тело-и-голос-20261016-1140@sunfest
-DTSTAMP:20261002T094411Z
+DTSTAMP:20261010T172354Z
 DTSTART:20261016T114000
 DTEND:20261016T131000
 SUMMARY:Тело и голос
-DESCRIPTION:Ведущий: Катя Величко. По официаль
- ному расписанию SunFest.
+DESCRIPTION:Ведущий: Катя Величко. Голосовая п
+ рактика через дыхание\, движение и телес
+ ную осознанность.
 URL:https://mim21.github.io/sunfest/#event-%D0%A2%D0%B5%D0%BB%D0%BE-%D0%B8-
  %D0%B3%D0%BE%D0%BB%D0%BE%D1%81-20261016-1140
 END:VEVENT

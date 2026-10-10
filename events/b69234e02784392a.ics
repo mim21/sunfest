@@ -7,12 +7,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:event-Цигун-20261016-0700@sunfest
-DTSTAMP:20261002T094411Z
+DTSTAMP:20261010T172354Z
 DTSTART:20261016T070000
 DTEND:20261016T081500
 SUMMARY:Цигун
-DESCRIPTION:Ведущий: Мария Рабин. По официальн
- ому расписанию SunFest.
+DESCRIPTION:Ведущий: Мария Рабин. Утренняя пра
+ ктика цигун: плавные движения и работа с 
+ дыханием.
 URL:https://mim21.github.io/sunfest/#event-%D0%A6%D0%B8%D0%B3%D1%83%D0%BD-2
  0261016-0700
 END:VEVENT
