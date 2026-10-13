@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:event-Животворящая-боль-и-сила-благодарн
  ости-Как-рождается-любовь-20261016-0940@sunfest
-DTSTAMP:20261013T071548Z
+DTSTAMP:20261013T072724Z
 DTSTART:20261016T094000
 DTEND:20261016T111000
 SUMMARY:Животворящая боль и сила благодарно
@@ -26,7 +26,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-Алхимия-дыхания-медитация-в-наушни
  ках-20261016-1730@sunfest
-DTSTAMP:20261013T071548Z
+DTSTAMP:20261013T072724Z
 DTSTART:20261016T173000
 DTEND:20261016T190000
 SUMMARY:Алхимия дыхания — медитация в наушн
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-Пробуждение-внутреннего-целителя-Р
  абота-с-энергиями-20261017-1140@sunfest
-DTSTAMP:20261013T071548Z
+DTSTAMP:20261013T072724Z
 DTSTART:20261017T114000
 DTEND:20261017T131000
 SUMMARY:Пробуждение внутреннего целителя. Р
